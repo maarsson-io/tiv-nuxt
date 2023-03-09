@@ -10,6 +10,7 @@ export default defineNuxtConfig({
 
   css: [
     '/node_modules/bootstrap/dist/css/bootstrap.min.css',
+    '/node_modules/@icon/icofont/icofont.css',
     '@/assets/scss/app.scss'
   ]
 });
