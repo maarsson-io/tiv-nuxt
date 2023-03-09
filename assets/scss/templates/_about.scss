@@ -1,0 +1,108 @@
+.about-img {
+  img {
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.1);
+  }
+  &.h-100 {
+    @include mobile {
+      .figure {
+        max-height: 100vw;
+      }
+    }
+  }
+
+}
+
+// Awards
+
+.award-img {
+  height: 100px;
+  margin-bottom: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: $gray;
+
+  > img {
+    display: block;
+    max-height: 60px;
+    max-width: 85%;
+  }
+
+  > .title {
+    text-align: center;
+    font-family: $primary-font;
+    font-size: 22px;
+    letter-spacing: -1px;
+  }
+}
+
+//  Appoinment
+
+
+.appoinment-content {
+  position: relative;
+
+  img {
+    width: 85%;
+  }
+
+  .emergency {
+    position: absolute;
+    content: "";
+    right: 10px;
+    bottom: 20px;
+    background: $primary-color;
+    padding: 48px;
+
+    h2 {
+      color: $light;
+    }
+
+    i {
+      margin-right: 10px;
+      color: rgba(255, 255, 255, .7);
+    }
+
+  }
+
+}
+
+.appoinment-form {
+  margin-top: 40px;
+
+  .form-control {
+    background: #f4f9fc;
+    height: 55px;
+    border-color: rgba(0, 0, 0, 0.05);
+  }
+
+  textarea.form-control {
+    height: auto;
+  }
+
+}
+
+.client-thumb {
+  height: 70px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  > div {
+    font-family: $primary-font;
+    font-size: 18px;
+  }
+
+}
+
+.about-block-item .figure {
+  height: 140px;
+  object-fit: cover;
+  overflow: hidden;
+  @include mobile {
+    height: 200px;
+  }
+}
