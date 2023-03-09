@@ -16,7 +16,9 @@
             v-for="item in list"
             :key="item.link"
           >
-            <a :href="item.link">{{ item.title }}</a>
+            <NuxtLink :to="item.link">
+              {{ item.title }}
+            </NuxtLink>
           </li>
         </ContentList>
       </ul>
