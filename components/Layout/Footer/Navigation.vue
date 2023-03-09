@@ -7,12 +7,12 @@
       </h4>
       <div class="divider mb-4" />
       <ul class="list-unstyled footer-menu lh-35">
-        <li><a href="/contact.html">Kontakt</a></li>
-        <li><a href="/about.html">Verksamheten</a></li>
-        <li><a href="/news.html">Nyheter</a></li>
-        <li><a href="/sponsors.html">Sponsorer</a></li>
-        <li><a href="/sponsoring.html">Sponsra oss</a></li>
-        <li><a href="/contact-driver.html">Bli nattchaufför</a></li>
+        <li><a href="/contact">Kontakt</a></li>
+        <li><a href="/about">Verksamheten</a></li>
+        <li><a href="/news">Nyheter</a></li>
+        <li><a href="/sponsors">Sponsorer</a></li>
+        <li><a href="/sponsoring">Sponsra oss</a></li>
+        <li><a href="/contact-driver">Bli nattchaufför</a></li>
       </ul>
     </div>
   </div>
