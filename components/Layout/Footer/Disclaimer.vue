@@ -7,7 +7,11 @@
           <img src="/logo/logo_short.svg" alt="" class="logo img-fluid">
         </div>
       </div>
-      <ContentDoc path="/footer/disclaimer" />
+      <p>{{ data.text }}</p>
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+const { data } = await useAsyncData('footer-data', () => queryContent('/footer/disclaimer').findOne());
+</script>
