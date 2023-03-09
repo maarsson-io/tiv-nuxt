@@ -27,6 +27,8 @@
     "sass": "^1.58.3"
   },
   "dependencies": {
+    "@fontsource/exo": "^4.5.11",
+    "@fontsource/roboto": "^4.5.8",
     "@icon/icofont": "^1.0.1-alpha.1",
     "bootstrap": "^4.6.2"
   }
