@@ -8,35 +8,39 @@
         "alt": "Tryggbilen",
         "credits": "Claes Brauer"
     },
-    "block_one_title": "Verksamheten i 2022",
-    "block_one_text": [
-        [
-            "Trygg i Vittsjö har utfört patrullering 323 dagar i 2022, i snitt 88% av årets dagar, möjligen mer, eftersom inte alla körningar är noterade i loggboken. Insatserna är jämt fördelade under året. Fin prestation av alla som upprätthållit bevakningen och även kört extraturer för att täcka upp tomma dagar. Vi har mist en del chaufförer som inte tagit upp körningen efter coronapandemin. Nya frivilliga krafter är som alltid välkomna. Ju fler vi är som kör desto mindre betungande blir det."
-        ],
-        [
-            "Kärnan i verksamheten består av patrullering med egen bil. Nästan varje natt året om åker vi omkring två och två i Vittsjö och Emmaljunga med omnejd. Genom noteringar kan vi dokumentera och eventuellt larma om händelser som kan vara av intresse för polisen. Ett mycket nära och gott samarbete med närpolisen i Hässleholm har gjort att brottligheten i de områden vi patrullerar minskat betydligt. Detta enligt statistik från polisen.",
-            "Trygg i Vittsjö har haft kontakt med polisen vid akuta tillfällen 8 gånger i 2022, noterat registreringsnummer och identifierat misstänkta fordon, utfört extra bevakning efter tips samt haft kontakt med personer på fel plats ett flertal gånger. Med framgång utfört livräddande insats i snö och kyla 1 gång. Vi har säkert genom vår närvaro förhindrat ett okänt antal brott och annat uppsåt i vår bygd. Tyvärr har det trots det skett beklagliga bränder och stölder inom vårt område.",
-            "På Vittsjödagen i juni var vi närvarande med bilen och representant från Trygg i Vittsjö."
-        ],
-        [
-            "I dagsläget är vi ett 50-tal privatpersoner som, enligt ett uppgjort schema och utan ekonomisk ersättning, på det här sätter visar att vi värnar om tryggheten i vår bygd och vill göra en personlig insats för samhället.",
-            "Vi har behov av ytterligare 6-8 chaufförer för att vi skall få full teckning med nuvarande utnyttjande av våra chaufförer. Det vill säga en körning i månaden. Vi får konstatera att våra chaufförer ofta tipsar polisen om olika händelser. Den absolut vanligaste åtgärden som chaufförerna utför är att identifiera och rapportera trafikanter med avvikande beteende."
-        ],
-        [
-            "Vi har med sponsorbidrag kunnat investera i en egen bil och ett mobiltelefonabonnemang. Våra sponsorpengar går till bensinförbrukning och övriga kostnader för bilen. <strong>Trygg i Vittsjö tackar alla som genom ekonomiska och/eller praktiska insatser bidrar till ett tryggare Vittsjö!</strong>."
+    "text_block_one": {
+        "title": "Verksamheten i 2022",
+        "texts": [
+            [
+                "Trygg i Vittsjö har utfört patrullering 323 dagar i 2022, i snitt 88% av årets dagar, möjligen mer, eftersom inte alla körningar är noterade i loggboken. Insatserna är jämt fördelade under året. Fin prestation av alla som upprätthållit bevakningen och även kört extraturer för att täcka upp tomma dagar. Vi har mist en del chaufförer som inte tagit upp körningen efter coronapandemin. Nya frivilliga krafter är som alltid välkomna. Ju fler vi är som kör desto mindre betungande blir det."
+            ],
+            [
+                "Kärnan i verksamheten består av patrullering med egen bil. Nästan varje natt året om åker vi omkring två och två i Vittsjö och Emmaljunga med omnejd. Genom noteringar kan vi dokumentera och eventuellt larma om händelser som kan vara av intresse för polisen. Ett mycket nära och gott samarbete med närpolisen i Hässleholm har gjort att brottligheten i de områden vi patrullerar minskat betydligt. Detta enligt statistik från polisen.",
+                "Trygg i Vittsjö har haft kontakt med polisen vid akuta tillfällen 8 gånger i 2022, noterat registreringsnummer och identifierat misstänkta fordon, utfört extra bevakning efter tips samt haft kontakt med personer på fel plats ett flertal gånger. Med framgång utfört livräddande insats i snö och kyla 1 gång. Vi har säkert genom vår närvaro förhindrat ett okänt antal brott och annat uppsåt i vår bygd. Tyvärr har det trots det skett beklagliga bränder och stölder inom vårt område.",
+                "På Vittsjödagen i juni var vi närvarande med bilen och representant från Trygg i Vittsjö."
+            ],
+            [
+                "I dagsläget är vi ett 50-tal privatpersoner som, enligt ett uppgjort schema och utan ekonomisk ersättning, på det här sätter visar att vi värnar om tryggheten i vår bygd och vill göra en personlig insats för samhället.",
+                "Vi har behov av ytterligare 6-8 chaufförer för att vi skall få full teckning med nuvarande utnyttjande av våra chaufförer. Det vill säga en körning i månaden. Vi får konstatera att våra chaufförer ofta tipsar polisen om olika händelser. Den absolut vanligaste åtgärden som chaufförerna utför är att identifiera och rapportera trafikanter med avvikande beteende."
+            ],
+            [
+                "Vi har med sponsorbidrag kunnat investera i en egen bil och ett mobiltelefonabonnemang. Våra sponsorpengar går till bensinförbrukning och övriga kostnader för bilen. <strong>Trygg i Vittsjö tackar alla som genom ekonomiska och/eller praktiska insatser bidrar till ett tryggare Vittsjö!</strong>."
+            ]
         ]
-    ],
-    "block_two_title": "Om föreningen",
-    "block_two_text": [
-        [
-            "Trygg i Vittsjö är en ideell och opolitisk organisation som bildades av privatpersoner i Vittsjö juni 2003. Organisationen drivs som förening med en arbetande styrelse. Verksamheten drivs uteslutande med sponsrade medel från privatpersoner, företag och organisationer i Vittsjö med omnejd."
-        ],
-        [
-            "Trygg i Vittsjö har till ändamål att bevaka Vittsjö med närliggande byar samt rapportera till myndigheter och fastighetsägare när något onormalt sker. Syftet är att vara brottsförebyggande - inte ingripande.",
-            "Vi uppfyller målet genom att med egen bil (Skoda Yeti årsmodell 2011), bemannad med två personer, patrullera oregelbundet inom området. Vi har också mobiltelefon, kamera samt två bensinkort. Loggbok föras varje gång bilen varit använd. I dagsläget har vi ett femtiotal aktiva chaufförer som ställt upp på sin fritid och bevakat Vittsjö med omnejd. Chaufförerna är gruppolycksfallsförsäkrade hos Länsförsäkringar. TIV har också ett avtal med Falk Euro Assist för eventuellt behov av bärgning."
+    },
+    "text_block_two": {
+        "title": "Om föreningen",
+        "texts": [
+            [
+                "Trygg i Vittsjö är en ideell och opolitisk organisation som bildades av privatpersoner i Vittsjö juni 2003. Organisationen drivs som förening med en arbetande styrelse. Verksamheten drivs uteslutande med sponsrade medel från privatpersoner, företag och organisationer i Vittsjö med omnejd."
+            ],
+            [
+                "Trygg i Vittsjö har till ändamål att bevaka Vittsjö med närliggande byar samt rapportera till myndigheter och fastighetsägare när något onormalt sker. Syftet är att vara brottsförebyggande - inte ingripande.",
+                "Vi uppfyller målet genom att med egen bil (Skoda Yeti årsmodell 2011), bemannad med två personer, patrullera oregelbundet inom området. Vi har också mobiltelefon, kamera samt två bensinkort. Loggbok föras varje gång bilen varit använd. I dagsläget har vi ett femtiotal aktiva chaufförer som ställt upp på sin fritid och bevakat Vittsjö med omnejd. Chaufförerna är gruppolycksfallsförsäkrade hos Länsförsäkringar. TIV har också ett avtal med Falk Euro Assist för eventuellt behov av bärgning."
+            ]
         ]
-    ],
-    "block_image_row": [
+    },
+    "image_row_block": [
         {
             "title": "Nattchaufförer",
             "text": "Ett femtiotal aktiva chaufförer som ställt upp på sin fritid och bevakat Vittsjö med omnejd.",
