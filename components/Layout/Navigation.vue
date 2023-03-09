@@ -7,16 +7,15 @@
           <div class="col-lg-6 d-none d-sm-none d-lg-block">
             <ul class="top-bar-info list-inline-item pl-0 mb-0">
               <li class="list-inline-item">
-                <a href="mailto:tips@tryggivittsjo.se"><i class="icofont-ui-message mr-2" />tips@tryggivittsjo.se</a>
+                <LinkMail with-icon />
               </li>
             </ul>
           </div>
           <div class="col-lg-6">
             <div class="text-lg-right top-right-bar mt-2 mt-lg-0">
-              <a href="tel:0708930685">
-                <span class="h4"><i class="icofont-phone-circle mr-2" /></span>
-                <span class="h4">0708 - 93 06 85</span>
-              </a>
+              <h4 class="m-0">
+                <LinkPhoneMain with-icon />
+              </h4>
             </div>
           </div>
         </div>

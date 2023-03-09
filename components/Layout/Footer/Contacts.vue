@@ -8,16 +8,12 @@
       <div class="divider mb-4" />
       <div class="footer-contact-block">
         <h4 class="mt-2">
-          <a href="tel:0708930685">
-            0708 - 93 06 85
-          </a>
+          <LinkPhoneMain />
         </h4>
       </div>
       <div class="footer-contact-block mb-4">
         <h4 class="mt-2">
-          <a href="mailto:tips@tryggivittsjo.se">
-            tips@tryggivittsjo.se
-          </a>
+          <LinkMail />
         </h4>
       </div>
     </div>

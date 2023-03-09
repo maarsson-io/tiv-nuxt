@@ -67,21 +67,16 @@
 }
 
 .top-right-bar {
-  a {
-    span {
-      color: $light;
-      font-weight: 600;
-      letter-spacing: 1px;
+  h4 {
+      font-weight: 700;
       vertical-align: middle;
-    }
-
-    i {
-      color: $light;
-      margin-right: 10px;
-    }
-
+      a {
+        color: $light;
+        &:hover {
+          color: $secondary-color;
+        }
+      }
   }
-
 }
 
 .navigation {
