@@ -2,5 +2,10 @@
     "header": {
         "title": "Verksamheten",
         "description": "Information om verksamheten av Trygg i Vittsjö"
+    },
+    "main_image": {
+        "src": "/images/car_night_right_1280x800.jpg",
+        "alt": "Tryggbilen",
+        "credits": "Claes Brauer"
     }
 }

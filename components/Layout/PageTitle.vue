@@ -7,9 +7,9 @@
         <div class="col-md-12">
           <div class="block text-center">
             <h1 class="text-capitalize mb-1 text-lg">
-              {{ data.header.title }}
+              {{ content.title }}
             </h1>
-            <span class="text-white">{{ data.header.description }}</span>
+            <span class="text-white">{{ content.description }}</span>
           </div>
         </div>
       </div>
@@ -17,12 +17,13 @@
   </section>
 </template>
 
-<script setup lang="ts">
-const { path } = useRoute();
-const { data } = await useAsyncData(`content-${path}`,
-  () => queryContent()
-    .where({ _path: path })
-    .only(['header'])
-    .findOne()
-);
+<script lang="ts">
+export default {
+  props: {
+    content: {
+      type: Object,
+      default: () => ({})
+    }
+  }
+};
 </script>
