@@ -1,4 +1,16 @@
 {
+  "name": "tiv-nuxt-page",
+  "version": "1.0.0",
+  "description": "Nuxt based homepage of Trygg i Vittsjö",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maarsson/tiv-nuxt.git"
+  },
+  "author": "Maarsson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maarsson/tiv-nuxt/issues"
+  },
   "private": true,
   "scripts": {
     "build": "nuxt build",

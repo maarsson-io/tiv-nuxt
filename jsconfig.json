@@ -1,0 +1,13 @@
+{
+  "include": [
+    "./client/**/*"
+  ],
+  "compilerOptions": {
+      "baseUrl": "./client",
+      "paths": {
+          "components/*": [
+              "client/components/*"
+          ]
+      }
+  }
+}
