@@ -4,11 +4,11 @@
       v-if="withIcon"
       class="icofont-phone-circle mr-2"
     />
-    {{ phone }}
+    {{ config.phone }}
   </a>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   props: {
     withIcon: {
@@ -17,15 +17,15 @@ export default {
     }
   },
 
-  data () {
-    return {
-      phone: '0708 - 93 06 85'
-    };
+  setup () {
+    const config = useAppConfig();
+
+    return { config };
   },
 
   computed: {
-    link () {
-      return 'tel:' + this.phone.replace(/\D/g, '');
+    link (): string {
+      return 'tel:' + this.config.phone.replace(/\D/g, '');
     }
   }
 };

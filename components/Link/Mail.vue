@@ -4,11 +4,11 @@
       v-if="withIcon"
       class="icofont-ui-message mr-2"
     />
-    {{ address }}
+    {{ config.mail }}
   </a>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   props: {
     withIcon: {
@@ -17,15 +17,15 @@ export default {
     }
   },
 
-  data () {
-    return {
-      address: 'tips@tryggivittsjo.se'
-    };
+  setup () {
+    const config = useAppConfig();
+
+    return { config };
   },
 
   computed: {
-    link () {
-      return 'mailto:' + this.address;
+    link (): string {
+      return 'mailto:' + this.config.mail;
     }
   }
 };

@@ -4,7 +4,7 @@
     <div class="row align-items-center justify-content-between">
       <div class="col-12">
         <div class="copyright text-center">
-          Trygg i Vittsjö &copy; 2023&nbsp;&nbsp;|&nbsp;&nbsp;Design by <a href="https://themefisher.com/">Themefisher</a>
+          {{ config.name }} &copy; 2023&nbsp;&nbsp;|&nbsp;&nbsp;Design by <a :href="config.designer.link">{{ config.designer.name }}</a>
         </div>
       </div>
     </div>
@@ -17,3 +17,13 @@
     </div>
   </div>
 </template>
+
+<script lang="ts">
+export default {
+  setup () {
+    const config = useAppConfig();
+
+    return { config };
+  }
+};
+</script>
