@@ -1,5 +1,7 @@
 <template>
-  <div>
+  <div id="app">
+    <LayoutNavigation />
     <slot />
+    <LayoutFooter />
   </div>
 </template>
