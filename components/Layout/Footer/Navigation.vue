@@ -7,12 +7,18 @@
       </h4>
       <div class="divider mb-4" />
       <ul class="list-unstyled footer-menu lh-35">
-        <li><a href="/contact">Kontakt</a></li>
-        <li><a href="/about">Verksamheten</a></li>
-        <li><a href="/news">Nyheter</a></li>
-        <li><a href="/sponsors">Sponsorer</a></li>
-        <li><a href="/sponsoring">Sponsra oss</a></li>
-        <li><a href="/contact-driver">Bli nattchaufför</a></li>
+        <ContentList
+          path="/navigation/footer"
+          v-slot="{ list }"
+          :query="{sort: [{ order: 1 }]}"
+        >
+          <li
+            v-for="item in list"
+            :key="item.link"
+          >
+            <a :href="item.link">{{ item.title }}</a>
+          </li>
+        </ContentList>
       </ul>
     </div>
   </div>
