@@ -9,7 +9,7 @@
               v-for="(html, index) in content"
               :key="index"
             >
-              <p
+              <div
                 class="mb-5"
                 v-html="html"
               />
