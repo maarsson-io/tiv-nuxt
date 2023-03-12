@@ -1,0 +1,44 @@
+{
+    "items": [
+        {
+            "title": "Kontakt",
+            "link": "/contact",
+            "footer": true
+        },
+        {
+            "title": "Verksamheten",
+            "link": "/about",
+            "footer": true
+        },
+        {
+            "title": "Nyheter",
+            "link": "/news",
+            "footer": true
+        },
+        {
+            "title": "Sponsorer",
+            "link": "/sponsors",
+            "footer": true
+        },
+        {
+            "title": "Hjälp oss",
+            "items": [
+                {
+                    "title": "Tipsa oss",
+                    "link": "/contact-tips",
+                    "footer": false
+                },
+                {
+                    "title": "Sponsra oss",
+                    "link": "/sponsoring",
+                    "footer": true
+                },
+                {
+                    "title": "Bli nattchaufför",
+                    "link": "/contact-driver",
+                    "footer": true
+                }
+            ]
+        }
+    ]
+}

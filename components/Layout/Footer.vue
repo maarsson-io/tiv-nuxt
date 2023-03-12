@@ -6,9 +6,22 @@
         <LayoutFooterSwish />
         <LayoutFooterDisclaimer />
         <LayoutFooterContacts />
-        <LayoutFooterNavigation />
+        <LayoutFooterNavigation
+          :navigation="navigation"
+        />
       </div>
       <LayoutFooterCreditsRow />
     </div>
   </footer>
 </template>
+
+<script lang="ts">
+export default {
+  props: {
+    navigation: {
+      type: Array,
+      default: () => []
+    }
+  }
+};
+</script>

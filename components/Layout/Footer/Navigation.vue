@@ -7,21 +7,26 @@
       </h4>
       <div class="divider mb-4" />
       <ul class="list-unstyled footer-menu lh-35">
-        <ContentList
-          path="/navigation/footer"
-          v-slot="{ list }"
-          :query="{sort: [{ order: 1 }]}"
+        <li
+          v-for="item in navigation"
+          :key="item.link"
         >
-          <li
-            v-for="item in list"
-            :key="item.link"
-          >
-            <NuxtLink :to="item.link">
-              {{ item.title }}
-            </NuxtLink>
-          </li>
-        </ContentList>
+          <NuxtLink :to="item.link">
+            {{ item.title }}
+          </NuxtLink>
+        </li>
       </ul>
     </div>
   </div>
 </template>
+
+<script lang="ts">
+export default {
+  props: {
+    navigation: {
+      type: Array,
+      default: () => []
+    }
+  }
+};
+</script>
