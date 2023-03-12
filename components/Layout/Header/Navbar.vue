@@ -16,7 +16,7 @@
           <li
             v-for="item in navigation"
             :key="item.link"
-            :class="'nav-item' + item.items ? ' dropdown' : null"
+            :class="'nav-item' + (item.items ? ' dropdown' : null)"
           >
             <NuxtLink
               v-if="!item.items"
@@ -25,32 +25,35 @@
             >
               {{ item.title }}
             </NuxtLink>
-            <a
+            <template
               v-else
-              id="dropdown"
-              class="nav-link dropdown-toggle"
-              href="/#"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >Hjälp oss <i class="icofont-thin-down" /></a>
-            <ul
-              class="dropdown-menu"
-              aria-labelledby="dropdown"
             >
-              <li
-                v-for="subitem in item.items"
-                :key="subitem.link"
-                :class="'nav-item' + item.items ? ' dropdown' : null"
+              <a
+                id="dropdown"
+                class="nav-link dropdown-toggle"
+                href="/#"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >Hjälp oss <i class="icofont-thin-down" /></a>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="dropdown"
               >
-                <NuxtLink
-                  :to="subitem.link"
-                  class="dropdown-item"
+                <li
+                  v-for="subitem in item.items"
+                  :key="subitem.link"
+                  :class="'nav-item' + item.items ? ' dropdown' : null"
                 >
-                  {{ subitem.title }}
-                </NuxtLink>
-              </li>
-            </ul>
+                  <NuxtLink
+                    :to="subitem.link"
+                    class="dropdown-item"
+                  >
+                    {{ subitem.title }}
+                  </NuxtLink>
+                </li>
+              </ul>
+            </template>
           </li>
         </ul>
       </div>
