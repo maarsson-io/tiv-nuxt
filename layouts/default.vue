@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <LayoutNavigation />
+    <LayoutNavigation
+      :navigation="data.items"
+    />
     <slot />
     <LayoutFooter
       :navigation="footerNav"

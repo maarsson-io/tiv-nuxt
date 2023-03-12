@@ -13,24 +13,43 @@
       <!-- Menu -->
       <div id="navbarmain" class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="/contact">Kontakt</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/about">Verksamheten</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/news">Nyheter</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/sponsors">Sponsorer</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a id="dropdown02" class="nav-link dropdown-toggle" href="/#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hjälp oss <i class="icofont-thin-down" /></a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown02">
-              <li><a class="dropdown-item" href="/contact-tips">Tipsa oss</a></li>
-              <li><a class="dropdown-item" href="/sponsoring">Sponsra oss</a></li>
-              <li><a class="dropdown-item" href="/contact-driver">Bli nattchaufför</a></li>
+          <li
+            v-for="item in navigation"
+            :key="item.link"
+            :class="'nav-item' + item.items ? ' dropdown' : null"
+          >
+            <NuxtLink
+              v-if="!item.items"
+              :to="item.link"
+              class="nav-link"
+            >
+              {{ item.title }}
+            </NuxtLink>
+            <a
+              v-else
+              id="dropdown"
+              class="nav-link dropdown-toggle"
+              href="/#"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >Hjälp oss <i class="icofont-thin-down" /></a>
+            <ul
+              class="dropdown-menu"
+              aria-labelledby="dropdown"
+            >
+              <li
+                v-for="subitem in item.items"
+                :key="subitem.link"
+                :class="'nav-item' + item.items ? ' dropdown' : null"
+              >
+                <NuxtLink
+                  :to="subitem.link"
+                  class="dropdown-item"
+                >
+                  {{ subitem.title }}
+                </NuxtLink>
+              </li>
             </ul>
           </li>
         </ul>
@@ -41,6 +60,13 @@
 
 <script lang="ts">
 export default {
+  props: {
+    navigation: {
+      type: Array,
+      default: () => []
+    }
+  },
+
   setup () {
     const config = useAppConfig();
 
