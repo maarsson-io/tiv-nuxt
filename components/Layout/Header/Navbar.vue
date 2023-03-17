@@ -31,10 +31,11 @@
               <a
                 id="dropdown"
                 class="nav-link dropdown-toggle"
-                href="/#"
+                href=""
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
+                @click.prevent
               >Hjälp oss <i class="icofont-thin-down" /></a>
               <ul
                 class="dropdown-menu"
