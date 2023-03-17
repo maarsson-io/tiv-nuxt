@@ -1,0 +1,56 @@
+{
+    "header": {
+        "title": "Nyheter",
+        "description": "Händelser i samband med våran verksamhet"
+    },
+    "items": [
+        {
+            "title": "Trygg i Vittsjö genomförde årsmöte",
+            "image": {
+                "src": "/images/blog-1_1280x800.jpg",
+                "alt": "",
+                "credits": "Claes Brauer"
+            },
+            "date": "23 februari 2023",
+            "text": "Under onsdagskvällen genomförde ”Trygg i Vittsjö” sitt årsmöte på värdshuset Furuliden. Inte mindre än 34 av föreningens idag cirka 50 medlemmar hade hörsammat kallelsen.",
+            "button": "Läs mer på vittsjobjarnum.nu",
+            "link": "https://www.vittsjobjarnum.nu/artiklar/reportage/10392-trygg-i-vittsjo-genomforde-arsmote.html"
+        },
+        {
+            "title": "Trygg i Vittsjö är absolut brottsförebyggande",
+            "image": {
+                "src": "/images/car_night_right_1280x800.jpg",
+                "alt": "",
+                "credits": "Claes Brauer"
+            },
+            "date": "12 november 2022",
+            "text": "Strax efter klockan 02 upptäckte patrullen på avstånd några personer på eldrivna sparkcyklar mitt uppe i Västanskogens villaområde. Naturligtvis ett märkligt sammanträffande vid denna tiden på dygnet. De upptäckta personerna var absolut inte intresserade av kontakt utan drog mycket snabbt iväg. Patrullen följde efter två av dem men tappade tyvärr bort dem inne på Ekenområdet där de troligen försvann in i någon byggnad.",
+            "button": "Läs mer på vittsjobjarnum.nu",
+            "link": "https://www.vittsjobjarnum.nu/artiklar/reportage/10201-trygg-i-vittsjo-ar-absolut-brottsforebyggande.html"
+        },
+        {
+            "title": "Trygg i Vittsjö önskar några fler chaufförer!",
+            "image": {
+                "src": "/images/blog-10_1280x800.jpg",
+                "alt": "",
+                "credits": "Claes Brauer"
+            },
+            "date": "18 mars 2022",
+            "text": "Under 2021 fanns ett femtiotal aktiva chaufförer som på sin fritid löst föreningens uppgift att bevaka Vittsjö, Emmaljunga med närliggande byar. Detta har för den enskilde inneburit ett körpass/ månad. Nu är läget lite förändrat!",
+            "button": "Läs mer på vittsjobjarnum.nu",
+            "link": "https://www.vittsjobjarnum.nu/artiklar/reportage/9736-trygg-i-vittsjo-fortsatter-att-bevaka-bygden-men-onskar-fler-medlemmar.html"
+        },
+        {
+            "title": "Det händer mycket under nätterna i bygden",
+            "image": {
+                "src": "/images/car_day_left_1280x800.jpg",
+                "alt": "",
+                "credits": "Claes Brauer"
+            },
+            "date": "10 jan 2022",
+            "text": "Personligen har jag deltagit i bygdens bevakning sedan sent -90tal. Det var El-Olle som lockade in mig på banan och sedan har det bara fortsatt. Anledningen till att jag fortsätter är att det tyvärr händer en hel del märkliga saker inte minst under dygnets mörka timmar. Kan jag bidra till att stävja lite av detta känns det helt rätt.",
+            "button": "Läs mer på vittsjobjarnum.nu",
+            "link": "https://www.vittsjobjarnum.nu/artiklar/reportage/9597-det-hander-mycket-under-natterna-i-bygden-noterar-foreningen-trygg-i-vittsjo.html"
+        }
+    ]
+}
