@@ -15,8 +15,8 @@
     <AboutTextBlock
       :content="data.text_block_two"
     />
-    <AboutCitat
-      :content="data.citat"
+    <AboutTestimonials
+      :content="data.testimonials"
     />
   </article>
 </template>
