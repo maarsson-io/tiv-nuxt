@@ -1,5 +1,8 @@
 <template>
-  <div class="award-img px-3 py-5">
+  <div
+    v-tooltip="content.name"
+    class="award-img px-3 py-5"
+  >
     <img
       v-if="content.logo"
       :src="content.logo"
