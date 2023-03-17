@@ -11,7 +11,7 @@
 
         <div class="col-lg-9 text-justify">
           <template
-            v-for="(sections, index) in content.texts"
+            v-for="(sections, index) in content.paragraphs"
             :key="index"
           >
             <template
@@ -20,7 +20,7 @@
               <p v-html="section" />
             </template>
             <div
-              v-if="index < content.texts.length - 1"
+              v-if="index < content.paragraphs.length - 1"
               class="divider my-4"
             />
           </template>
