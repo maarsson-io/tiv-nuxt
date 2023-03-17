@@ -12,7 +12,12 @@
     />
     <div class="divider my-4" />
     <p>{{ content.driver_text }}</p>
-    <a href="/contact-driver.html" class="btn btn-main-2 btn-round-full">{{ content.driver_button }}<i class="icofont-simple-right ml-2" /></a>
+    <NuxtLink
+      to="contact-driver"
+      class="btn btn-main-2 btn-round-full"
+    >
+      {{ content.driver_button }}<i class="icofont-simple-right ml-2" />
+    </NuxtLink>
   </div>
 </template>
 
