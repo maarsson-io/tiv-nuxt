@@ -15,6 +15,9 @@
     <AboutTextBlock
       :content="data.text_block_two"
     />
+    <AboutCitat
+      :content="data.citat"
+    />
   </article>
 </template>
 
