@@ -2,10 +2,13 @@
   <!-- Navigation -->
   <nav id="navbar" class="navbar navbar-expand-lg navigation">
     <div class="container">
-      <a class="navbar-brand d-flex m-0" href="/">
+      <NuxtLink
+        to="/"
+        class="navbar-brand d-flex m-0"
+      >
         <img src="/logo/logo_minimal.svg" alt="" class="logo">
         <img src="/logo/logo_text.svg" :alt="config.name" class="logo-text ml-3">
-      </a>
+      </NuxtLink>
       <!-- Burger icon -->
       <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
         <span class="icofont-navigation-menu" />
