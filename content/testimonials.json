@@ -1,0 +1,40 @@
+{
+    "blocks":
+    [
+        {
+            "medium": "SVT Nyheter",
+            "logo": "/assets/svt.png",
+            "link": "https://www.svt.se/nyheter/lokalt/skane/sivard-83-patrullerar-vittsjo",
+            "date": "1 juni 2022",
+            "text": "Sivard, 83, patrullerar Vittsjö: ”Nu jävlar står det en bil där”. Nästan varje kväll och natt rullar föreningens bil längs Vittsjös gator. Syftet? Att förhindra brott."
+        },
+        {
+            "medium": "Norra Skåne",
+            "logo": "/assets/nsk.png",
+            "link": "https://www.nsk.se/hassleholm/forening-vill-stavja-brott-pa-landsbygden-vi-har-annu-inte-varit-i-handgemang/",
+            "date": "9 maj 2022",
+            "text": "När mörkret lagt sig åker Trygg i Vittsjö ut på uppdrag, de flesta av årets dagar. Sedan snart 20 år tillbaka gör den ideella föreningen sitt för att stävja brottsligheten i bygden."
+        },
+        {
+            "medium": "vittsjobjarnum.nu",
+            "logo": "/assets/vittsjobjarnum.jpg",
+            "link": "https://www.vittsjobjarnum.nu/artiklar/reportage/7734-fler-borde-prova-trygg-i-vittsjoe-en-upplevelse-du-inte-boer-missa.html",
+            "date": "19 juli 2019",
+            "text": "Ett pass i Trygg-bilen går väldigt fort. Vi spanar naturligtvis efter oegentligheter, men upptäcker samtidigt en massa andra intressanta saker, och tiden rinner snabbt iväg. Ofta går solen upp innan vi är klara med vårt körpass. Varje natt är unik och vi har sett o lärt oss en del nya saker."
+        },
+        {
+            "medium": "Sveriges Radio",
+            "logo": "/assets/sr.jpg",
+            "link": "https://sverigesradio.se/artikel/3120835",
+            "date": "24 september 2009",
+            "text": "Sextio personer i Föreningen Trygg i Vittsjö turas om att patrullera för att skapa en tryggare boendemiljö."
+        },
+        {
+            "medium": "Norra Skåne",
+            "logo": "/assets/nsk.png",
+            "link": "https://www.nsk.se/2009/02/27/trygg-i-vittsjo-roda-bil-bevakar-trakten/",
+            "date": "27 februari 2009",
+            "text": "Trygg i Vittsjö röda bil bevakar trakten. Brottsligheten har sjunkit markant efter att vår bevakning startade 2003, säger Sivard Strand."
+        }
+    ]
+}

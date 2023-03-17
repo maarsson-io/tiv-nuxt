@@ -68,6 +68,9 @@
   margin: 0px 4px;
   margin-bottom: 30px;
   min-height: 360px;
+  @include mobile {
+    min-height: 470px;
+  }
 
   .testimonial-thumb {
     float: left;

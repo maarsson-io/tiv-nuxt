@@ -1,0 +1,69 @@
+{
+    "slider": {
+        "image": "/images/car_night_left_1920x1080.jpg",
+        "credits": "Claes Brauer",
+        "subtitle": "Vårt syfte är att vara brottsförebyggande - inte ingripande",
+        "title": "Det är dig och din by vi värnar om",
+        "button": "Läs mer om oss"
+    },
+    "three_boxes": {
+        "box1": {
+            "subtitle": "Ring oss",
+            "text": "Såg du någon misstänksam? Du kan ringa Tryggbilen dygnet runt.",
+            "warning": "OBS! Vid nödsituation ring alltid"
+        },
+        "box2": {
+            "subtitle": "Hjälp oss",
+            "title": "Bli nattchaufför",
+            "text": "Har du lust att hjälpa till som chaufför eller något annat sätt, kontakta oss.",
+            "button": "Köranmälan"
+        },
+        "box3": {
+            "subtitle": "Sponsra oss",
+            "title": "123 − 022 12 75",
+            "text": "Du kan helt enkelt Swisha ditt bidrag till oss. Ange Swish numret ovanför i appen.",
+            "button": "Andra sätt att betala"
+        }
+    },
+    "about": {
+        "title": "Trygg i Vittsjö vaktar året runt",
+        "text_1": "Vi hjälper till att återskapa tryggheten i vårt samhälle. Vi har säkert genom vår närvaro förhindrat ett antal brott och annat uppsåt i vår bygd.",
+        "text_2": "Enligt statistik från närpolisen i Hässleholm har brottsligheten i vårt patrullerade område minskat betydligt.",
+        "button": "Läs mer om verksamheten"
+    },
+    "counter_boxes": [
+        {
+             "icon": "icofont-ui-calendar",
+             "count": 353,
+             "sup": null,
+             "text": "dagar per år"
+        },
+        {
+             "icon": "icofont-map-pins",
+             "count": 4200,
+             "sup": "+",
+             "text": "mil per år"
+        },
+        {
+             "icon": "icofont-police-cap",
+             "count": 43,
+             "sup": null,
+             "text": "nattchaufförer"
+        },
+        {
+             "icon": "icofont-badge",
+             "count": 571,
+             "sup": "+",
+             "text": "sponsorer"
+        }
+    ],
+    "testimonials": {
+        "title": "Trygg i Vittsjö i lokala medier",
+        "subtitle": "Du kan läsa om föreningen ofta även i lokala medier."
+    },
+    "sponsors": {
+        "title": "Våra största sponsorer",
+        "subtitle": "Alla bidrag, stora som små, är varmt välkomna! Vi tar tacksamt emot alla typer av bidrag, inte bara ekonomiskt, även sådant som vi kan ha nytta av i vår dagliga verksamhet.",
+        "button": "Se alla sponsorer"
+    }
+}

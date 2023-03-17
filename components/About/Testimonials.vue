@@ -33,7 +33,7 @@
                 :autoplay="{ delay: 3500 }"
               >
                 <swiper-slide
-                  v-for="(block, index) in content.blocks"
+                  v-for="(block, index) in testimonials"
                   :key="index"
                 >
                   <div class="testimonial-block">
@@ -72,10 +72,14 @@ export default {
     content: {
       type: Object,
       default: () => ({})
+    },
+    testimonials: {
+      type: Object,
+      default: () => ({})
     }
   },
 
-  setup () {
+  async setup () {
     return {
       modules: [Navigation, Pagination, Autoplay]
     };

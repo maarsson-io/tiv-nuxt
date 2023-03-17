@@ -6,7 +6,7 @@
     <img
       v-if="content.logo"
       :src="content.logo"
-      alt="content.name"
+      :alt="content.name"
       class="img-fluid"
     >
     <div

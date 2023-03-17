@@ -3,3 +3,6 @@ $themeColor: $primary-color;
 @import 'swiper/scss/navigation';
 @import 'swiper/scss/pagination';
 @import 'swiper/scss/autoplay';
+.swiper-horizontal {
+  padding-bottom: 50px !important;
+}
