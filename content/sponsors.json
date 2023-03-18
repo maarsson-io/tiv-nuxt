@@ -8,8 +8,8 @@
         "paragraph": "Vi vill först av allt rikta ett stort tack till alla personer i Vittsjö med omnejd som sponsrar oss! Tack för er medverkan och era bidrag till ett tryggt Vittsjö!"
     },
     "sidebar": {
-        "title": "Sponsorer under det senaste året",
-        "text": "Enlight betalningar i senaste 365 dagar, i bokstavsordning",
+        "title": "Sponsorer år 2023",
+        "text": "Enligt betalningar mellan 1:a januari och 18:e mars i bokstavsordning",
         "button": "Vill du hjälpa till?"
     },
     "sponsors": [
@@ -122,7 +122,7 @@
             "premium": false,
             "date": "2023-03-01",
             "link": null,
-            "name": "Vittsjö Revison & Konsult",
+            "name": "Vittsjö Revision & Konsult",
             "logo": null
         },
         {

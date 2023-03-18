@@ -9,13 +9,13 @@
     "three_boxes": {
         "box1": {
             "subtitle": "Ring oss",
-            "text": "Såg du någon misstänksam? Du kan ringa Tryggbilen dygnet runt.",
+            "text": "Såg du något misstänkt? Du kan ringa Tryggbilen dygnet runt.",
             "warning": "OBS! Vid nödsituation ring alltid"
         },
         "box2": {
             "subtitle": "Hjälp oss",
             "title": "Bli nattchaufför",
-            "text": "Har du lust att hjälpa till som chaufför eller något annat sätt, kontakta oss.",
+            "text": "Har du lust att hjälpa till som chaufför eller på något annat sätt, kontakta oss.",
             "button": "Köranmälan"
         },
         "box3": {

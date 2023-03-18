@@ -25,7 +25,7 @@
               </div>
             </div>
             <div class="form-group-2 mb-4">
-              <textarea id="message" name="message" class="form-control" rows="8" placeholder="Skriv ditt meddelande hit" required />
+              <textarea id="message" name="message" class="form-control" rows="8" placeholder="Skriv ditt meddelande här" required />
             </div>
             <div>
               <input class="btn btn-main btn-round-full" name="submit" type="submit" value="Skicka">
