@@ -10,16 +10,25 @@
         <img src="/logo/logo_text.svg" :alt="config.name" class="logo-text ml-3">
       </NuxtLink>
       <!-- Burger icon -->
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain" aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler collapsed"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarmain"
+        aria-controls="navbarmain"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        @click="toggleMobileNav"
+      >
         <span class="icofont-navigation-menu" />
       </button>
       <!-- Menu -->
-      <div id="navbarmain" class="collapse navbar-collapse">
+      <div id="navbarmain" :class="'collapse navbar-collapse' + (showMobileNav ? ' show' : '')">
         <ul class="navbar-nav ml-auto">
           <li
-            v-for="item in navigation"
-            :key="item.link"
-            :class="'nav-item' + (item.items ? ' dropdown' : null)"
+            v-for="(item, index) in navigation"
+            :key="index"
+            :class="'nav-item' + (item.items ? ' dropdown' + (isDropdownOpen(index) ? ' show' : '') : null)"
           >
             <NuxtLink
               v-if="!item.items"
@@ -38,15 +47,15 @@
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
-                @click.prevent
+                @click.prevent="toggleDropdown(index)"
               >Hjälp oss <i class="icofont-thin-down" /></a>
               <ul
-                class="dropdown-menu"
+                :class="'dropdown-menu' + (isDropdownOpen(index) ? ' show' : '')"
                 aria-labelledby="dropdown"
               >
                 <li
-                  v-for="subitem in item.items"
-                  :key="subitem.link"
+                  v-for="(subitem, index) in item.items"
+                  :key="index"
                   :class="'nav-item' + item.items ? ' dropdown' : null"
                 >
                   <NuxtLink
@@ -78,6 +87,41 @@ export default {
     const config = useAppConfig();
 
     return { config };
+  },
+
+  data () {
+    return {
+      showMobileNav: false,
+      openedDropdowns: []
+    };
+  },
+
+  watch: {
+    $route (route) {
+      this.showMobileNav = false;
+    }
+  },
+
+  methods: {
+    toggleMobileNav () {
+      this.showMobileNav = !this.showMobileNav;
+    },
+
+    toggleDropdown (index) {
+      if (!this.isDropdownOpen(index)) {
+        this.openedDropdowns.push(index);
+        return;
+      }
+
+      const itemIndex = this.openedDropdowns.indexOf(index);
+      if (itemIndex > -1) {
+        this.openedDropdowns.splice(itemIndex);
+      }
+    },
+
+    isDropdownOpen (index) {
+      return this.openedDropdowns.includes(index);
+    }
   }
 };
 </script>
