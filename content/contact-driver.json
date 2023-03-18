@@ -19,12 +19,16 @@
     "list_block": {
         "title": "Du som nattchaufför...",
         "items": [
-            "Du kör bara 1 natt per månad",
-            "Du bestämmer vilken tid och vilken sträcka du kör",
-            "Passar inte schemat för dig, det går bra att byta med andra",
-            "Du får ingen ekonomisk ersättning",
-            "Syftet är att vara brottsförebyggande, inte ingripande",
-            "Det är viktigt att vi inte är poliser utan vi ska observera och rapportera"
+            [
+                "Kör du bara 1 natt per månad",
+                "Bestämmer du vilken tid och vilken sträcka du kör",
+                "Om schemat inte passar dig, kan du byta med andra",
+                "Får du ingen ekonomisk ersättning"
+            ],
+            [
+                "Syftet är att vara brottsförebyggande, inte ingripande",
+                "Det är viktigt att vi inte är poliser utan vi ska observera och rapportera"
+            ]
         ]
     },
     "sidebar": {

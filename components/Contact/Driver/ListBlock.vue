@@ -1,16 +1,25 @@
 <template>
-  <div class="skill-list">
+  <div class="skill-list mb-5">
     <h5 class="mb-4">
       {{ content.title }}
     </h5>
-    <ul class="list-unstyled department-service">
-      <li
-        v-for="(item, index) in content.items"
-        :key="index"
-      >
-        <i class="icofont-check mr-2" />{{ item }}
-      </li>
-    </ul>
+    <template
+      v-for="(list, index) in content.items"
+      :key="index"
+    >
+      <ul class="list-unstyled department-service mb-2">
+        <li
+          v-for="(item, index) in list"
+          :key="index"
+        >
+          <i class="icofont-check mr-2" />{{ item }}
+        </li>
+      </ul>
+      <div
+        v-if="index < content.items.length - 1"
+        class="divider my-4"
+      />
+    </template>
   </div>
 </template>
 
