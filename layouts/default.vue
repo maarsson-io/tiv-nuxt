@@ -7,6 +7,11 @@
     <LayoutFooter
       :navigation="footerNav"
     />
+    <client-only>
+      <TelemetryTracker
+        :route="route"
+      />
+    </client-only>
   </div>
 </template>
 
@@ -20,6 +25,12 @@ export default {
     );
 
     return { data };
+  },
+
+  data () {
+    return {
+      route: null
+    };
   },
 
   computed: {
@@ -41,6 +52,16 @@ export default {
 
       return flatten(this.data.items).filter((item): boolean => item.footer);
     }
+  },
+
+  watch: {
+    $route (route) {
+      this.route = this.$route.name;
+    }
+  },
+
+  mounted () {
+    this.route = this.$route.name;
   }
 };
 
