@@ -8,7 +8,7 @@
         </div>
         <div class="col-lg-8">
           <p>{{ content.paragraph }}</p>
-          <img src="assets/sign.png" alt="" class="o-70 img-fluid">
+          <img src="/assets/sign.png" alt="" class="o-70 img-fluid">
         </div>
       </div>
     </div>

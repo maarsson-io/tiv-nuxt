@@ -6,13 +6,13 @@
         <div class="col-xl-4 col-lg-6">
           <div class="about-img d-flex flex-wrap h-100">
             <figure class="figure m-0">
-              <img src="images/blog-9_480x320.jpg" class="figure-img img-fluid" alt="">
+              <img src="/images/blog-9_480x320.jpg" class="figure-img img-fluid" alt="">
               <figcaption class="figure-caption">
                 &copy; Gert Svensson
               </figcaption>
             </figure>
             <figure class="figure m-0 mt-4">
-              <img src="images/blog-2_400x225.jpg" class="figure-img img-fluid" alt="">
+              <img src="/images/blog-2_400x225.jpg" class="figure-img img-fluid" alt="">
               <figcaption class="figure-caption text-light">
                 &copy; Lars Angantyr / Sveriges Radio
               </figcaption>
@@ -22,7 +22,7 @@
         <div class="col-xl-4 col-lg-6 mt-4 mt-lg-0">
           <div class="about-img d-flex flex-wrap h-100">
             <figure class="figure m-0 w-100">
-              <img src="images/sivard-1_340x340.jpg" class="img-fluid h-100 w-100 object-fit-cover">
+              <img src="/images/sivard-1_340x340.jpg" class="img-fluid h-100 w-100 object-fit-cover">
               <figcaption class="figure-caption text-light">
                 &copy; Mikael Persson / Norra Skåne
               </figcaption>

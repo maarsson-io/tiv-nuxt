@@ -18,7 +18,7 @@
             "date": "2023-01-01",
             "link": "http://www.vittsjobjarnum.nu/",
             "name": "vittsjobjarnum.nu",
-            "logo": "sponsors/vittsjobjarnum.png"
+            "logo": "/sponsors/vittsjobjarnum.png"
         },
         {
             "premium": true,
@@ -32,14 +32,14 @@
             "date": "2023-02-01",
             "link": "http://www.snapphanebygdenssparbank.se/",
             "name": "Snapphanebygdens Sparbank",
-            "logo": "sponsors/sparbanken.png"
+            "logo": "/sponsors/sparbanken.png"
         },
         {
             "premium": true,
             "date": "2023-02-02",
             "link": "http://www.nilssontryck.se/",
             "name": "Nilssons Tryckeri AB",
-            "logo": "sponsors/nilssons-tryckeri.png"
+            "logo": "/sponsors/nilssons-tryckeri.png"
         },
         {
             "premium": false,
@@ -53,21 +53,21 @@
             "date": "2023-02-07",
             "link": "http://www.svenskakyrkan.se/vittsjo/",
             "name": "Vittsjö Verums Pastorat",
-            "logo": "sponsors/svenska-kyrkan.png"
+            "logo": "/sponsors/svenska-kyrkan.png"
         },
         {
             "premium": true,
             "date": "2023-02-23",
             "link": "http://www.hasslehem.se/",
             "name": "Hässlehem AB",
-            "logo": "sponsors/hasslehem.png"
+            "logo": "/sponsors/hasslehem.png"
         },
         {
             "premium": true,
             "date": "2023-02-23",
             "link": "http://www.emmaljungatorvmull.se/",
             "name": "Emmaljunga Torvmull AB",
-            "logo": "sponsors/emmaljunga-torvmull.png"
+            "logo": "/sponsors/emmaljunga-torvmull.png"
         },
         {
             "premium": false,
@@ -102,7 +102,7 @@
             "date": "2023-02-27",
             "link": "http://www.skorstensservice.se/",
             "name": "Vittsjö Skorstenservice AB",
-            "logo": "sponsors/vittsjo-skorstenservice.png"
+            "logo": "/sponsors/vittsjo-skorstenservice.png"
         },
         {
             "premium": false,
@@ -116,7 +116,7 @@
             "date": "2023-02-28",
             "link": "https://emmaljunga.com/sv",
             "name": "Emmaljunga Barnvagsfabrik AB",
-            "logo": "sponsors/emmaljunga.svg"
+            "logo": "/sponsors/emmaljunga.svg"
         },
         {
             "premium": false,
@@ -130,14 +130,14 @@
             "date": "2023-03-01",
             "link": "http://www.rormokarna.com/",
             "name": "Rörmokarna Laubert & Lilja AB",
-            "logo": "sponsors/rormokarna.png"
+            "logo": "/sponsors/rormokarna.png"
         },
         {
             "premium": false,
             "date": "2023-03-02",
             "link": "http://www.nmp-lego.se/",
             "name": "Nmp Lego AB",
-            "logo": "sponsors/npm-lego.png"
+            "logo": "/sponsors/npm-lego.png"
         },
         {
             "premium": false,
@@ -172,7 +172,7 @@
             "date": "2023-03-10",
             "link": "http://www.elolle.se/",
             "name": "El AB Olle Widell",
-            "logo": "sponsors/elolle.png"
+            "logo": "/sponsors/elolle.png"
         },
         {
             "premium": false,
@@ -186,7 +186,7 @@
             "date": "2023-03-13",
             "link": "http://www.bamab.se/",
             "name": "Bo Ahlquist Maskin AB",
-            "logo": "sponsors/bo-ahlquist.png"
+            "logo": "/sponsors/bo-ahlquist.png"
         }
     ]
 }

@@ -4,7 +4,7 @@
       <!-- Image -->
       <div class="col-lg-6">
         <figure class="figure m-0 w-100">
-          <img src="images/sivard-1_1080x720.jpg" class="img-fluid w-100 object-fit-cover" alt="{{ content.image.alt }}">
+          <img src="/images/sivard-1_1080x720.jpg" class="img-fluid w-100 object-fit-cover" alt="{{ content.image.alt }}">
           <figcaption class="figure-caption text-light">
             &copy; {{ content.image.credits }}
           </figcaption>
