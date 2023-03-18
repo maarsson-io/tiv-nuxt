@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="block text-center">
-            <h1 class="text-capitalize mb-1 text-lg">
+            <h1 class="mb-1 text-lg">
               {{ content.title }}
             </h1>
             <span class="text-white">{{ content.description }}</span>
