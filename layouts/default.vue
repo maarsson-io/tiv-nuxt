@@ -7,11 +7,9 @@
     <LayoutFooter
       :navigation="footerNav"
     />
-    <client-only>
-      <TelemetryTracker
-        :route="route"
-      />
-    </client-only>
+    <TelemetryTracker
+      :route="route"
+    />
   </div>
 </template>
 
