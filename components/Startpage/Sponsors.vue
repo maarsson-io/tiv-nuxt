@@ -21,7 +21,7 @@
           :navigation="false"
           :breakpoints="{ 640: { slidesPerView: 4 }, 920: { slidesPerView: 6 } }"
           :pagination="{ clickable: true }"
-          :autoplay="{ delay: 3500 }"
+          :autoplay="{ delay: 2000 }"
         >
           <swiper-slide
             v-for="(sponsor, index) in premiumSponsors"
