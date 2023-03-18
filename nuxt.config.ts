@@ -46,5 +46,10 @@ export default defineNuxtConfig({
     '/node_modules/@fontsource/exo/500.css',
     '/node_modules/@fontsource/exo/700.css',
     '@/assets/scss/app.scss'
-  ]
+  ],
+
+  build: {
+    transpile: ['vue-waypoint'],
+  }
+
 });
