@@ -21,7 +21,7 @@
             :navigation="false"
             :breakpoints="{ 920: { slidesPerView: 2 } }"
             :pagination="{ clickable: true }"
-            :autoplay="{ delay: 3500 }"
+            :autoplay="{ delay: 4000 }"
           >
             <swiper-slide
               v-for="(block, index) in testimonials"
