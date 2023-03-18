@@ -8,7 +8,7 @@ const tracker = new TelemetryDeck({
   app: '90A03A61-1936-4CCF-92DA-63C3E1E67D05',
   user: 'anonymous'
 });
-const testMode = true;
+const testMode = false;
 
 export default {
   props: {
