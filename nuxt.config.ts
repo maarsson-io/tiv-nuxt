@@ -4,6 +4,10 @@ export default defineNuxtConfig({
     '@nuxt/content'
   ],
 
+  router: {
+    trailingSlash: false
+  },
+
   app: {
     head: {
       htmlAttrs: {

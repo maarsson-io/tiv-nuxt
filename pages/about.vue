@@ -34,9 +34,10 @@ const getTestimonials = async () => {
 
 const testimonials = await getTestimonials();
 const { path } = useRoute();
-const { data } = await useAsyncData(`content-${path}`,
+const contentPath = path.replace(/\/+$/, '') || '/';
+const { data } = await useAsyncData(`content-${contentPath}`,
   () => queryContent()
-    .where({ _path: path })
+    .where({ _path: contentPath })
     .findOne()
 );
 </script>

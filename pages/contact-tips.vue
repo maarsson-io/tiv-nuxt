@@ -24,7 +24,8 @@ const getHeader = async (path) => {
 };
 
 const { path } = useRoute();
-const header = await getHeader(path);
+const contentPath = path.replace(/\/+$/, '') || '/';
+const header = await getHeader(contentPath);
 const { data } = await useAsyncData('content-contact',
   () => queryContent()
     .where({ _path: '/contact' })
