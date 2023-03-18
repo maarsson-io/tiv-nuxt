@@ -3,7 +3,6 @@
 .nitro
 .cache
 .output
-dist
 
 # Laravel
 /public/hot
@@ -82,9 +81,6 @@ typings/
 # nuxt.js build output
 /client/.nuxt
 /public/_nuxt
-
-# Nuxt generate
-dist
 
 # vuepress build output
 .vuepress/dist
