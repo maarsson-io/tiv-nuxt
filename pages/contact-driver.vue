@@ -6,7 +6,7 @@
     <ContactDriverTextBlock
       :content="data.text_block"
     />
-    <section class="section doctor-skills pt-5 pb-0">
+    <section class="section doctor-skills pt-5 pb-5 mb-5">
       <div class="container">
         <div class="row">
           <div class="col-lg-8">
@@ -23,6 +23,7 @@
       </div>
 
       <!-- Contact form lead -->
+      <!--
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
@@ -35,8 +36,11 @@
           </div>
         </div>
       </div>
+    -->
     </section>
+    <!--
     <ContactForm />
+    -->
   </article>
 </template>
 
