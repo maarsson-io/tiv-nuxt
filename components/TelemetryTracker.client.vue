@@ -5,7 +5,7 @@
 <script lang="ts">
 import { TelemetryDeck } from '@telemetrydeck/sdk';
 const tracker = new TelemetryDeck({
-  app: '90A03A61-1936-4CCF-92DA-63C3E1E67D05',
+  app: 'E226D615-BE11-4FFF-A472-E9DF810B785F',
   user: 'anonymous'
 });
 const testMode = false;
