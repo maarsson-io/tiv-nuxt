@@ -4,15 +4,15 @@
       <div class="row px-3">
         <!-- Image grid -->
         <div class="col-xl-4 col-lg-6">
-          <div class="about-img d-flex flex-wrap h-100">
-            <figure class="figure m-0">
-              <img src="/images/blog-9_480x320.jpg" class="figure-img img-fluid" alt="">
+          <div class="about-img d-flex flex-wrap h-100 w-100">
+            <figure class="figure m-0 w-100">
+              <img src="/images/blog-9_480x320.jpg" class="img-fluid h-100 w-100 object-fit-cover" alt="">
               <figcaption class="figure-caption">
                 &copy; Gert Svensson
               </figcaption>
             </figure>
-            <figure class="figure m-0 mt-4">
-              <img src="/images/blog-2_400x225.jpg" class="figure-img img-fluid" alt="">
+            <figure class="figure m-0 mt-4 w-100">
+              <img src="/images/blog-2_400x225.jpg" class="img-fluid h-100 w-100 object-fit-cover" alt="">
               <figcaption class="figure-caption text-light">
                 &copy; Lars Angantyr / Sveriges Radio
               </figcaption>
