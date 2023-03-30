@@ -7,15 +7,7 @@ import { TelemetryDeck } from '@telemetrydeck/sdk';
 import FingerprintJS from '@fingerprintjs/fingerprintjs';
 
 const trackingActive = true;
-
 const referrer = process.client ? window.document.referrer : req.headers.referer;
-const fpPromise = await FingerprintJS.load({ monitoring: false });
-const fp = await fpPromise;
-const fpResult = await fp.get();
-const tracker = new TelemetryDeck({
-  app: 'E226D615-BE11-4FFF-A472-E9DF810B785F',
-  user: fpResult.visitorId
-});
 
 export default {
   props: {
@@ -23,6 +15,19 @@ export default {
       type: String,
       default: null
     }
+  },
+
+  async setup () {
+    const fpPromise = await FingerprintJS.load({ monitoring: false });
+    const fp = await fpPromise;
+    const fpResult = await fp.get();
+
+    const tracker = new TelemetryDeck({
+      app: 'E226D615-BE11-4FFF-A472-E9DF810B785F',
+      user: fpResult.visitorId
+    });
+
+    return { tracker };
   },
 
   watch: {
@@ -40,7 +45,7 @@ export default {
       if (!trackingActive) {
         return;
       }
-      tracker.signal({
+      this.tracker.signal({
         route: this.$route.name,
         referrer
       });
