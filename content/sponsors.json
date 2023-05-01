@@ -215,6 +215,20 @@
             "link": null,
             "name": "Hultatorps Vägsamfällighet",
             "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2023-04-30",
+            "link": "https://shg.se/vittsjo/",
+            "name": "Vittsjö Sjukhem AB",
+            "logo": "/sponsors/vittsjo-sjukhem.png"
+        },
+        {
+            "premium": false,
+            "date": "2023-04-30",
+            "link": "http://www.lavinsakeri.se/",
+            "name": "Lavins Åkeri AB",
+            "logo": null
         }
     ]
 }
