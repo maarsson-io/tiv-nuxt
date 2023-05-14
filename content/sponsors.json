@@ -229,6 +229,13 @@
             "link": "http://www.lavinsakeri.se/",
             "name": "Lavins Åkeri AB",
             "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2023-05-02",
+            "link": null,
+            "name": "Jörgen Thurn",
+            "logo": null
         }
     ]
 }
