@@ -30,7 +30,7 @@
             <div class="col-lg-12">
               <div
                 v-tooltip="sponsor.name"
-                class="client-thumb"
+                class="client-thumb text-center"
               >
                 <img
                   v-if="sponsor.logo"
