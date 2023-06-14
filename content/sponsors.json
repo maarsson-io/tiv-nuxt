@@ -9,7 +9,7 @@
     },
     "sidebar": {
         "title": "Sponsorer år 2023",
-        "text": "Enligt betalningar mellan 1:a januari och 18:e mars i bokstavsordning",
+        "text": "Enligt betalningar mellan 1:a januari och 14:e juni i bokstavsordning",
         "button": "Vill du hjälpa till?"
     },
     "sponsors": [
@@ -235,6 +235,20 @@
             "date": "2023-05-02",
             "link": null,
             "name": "Jörgen Thurn",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2023-05-29",
+            "link": null,
+            "name": "M Pedersen Mark & Anläggning AB",
+            "logo": null
+        },
+        {
+            "premium": true,
+            "date": "2023-06-02",
+            "link": null,
+            "name": "Stiftelsen Vittsjöfonden",
             "logo": null
         }
     ]
