@@ -250,6 +250,13 @@
             "link": null,
             "name": "Stiftelsen Vittsjöfonden",
             "logo": null
+        },
+        {
+            "premium": true,
+            "date": "2023-07-21",
+            "link": "http://www.offason.se/",
+            "name": "Offason AB",
+            "logo": "/sponsors/offason.png"
         }
     ]
 }
