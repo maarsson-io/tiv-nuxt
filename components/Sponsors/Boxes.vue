@@ -23,9 +23,14 @@ export default {
       return date.setFullYear(date.getFullYear() - 1);
     },
 
+    inThirteenMonths () {
+      const date = new Date();
+      return date.setMonth(date.getMonth() - 13);
+    },
+
     sponsors () {
       return this.content
-        .filter(sponsor => new Date(sponsor.date) >= this.inOneYear)
+        .filter(sponsor => new Date(sponsor.date) >= this.inThirteenMonths)
         .sort((first, second) => first.name > second.name ? 1 : -1);
     }
   }
