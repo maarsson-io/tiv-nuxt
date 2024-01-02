@@ -278,6 +278,13 @@
             "link": null,
             "name": "KeWas Consulting & Massage AB",
             "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2023-11-27",
+            "link": "https://www.wittsjogk.se/",
+            "name": "Wittsjö Golfklubb",
+            "logo": "/sponsors/wittsjo-golfklubb.png"
         }
     ]
 }
