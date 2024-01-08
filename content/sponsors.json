@@ -280,6 +280,13 @@
             "logo": "/sponsors/wittsjo-golfklubb.png"
         },
         {
+            "premium": false,
+            "date": "2023-12-20",
+            "link": null,
+            "name": "Göran Lindström",
+            "logo": null
+        },
+        {
             "premium": true,
             "date": "2024-01-01",
             "link": "http://www.vittsjobjarnum.nu/",
