@@ -28,25 +28,11 @@
             "logo": "/sponsors/sparbanken.png"
         },
         {
-            "premium": true,
-            "date": "2023-02-02",
-            "link": "http://www.nilssontryck.se/",
-            "name": "Nilssons Tryckeri AB",
-            "logo": "/sponsors/nilssons-tryckeri.png"
-        },
-        {
             "premium": false,
             "date": "2023-02-03",
             "link": null,
             "name": "Vittsjöbygdens Efs",
             "logo": null
-        },
-        {
-            "premium": true,
-            "date": "2023-02-07",
-            "link": "http://www.svenskakyrkan.se/vittsjo/",
-            "name": "Vittsjö Verums Pastorat",
-            "logo": "/sponsors/svenska-kyrkan.png"
         },
         {
             "premium": true,
@@ -292,6 +278,20 @@
             "link": "http://www.vittsjobjarnum.nu/",
             "name": "vittsjobjarnum.nu",
             "logo": "/sponsors/vittsjobjarnum.png"
+        },
+        {
+            "premium": true,
+            "date": "2023-01-26",
+            "link": "http://www.nilssontryck.se/",
+            "name": "Nilssons Tryckeri AB",
+            "logo": "/sponsors/nilssons-tryckeri.png"
+        },
+        {
+            "premium": true,
+            "date": "2023-01-26",
+            "link": "http://www.svenskakyrkan.se/vittsjo/",
+            "name": "Vittsjö Verums Pastorat",
+            "logo": "/sponsors/svenska-kyrkan.png"
         }
     ]
 }
