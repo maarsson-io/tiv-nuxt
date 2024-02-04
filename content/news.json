@@ -5,6 +5,18 @@
     },
     "items": [
         {
+            "title": "Vi lever i en förändrad värld",
+            "image": {
+                "src": "/images/car_night_right_1280x800.jpg",
+                "alt": "",
+                "credits": "Claes Brauer"
+            },
+            "date": "2 februari 2024",
+            "text": "Jag har kört ”Trygg” sedan sent -90tal och märker tydligt att antalet oegentligheter i bygden ökat. Nu handlar det inte enbart om att fotografera bygdens djur, utan mer om nummerskyltar på ”mystiska” bilar. Det handlar inte bara om inbrott, narkotikan har ökat o spår ses tyvärr nästan varje natt, säger en ”Trygg”-veteran.",
+            "button": "Läs mer på vittsjobjarnum.nu",
+            "link": "https://vittsjobjarnum.nu/artiklar/reportage/11089-vi-lever-i-en-pa-manga-satt-forandrad-varld-just-nu.html"
+        },
+        {
             "title": "Tryggverksamheten behövs mer än någonsin",
             "image": {
                 "src": "/images/car_night_right_1280x800.jpg",
