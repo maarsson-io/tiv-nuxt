@@ -5,6 +5,18 @@
     },
     "items": [
         {
+            "title": "Trygg i Vittsjö-förare ertappade vedtjuv – tog upp jakten",
+            "image": {
+                "src": "/images/nsk20240214.jpeg",
+                "alt": "",
+                "credits": "Norra Skåne"
+            },
+            "date": "14 februari 2024",
+            "text": "I söndags kväll stals brasved från ett förråd i Emmaljunga. Tack vare Trygg i Vittsjö har polisen ett registreringsnummer till bilen som tjuven färdades i.",
+            "button": "Läs mer på Norra Skåne",
+            "link": "https://www.nsk.se/hassleholm/trygg-i-vittsjo-forare-ertappade-vedtjuv-tog-upp-jakten/"
+        },
+        {
             "title": "Vi lever i en förändrad värld",
             "image": {
                 "src": "/images/car_night_right_1280x800.jpg",

@@ -2,6 +2,13 @@
     "blocks":
     [
         {
+            "medium": "Norra Skåne",
+            "logo": "/assets/nsk.png",
+            "link": "https://www.nsk.se/hassleholm/trygg-i-vittsjo-forare-ertappade-vedtjuv-tog-upp-jakten/",
+            "date": "14 februari 2024",
+            "text": "I söndags kväll stals brasved från ett förråd i Emmaljunga. Tack vare Trygg i Vittsjö har polisen ett registreringsnummer till bilen som tjuven färdades i."
+        },
+        {
             "medium": "SVT Nyheter",
             "logo": "/assets/svt.png",
             "link": "https://www.svt.se/nyheter/lokalt/skane/sivard-83-patrullerar-vittsjo",
