@@ -92,13 +92,6 @@
         },
         {
             "premium": false,
-            "date": "2023-03-01",
-            "link": null,
-            "name": "Vittsjö Revision & Konsult",
-            "logo": null
-        },
-        {
-            "premium": false,
             "date": "2023-03-02",
             "link": "http://www.nmp-lego.se/",
             "name": "Nmp Lego AB",
@@ -299,6 +292,13 @@
             "link": "http://www.rormokarna.com/",
             "name": "Rörmokarna Laubert & Lilja AB",
             "logo": "/sponsors/rormokarna.png"
+        },
+        {
+            "premium": false,
+            "date": "2024-02-15",
+            "link": null,
+            "name": "Vittsjö Revision & Konsult",
+            "logo": null
         }
     ]
 }
