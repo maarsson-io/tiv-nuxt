@@ -65,13 +65,6 @@
         {
             "premium": false,
             "date": "2023-02-27",
-            "link": null,
-            "name": "Jan-Åke Månsson",
-            "logo": null
-        },
-        {
-            "premium": false,
-            "date": "2023-02-27",
             "link": "http://www.skorstensservice.se/",
             "name": "Vittsjö Skorstenservice AB",
             "logo": "/sponsors/vittsjo-skorstenservice.png"
@@ -109,13 +102,6 @@
             "date": "2023-03-06",
             "link": null,
             "name": "Århults Industri AB",
-            "logo": null
-        },
-        {
-            "premium": false,
-            "date": "2023-03-06",
-            "link": null,
-            "name": "Vittsjö Förvaringshus AB",
             "logo": null
         },
         {
@@ -260,14 +246,14 @@
         },
         {
             "premium": true,
-            "date": "2023-01-26",
+            "date": "2024-01-26",
             "link": "http://www.nilssontryck.se/",
             "name": "Nilssons Tryckeri AB",
             "logo": "/sponsors/nilssons-tryckeri.png"
         },
         {
             "premium": true,
-            "date": "2023-01-26",
+            "date": "2024-01-26",
             "link": "http://www.svenskakyrkan.se/vittsjo/",
             "name": "Vittsjö Verums Pastorat",
             "logo": "/sponsors/svenska-kyrkan.png"
@@ -299,6 +285,27 @@
             "link": null,
             "name": "Vittsjö Revision & Konsult",
             "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-02-22",
+            "link": null,
+            "name": "Jan-Åke Månsson",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-02-22",
+            "link": null,
+            "name": "Vittsjö Förvaringshus AB",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-02-22",
+            "link": "https://furuliden.se/",
+            "name": "Furuliden",
+            "logo": "/sponsors/furuliden.png"
         }
     ]
 }
