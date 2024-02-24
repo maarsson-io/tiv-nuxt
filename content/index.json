@@ -34,7 +34,7 @@
     "counter_boxes": [
         {
              "icon": "icofont-ui-calendar",
-             "count": 353,
+             "count": 309,
              "sup": null,
              "text": "dagar per år"
         },
@@ -46,13 +46,13 @@
         },
         {
              "icon": "icofont-police-cap",
-             "count": 43,
+             "count": 49,
              "sup": null,
              "text": "nattchaufförer"
         },
         {
              "icon": "icofont-badge",
-             "count": 571,
+             "count": 436,
              "sup": "+",
              "text": "sponsorer"
         }
