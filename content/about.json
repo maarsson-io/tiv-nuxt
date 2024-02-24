@@ -9,26 +9,45 @@
         "credits": "Claes Brauer"
     },
     "text_block_one": {
-        "title": "Verksamheten 2022",
+        "title": "Verksamheten 2023",
         "paragraphs": [
             [
-                "Trygg i Vittsjö har utfört patrullering 323 dagar 2022, i snitt 88% av årets dagar, möjligen mer, eftersom inte alla körningar är noterade i loggboken. Insatserna är jämt fördelade under året. Fin prestation av alla som upprätthållit bevakningen och även kört extraturer för att täcka upp tomma dagar. Nya frivilliga krafter är som alltid välkomna. Ju fler vi är som kör desto mindre betungande blir det."
-            ],
+                "Trygg i Vittsjö har utfört patrullering 309 dagar 2023, i snitt 85% av årets dagar, möjligen mer, eftersom inte alla körningar är noterade i loggboken. Insatserna är jämt fördelade under året. Insatserna är jämt fördelade under året. Medeltal per månad är 25,8 dagar med spridning 24-28. Fin prestation av alla som upprätthållit bevakningen och även kört extraturer för att täcka upp tomma dagar. Vi kan vara stolta över resultatet men det indikerar dock att vi har behov av ytterligare 4-5 par chaufförer.",
+                "Kärnan i verksamheten består av patrullering med Tryggbilen. Nästan varje natt året om åker vi omkring två och två i Vittsjö och Emmaljunga med omnejd. Vi dokumenterar och larmar eventuellt om händelser som kan vara av intresse för polisen. Ett mycket nära och gott samarbete med närpolisen i Hässleholm har gjort att brottsligheten i de områden vi patrullerar minskat betydligt. Detta enligt statistik från polisen."
+            ]
+        ]
+    },
+    "list_block": {
+        "title": "Statistik enligt loggboken:",
+        "items": [
             [
-                "Kärnan i verksamheten består av patrullering med Tryggbilen. Nästan varje natt året om åker vi omkring två och två i Vittsjö och Emmaljunga med omnejd. Vi dokumenterar och larmar eventuellt om händelser som kan vara av intresse för polisen. Ett mycket nära och gott samarbete med närpolisen i Hässleholm har gjort att brottsligheten i de områden vi patrullerar minskat betydligt. Detta enligt statistik från polisen.",
-                "Trygg i Vittsjö har haft kontakt med polisen vid akuta tillfällen 8 gånger under 2022, noterat registreringsnummer och identifierat misstänkta fordon, utfört extra bevakning efter tips samt haft kontakt med personer på fel plats ett flertal gånger. Med framgång utfört livräddande insats i snö och kyla 1 gång. Vi har säkert genom vår närvaro förhindrat ett okänt antal brott och skadegörelser i vår bygd. Tyvärr har det trots det skett beklagliga bränder och stölder inom vårt område.",
+                "Hjälpt bilister 5 ggr",
+                "Hjälpt berusade personer hem 6 ggr",
+                "Släckt ljus, stängt dörrar och fönster 4 ggr",
+                "Observerat misstänkta fordon 12 ggr",
+                "Haft kontakt med ungdom på fel plats vid alldeles fel tidpunkt 27 ggr",
+                "Stört misstänkta möten mellan personer 5 ggr",
+                "Ringt polisen 16 ggr"
+            ]
+        ]
+    },
+    "text_block_two": {
+        "title": "",
+        "paragraphs": [
+            [
+                "Vi har säkert genom vår närvaro förhindrat ett okänt antal brott och skadegörelser i vår bygd. Tyvärr har det trots det skett beklagliga bränder och stölder inom vårt område.",
                 "På Vittsjödagen i juni var vi närvarande med bilen och representant från Trygg i Vittsjö."
             ],
             [
                 "I dagsläget är vi ett 50-tal privatpersoner som, enligt ett uppgjort schema och utan ekonomisk ersättning, på det här sättet visar att vi värnar om tryggheten i vår bygd och vill göra en personlig insats för samhället.",
-                "Vi har behov av ytterligare 6-8 chaufförer för att vi skall få full täckning med nuvarande utnyttjande av våra chaufförer. Det vill säga en körning i månaden. Vi får konstatera att våra chaufförer ofta tipsar polisen om olika händelser. Den absolut vanligaste åtgärden som chaufförerna utför är att identifiera och rapportera trafikanter med avvikande beteende."
+                "Vi har behov av ytterligare 4-5 chaufförer för att vi skall få full täckning med nuvarande utnyttjande av våra chaufförer. Det vill säga en körning i månaden. Vi får konstatera att våra chaufförer ofta tipsar polisen om olika händelser. Den absolut vanligaste åtgärden som chaufförerna utför är att identifiera och rapportera trafikanter med avvikande beteende."
             ],
             [
                 "Vi har med sponsorbidrag kunnat investera i en egen bil och ett mobiltelefonabonnemang. Våra sponsorpengar går till bensinförbrukning och övriga kostnader för bilen. <strong>Trygg i Vittsjö tackar alla som genom ekonomiska och/eller praktiska insatser bidrar till ett tryggare Vittsjö!</strong>."
             ]
         ]
     },
-    "text_block_two": {
+    "text_block_three": {
         "title": "Om föreningen",
         "paragraphs": [
             [
