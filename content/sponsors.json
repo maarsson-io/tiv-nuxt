@@ -14,13 +14,6 @@
     },
     "sponsors": [
         {
-            "premium": true,
-            "date": "2023-02-01",
-            "link": "http://www.snapphanebygdenssparbank.se/",
-            "name": "Snapphanebygdens Sparbank",
-            "logo": "/sponsors/sparbanken.png"
-        },
-        {
             "premium": false,
             "date": "2023-02-03",
             "link": null,
@@ -102,13 +95,6 @@
             "date": "2023-03-06",
             "link": null,
             "name": "Århults Industri AB",
-            "logo": null
-        },
-        {
-            "premium": false,
-            "date": "2023-03-07",
-            "link": null,
-            "name": "Gransäters Plåt AB",
             "logo": null
         },
         {
@@ -313,6 +299,29 @@
             "link": null,
             "name": "Bojes Licenssvets AB",
             "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-02-28",
+            "link": "https://rubn.com/",
+            "name": "Rubn AB",
+            "logo": "/sponsors/rubn.svg"
+        },
+        {
+            "premium": false,
+            "date": "2024-02-29",
+            "link": null,
+            "name": "Gransäters Plåt AB",
+            "logo": null
+        },
+        {
+            "premium": true,
+            "date": "2024-02-29",
+            "link": "http://www.snapphanebygdenssparbank.se/",
+            "name": "Snapphanebygdens Sparbank",
+            "logo": "/sponsors/sparbanken.png"
         }
     ]
 }
+
+
