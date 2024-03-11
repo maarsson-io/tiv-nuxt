@@ -99,13 +99,6 @@
         },
         {
             "premium": false,
-            "date": "2023-03-10",
-            "link": "http://www.elolle.se/",
-            "name": "El AB Olle Widell",
-            "logo": "/sponsors/elolle.png"
-        },
-        {
-            "premium": false,
             "date": "2023-03-13",
             "link": null,
             "name": "Lena Svensson",
@@ -130,13 +123,6 @@
             "date": "2023-03-27",
             "link": "https://www.smyrnavittsjo.se/",
             "name": "Smyrnaförsamlingen i Vittsjö",
-            "logo": null
-        },
-        {
-            "premium": false,
-            "date": "2023-03-30",
-            "link": "http://www.arnesmotor.com/",
-            "name": "Arnes Motortjänst AB",
             "logo": null
         },
         {
@@ -320,8 +306,34 @@
             "link": "http://www.snapphanebygdenssparbank.se/",
             "name": "Snapphanebygdens Sparbank",
             "logo": "/sponsors/sparbanken.png"
+        },
+        {
+            "premium": false,
+            "date": "2024-03-01",
+            "link": null,
+            "name": "Berton Bengtsson",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-03-04",
+            "link": "http://www.elolle.se/",
+            "name": "El AB Olle Widell",
+            "logo": "/sponsors/elolle.png"
+        },
+        {
+            "premium": false,
+            "date": "2024-03-04",
+            "link": "https://www.facebook.com/people/KT-Fordonsteknik-AB/100054555875300/",
+            "name": "KT Fordonsteknik AB",
+            "logo": "/sponsors/kt-fordonsteknink.jpeg"
+        },
+        {
+            "premium": false,
+            "date": "2024-03-05",
+            "link": "http://www.arnesmotor.com/",
+            "name": "Arnes Motortjänst AB",
+            "logo": null
         }
     ]
 }
-
-
