@@ -49,13 +49,6 @@
             "logo": null
         },
         {
-            "premium": true,
-            "date": "2023-02-24",
-            "link": "http://www.bernesservice.se/",
-            "name": "Bernes Service",
-            "logo": null
-        },
-        {
             "premium": false,
             "date": "2023-02-27",
             "link": "http://www.skorstensservice.se/",
@@ -100,13 +93,6 @@
         {
             "premium": false,
             "date": "2023-03-13",
-            "link": null,
-            "name": "Lena Svensson",
-            "logo": null
-        },
-        {
-            "premium": false,
-            "date": "2023-03-13",
             "link": "http://www.bamab.se/",
             "name": "Bo Ahlquist Maskin AB",
             "logo": "/sponsors/bo-ahlquist.png"
@@ -116,13 +102,6 @@
             "date": "2023-03-20",
             "link": "https://www.villabacken.se/",
             "name": "Villabacken AB",
-            "logo": null
-        },
-        {
-            "premium": false,
-            "date": "2023-03-27",
-            "link": "https://www.smyrnavittsjo.se/",
-            "name": "Smyrnaförsamlingen i Vittsjö",
             "logo": null
         },
         {
@@ -334,6 +313,48 @@
             "link": "http://www.arnesmotor.com/",
             "name": "Arnes Motortjänst AB",
             "logo": null
+        },
+        {
+            "premium": true,
+            "date": "2024-03-11",
+            "link": "http://www.bernesservice.se/",
+            "name": "Bernes Service",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-03-11",
+            "link": null,
+            "name": "Lena Svensson",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-03-12",
+            "link": "https://martinlorenz.se/",
+            "name": "Martin Lorenz AB",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-03-13",
+            "link": "https://www.smyrnavittsjo.se/",
+            "name": "Smyrnaförsamlingen i Vittsjö",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-03-14",
+            "link": "https://www.spamassage.se/",
+            "name": "SPA & Massage i Vittsjö",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-03-15",
+            "link": "https://www.ica.se/butiker/nara/hassleholm/ica-nara-vittsjo-1003694/",
+            "name": "ICA Nära Vittsjöhallen",
+            "logo": "/sponsors/ica-nara.svg"
         }
     ]
 }
