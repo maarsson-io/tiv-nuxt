@@ -64,13 +64,6 @@
         },
         {
             "premium": false,
-            "date": "2023-03-02",
-            "link": "http://www.nmp-lego.se/",
-            "name": "Nmp Lego AB",
-            "logo": "/sponsors/npm-lego.png"
-        },
-        {
-            "premium": false,
             "date": "2023-03-03",
             "link": null,
             "name": "Linnea Isberg",
@@ -95,13 +88,6 @@
             "date": "2023-03-20",
             "link": "https://www.villabacken.se/",
             "name": "Villabacken AB",
-            "logo": null
-        },
-        {
-            "premium": false,
-            "date": "2023-03-30",
-            "link": null,
-            "name": "Hultatorps Vägsamfällighet",
             "logo": null
         },
         {
@@ -348,6 +334,34 @@
             "link": "https://www.ica.se/butiker/nara/hassleholm/ica-nara-vittsjo-1003694/",
             "name": "ICA Nära Vittsjöhallen",
             "logo": "/sponsors/ica-nara.svg"
+        },
+        {
+            "premium": false,
+            "date": "2024-03-18",
+            "link": null,
+            "name": "IB Henrik Rönje",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-03-19",
+            "link": "http://www.nmp-lego.se/",
+            "name": "NMP Lego AB",
+            "logo": "/sponsors/npm-lego.png"
+        },
+        {
+            "premium": false,
+            "date": "2024-03-20",
+            "link": null,
+            "name": "Wittsjö Ved & Värme AB",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-03-21",
+            "link": null,
+            "name": "Hultatorps Vägsamfällighet",
+            "logo": null
         }
     ]
 }
