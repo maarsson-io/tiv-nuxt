@@ -105,13 +105,6 @@
             "logo": null
         },
         {
-            "premium": false,
-            "date": "2023-05-02",
-            "link": null,
-            "name": "Jörgen Thurn",
-            "logo": null
-        },
-        {
             "premium": true,
             "date": "2023-06-02",
             "link": null,
@@ -362,6 +355,20 @@
             "link": null,
             "name": "Hultatorps Vägsamfällighet",
             "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-04-02",
+            "link": null,
+            "name": "Jörgen Thurn",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-04-02",
+            "link": "https://www.lacortina.se",
+            "name": "La Cortina",
+            "logo": "/sponsors/la-cortina.png"
         }
     ]
 }
