@@ -23,13 +23,6 @@
         {
             "premium": true,
             "date": "2023-02-23",
-            "link": "http://www.hasslehem.se/",
-            "name": "Hässlehem AB",
-            "logo": "/sponsors/hasslehem.png"
-        },
-        {
-            "premium": true,
-            "date": "2023-02-23",
             "link": "http://www.emmaljungatorvmull.se/",
             "name": "Emmaljunga Torvmull AB",
             "logo": "/sponsors/emmaljunga-torvmull.png"
@@ -54,13 +47,6 @@
             "link": null,
             "name": "Emma Larsson",
             "logo": null
-        },
-        {
-            "premium": true,
-            "date": "2023-02-28",
-            "link": "https://emmaljunga.com/sv",
-            "name": "Emmaljunga Barnvagsfabrik AB",
-            "logo": "/sponsors/emmaljunga.svg"
         },
         {
             "premium": false,
@@ -102,13 +88,6 @@
             "date": "2023-04-30",
             "link": "http://www.lavinsakeri.se/",
             "name": "Lavins Åkeri AB",
-            "logo": null
-        },
-        {
-            "premium": true,
-            "date": "2023-06-02",
-            "link": null,
-            "name": "Stiftelsen Vittsjöfonden",
             "logo": null
         },
         {
@@ -369,6 +348,27 @@
             "link": "https://www.lacortina.se",
             "name": "La Cortina",
             "logo": "/sponsors/la-cortina.png"
+        },
+        {
+            "premium": true,
+            "date": "2024-04-04",
+            "link": "https://emmaljunga.com/sv",
+            "name": "Emmaljunga Barnvagsfabrik AB",
+            "logo": "/sponsors/emmaljunga.svg"
+        },
+        {
+            "premium": true,
+            "date": "2024-04-12",
+            "link": "http://www.hasslehem.se/",
+            "name": "Hässlehem AB",
+            "logo": "/sponsors/hasslehem.png"
+        },
+        {
+            "premium": true,
+            "date": "2024-04-15",
+            "link": null,
+            "name": "Stiftelsen Vittsjöfonden",
+            "logo": null
         }
     ]
 }
