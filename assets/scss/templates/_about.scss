@@ -91,6 +91,10 @@
   flex-direction: column;
   justify-content: center;
 
+  > img {
+    max-height: 70px;
+  }
+
   > div {
     font-family: $primary-font;
     font-size: 18px;
