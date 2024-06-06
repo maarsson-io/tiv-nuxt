@@ -4,7 +4,8 @@
     <div class="widget mb-5 mb-lg-0">
       <div class="logo mb-4">
         <div class="brand">
-          <img src="/logo/logo_short.svg" alt="" class="logo img-fluid">
+          <img src="/logo/logo_old.svg" alt="" class="logo img-fluid"><br />
+          <img src="/logo/logo_text.svg" alt="" class="logo-text-min">
         </div>
       </div>
       <p>{{ data.text }}</p>
