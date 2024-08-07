@@ -21,13 +21,6 @@
             "logo": null
         },
         {
-            "premium": true,
-            "date": "2023-02-23",
-            "link": "http://www.emmaljungatorvmull.se/",
-            "name": "Emmaljunga Torvmull AB",
-            "logo": "/sponsors/emmaljunga-torvmull.png"
-        },
-        {
             "premium": false,
             "date": "2023-02-24",
             "link": null,
@@ -376,6 +369,13 @@
             "link": null,
             "name": "Maria Lindwall Ekström",
             "logo": null
+        },
+        {
+            "premium": true,
+            "date": "2024-08-01",
+            "link": "http://www.emmaljungatorvmull.se/",
+            "name": "Emmaljunga Torvmull AB",
+            "logo": "/sponsors/emmaljunga-torvmull.png"
         }
     ]
 }
