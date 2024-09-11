@@ -72,13 +72,6 @@
         {
             "premium": false,
             "date": "2023-04-30",
-            "link": "https://shg.se/vittsjo/",
-            "name": "Vittsjö Sjukhem AB",
-            "logo": "/sponsors/vittsjo-sjukhem.png"
-        },
-        {
-            "premium": false,
-            "date": "2023-04-30",
             "link": "http://www.lavinsakeri.se/",
             "name": "Lavins Åkeri AB",
             "logo": null
@@ -203,7 +196,7 @@
             "logo": null
         },
         {
-            "premium": true,
+            "premium": false,
             "date": "2024-02-26",
             "link": null,
             "name": "Bojes Licenssvets AB",
@@ -364,7 +357,7 @@
             "logo": null
         },
         {
-            "premium": true,
+            "premium": false,
             "date": "2024-07-09",
             "link": null,
             "name": "Maria Lindwall Ekström",
@@ -376,6 +369,13 @@
             "link": "http://www.emmaljungatorvmull.se/",
             "name": "Emmaljunga Torvmull AB",
             "logo": "/sponsors/emmaljunga-torvmull.png"
+        },
+        {
+            "premium": false,
+            "date": "2023-09-05",
+            "link": "https://shg.se/vittsjo/",
+            "name": "Vittsjö Sjukhem AB",
+            "logo": "/sponsors/vittsjo-sjukhem.png"
         }
     ]
 }
