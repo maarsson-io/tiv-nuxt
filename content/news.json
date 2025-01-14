@@ -5,6 +5,78 @@
     },
     "items": [
         {
+            "title": "Ett ganska normalt pass med Trygg i Vittsjö - inget larm till 112 denna gången",
+            "image": {
+                "src": "https://vittsjobjarnum.nu/images/2024/April/Trygg-1-2.jpg",
+                "alt": "",
+                "credits": "Claes Brauer"
+            },
+            "date": "22 april 2024",
+            "text": "Natten mellan söndag och måndag var det åter dags för ett pass i Trygg-bilen. Inga oegentligheter noterades men en del andra trevliga upplevelser kunde noteras." ,
+            "button": "Läs mer på vittsjobjarnum.nu",
+            "link": "https://vittsjobjarnum.nu/artiklar/reportage/11259-ett-ganska-normalt-pass-med-trygg-i-vittsjo-inget-larm-till-112-denna-gangen.html"
+        },
+        {
+            "title": "Trygg i Vittsjö genomförde årsmötse",
+            "image": {
+                "src": "/images/blog-11_1200x800.jpeg",
+                "alt": "",
+                "credits": "Claes Brauer"
+            },
+            "date": "23 februari 2024",
+            "text": "Under onsdagskvällen fanns ett 30-tal av föreningens knappt 50 medlemmar samlade för föreningens årsmöte. I verksamhetsberättelsen återger föreningen sitt syfe, ”att bevaka Vittsjö med närliggande byar”." ,
+            "button": "Läs mer på vittsjobjarnum.nu",
+            "link": "https://vittsjobjarnum.nu/artiklar/reportage/11137-trygg-i-vittsjo-genomforde-arsmote-2.html"
+        },
+        {
+            "title": "Trygg i Vittsjö-förare ertappade vedtjuv – tog upp jakten",
+            "image": {
+                "src": "/images/nsk20240214.jpeg",
+                "alt": "",
+                "credits": "Norra Skåne"
+            },
+            "date": "14 februari 2024",
+            "text": "I söndags kväll stals brasved från ett förråd i Emmaljunga. Tack vare Trygg i Vittsjö har polisen ett registreringsnummer till bilen som tjuven färdades i.",
+            "button": "Läs mer på Norra Skåne",
+            "link": "https://www.nsk.se/hassleholm/trygg-i-vittsjo-forare-ertappade-vedtjuv-tog-upp-jakten/"
+        },
+        {
+            "title": "Vi lever i en förändrad värld",
+            "image": {
+                "src": "/images/car_night_right_1280x800.jpg",
+                "alt": "",
+                "credits": "Claes Brauer"
+            },
+            "date": "2 februari 2024",
+            "text": "Jag har kört ”Trygg” sedan sent -90tal och märker tydligt att antalet oegentligheter i bygden ökat. Nu handlar det inte enbart om att fotografera bygdens djur, utan mer om nummerskyltar på ”mystiska” bilar. Det handlar inte bara om inbrott, narkotikan har ökat o spår ses tyvärr nästan varje natt, säger en ”Trygg”-veteran.",
+            "button": "Läs mer på vittsjobjarnum.nu",
+            "link": "https://vittsjobjarnum.nu/artiklar/reportage/11089-vi-lever-i-en-pa-manga-satt-forandrad-varld-just-nu.html"
+        },
+        {
+            "title": "Tryggverksamheten behövs mer än någonsin",
+            "image": {
+                "src": "/images/car_night_right_1280x800.jpg",
+                "alt": "",
+                "credits": "Claes Brauer"
+            },
+            "date": "28 juli 2023",
+            "text": "Du har säkert även i andra media noterat rapportering om ökning av antalet inbrott. Även antalet bedrägerier, inte minst via mail eller telefon har också ökat. Storhelger som jul- nyårshelgerna visar ofta en ökande tendens för brott. Var inte rädd att ringa 112 om du ser ett brott eller 114 14 om du vill tipsa Polisen.",
+            "button": "Läs mer på vittsjobjarnum.nu",
+            "link": "https://www.vittsjobjarnum.nu/artiklar/reportage/11017-tryggverksamheten-behovs-mer-an-nagonsin-bjarnum-har-problem.html"
+        },
+        {
+            "title": "Ibland är ”Trygg i Vittsjö” riktigt kul…",
+            "image": {
+                "src": "/images/car_night_right_1280x800.jpg",
+                "alt": "",
+                "credits": "Claes Brauer"
+            },
+            "date": "28 juli 2023",
+            "text": "Under ett Trygg i Vittsjöpass natten mot fredagen träffade jag vid skolan fem trevliga pojkar i nedre tonåren. Först var de lite avvaktande men efter en stund fanns de vid ”Trygg-bilen”. De var mycket intresserade och hade massor av frågor rörande just Trygg i Vittsjö. En av dem berättade att en granne till honom kör just ”Trygg”.",
+            "button": "Läs mer på vittsjobjarnum.nu",
+            "link": "https://www.vittsjobjarnum.nu/artiklar/reportage/10700-ibland-ar-trygg-i-vittsjo-riktigt-kul.html"
+        },
+        {
             "title": "Trygg i Vittsjö genomförde årsmöte",
             "image": {
                 "src": "/images/blog-1_1280x800.jpg",

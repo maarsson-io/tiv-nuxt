@@ -22,13 +22,17 @@
   "devDependencies": {
     "@nuxt/content": "^2.5.2",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
-    "eslint": "^8.35.0",
+    "eslint": "^9.4.0",
     "nuxt": "^3.2.3",
     "sass": "^1.58.3"
   },
+  "volta": {
+    "node": "19.9.0"
+  },
   "dependencies": {
-    "@fontsource/exo": "^4.5.11",
-    "@fontsource/roboto": "^4.5.8",
+    "@fingerprintjs/fingerprintjs": "^3.4.0",
+    "@fontsource/exo": "^5.0.18",
+    "@fontsource/roboto": "^5.0.13",
     "@icon/icofont": "^1.0.1-alpha.1",
     "@telemetrydeck/sdk": "^1.0.5",
     "bootstrap": "^4.6.2",

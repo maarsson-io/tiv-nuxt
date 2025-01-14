@@ -9,7 +9,9 @@
     <ContactTextBlock
       :content="data.texts"
     />
+    <!--
     <ContactForm />
+    -->
   </article>
 </template>
 

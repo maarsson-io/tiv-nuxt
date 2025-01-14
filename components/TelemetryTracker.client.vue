@@ -1,14 +1,13 @@
 <template>
-  <!--  -->
+  <template />
 </template>
 
 <script lang="ts">
 import { TelemetryDeck } from '@telemetrydeck/sdk';
-const tracker = new TelemetryDeck({
-  app: '90A03A61-1936-4CCF-92DA-63C3E1E67D05',
-  user: 'anonymous'
-});
-const testMode = false;
+import FingerprintJS from '@fingerprintjs/fingerprintjs';
+
+const trackingActive = true;
+const referrer = process.client ? window.document.referrer : req.headers.referer;
 
 export default {
   props: {
@@ -18,24 +17,37 @@ export default {
     }
   },
 
+  async setup () {
+    const fpPromise = await FingerprintJS.load({ monitoring: false });
+    const fp = await fpPromise;
+    const fpResult = await fp.get();
+
+    const tracker = new TelemetryDeck({
+      app: 'E226D615-BE11-4FFF-A472-E9DF810B785F',
+      user: fpResult.visitorId
+    });
+
+    return { tracker };
+  },
+
   watch: {
-    route (route) {
-      this.sendSignal(route, false);
+    $route (to, from) {
+      this.sendSignal(from.name);
     }
   },
 
-  mounted () {
-    this.sendSignal(this.route, true);
+  async mounted () {
+    this.sendSignal(referrer);
   },
 
   methods: {
-    sendSignal (route, landing) {
-      if (testMode) {
+    sendSignal (referrer) {
+      if (!trackingActive) {
         return;
       }
-      tracker.signal({
-        route,
-        landing
+      this.tracker.signal({
+        route: this.$route.name,
+        referrer
       });
     }
   }

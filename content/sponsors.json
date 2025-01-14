@@ -8,39 +8,11 @@
         "paragraph": "Vi vill först av allt rikta ett stort tack till alla personer i Vittsjö med omnejd som sponsrar oss! Tack för er medverkan och era bidrag till ett tryggt Vittsjö!"
     },
     "sidebar": {
-        "title": "Sponsorer under det senaste året",
-        "text": "Enlight betalningar i senaste 365 dagar, i bokstavsordning",
+        "title": "Sponsorer",
+        "text": "Enligt betalningar under de senaste 12 månader i bokstavsordning",
         "button": "Vill du hjälpa till?"
     },
     "sponsors": [
-        {
-            "premium": true,
-            "date": "2023-01-01",
-            "link": "http://www.vittsjobjarnum.nu/",
-            "name": "vittsjobjarnum.nu",
-            "logo": "/sponsors/vittsjobjarnum.png"
-        },
-        {
-            "premium": true,
-            "date": "2023-01-13",
-            "link": null,
-            "name": "Per Andersson",
-            "logo": null
-        },
-        {
-            "premium": true,
-            "date": "2023-02-01",
-            "link": "http://www.snapphanebygdenssparbank.se/",
-            "name": "Snapphanebygdens Sparbank",
-            "logo": "/sponsors/sparbanken.png"
-        },
-        {
-            "premium": true,
-            "date": "2023-02-02",
-            "link": "http://www.nilssontryck.se/",
-            "name": "Nilssons Tryckeri AB",
-            "logo": "/sponsors/nilssons-tryckeri.png"
-        },
         {
             "premium": false,
             "date": "2023-02-03",
@@ -49,52 +21,10 @@
             "logo": null
         },
         {
-            "premium": true,
-            "date": "2023-02-07",
-            "link": "http://www.svenskakyrkan.se/vittsjo/",
-            "name": "Vittsjö Verums Pastorat",
-            "logo": "/sponsors/svenska-kyrkan.png"
-        },
-        {
-            "premium": true,
-            "date": "2023-02-23",
-            "link": "http://www.hasslehem.se/",
-            "name": "Hässlehem AB",
-            "logo": "/sponsors/hasslehem.png"
-        },
-        {
-            "premium": true,
-            "date": "2023-02-23",
-            "link": "http://www.emmaljungatorvmull.se/",
-            "name": "Emmaljunga Torvmull AB",
-            "logo": "/sponsors/emmaljunga-torvmull.png"
-        },
-        {
             "premium": false,
             "date": "2023-02-24",
             "link": null,
             "name": "Kalle Johansson",
-            "logo": null
-        },
-        {
-            "premium": false,
-            "date": "2023-02-24",
-            "link": null,
-            "name": "Bojes Licenssvets AB",
-            "logo": null
-        },
-        {
-            "premium": true,
-            "date": "2023-02-24",
-            "link": "http://www.bernesservice.se/",
-            "name": "Bernes Service",
-            "logo": null
-        },
-        {
-            "premium": false,
-            "date": "2023-02-27",
-            "link": null,
-            "name": "Jan-Åke Månsson",
             "logo": null
         },
         {
@@ -112,34 +42,6 @@
             "logo": null
         },
         {
-            "premium": true,
-            "date": "2023-02-28",
-            "link": "https://emmaljunga.com/sv",
-            "name": "Emmaljunga Barnvagsfabrik AB",
-            "logo": "/sponsors/emmaljunga.svg"
-        },
-        {
-            "premium": false,
-            "date": "2023-03-01",
-            "link": null,
-            "name": "Vittsjö Revison & Konsult",
-            "logo": null
-        },
-        {
-            "premium": false,
-            "date": "2023-03-01",
-            "link": "http://www.rormokarna.com/",
-            "name": "Rörmokarna Laubert & Lilja AB",
-            "logo": "/sponsors/rormokarna.png"
-        },
-        {
-            "premium": false,
-            "date": "2023-03-02",
-            "link": "http://www.nmp-lego.se/",
-            "name": "Nmp Lego AB",
-            "logo": "/sponsors/npm-lego.png"
-        },
-        {
             "premium": false,
             "date": "2023-03-03",
             "link": null,
@@ -155,38 +57,325 @@
         },
         {
             "premium": false,
-            "date": "2023-03-06",
+            "date": "2023-03-13",
+            "link": "http://www.bamab.se/",
+            "name": "Bo Ahlquist Maskin AB",
+            "logo": "/sponsors/bo-ahlquist.png"
+        },
+        {
+            "premium": false,
+            "date": "2023-03-20",
+            "link": "https://www.villabacken.se/",
+            "name": "Villabacken AB",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2023-04-30",
+            "link": "http://www.lavinsakeri.se/",
+            "name": "Lavins Åkeri AB",
+            "logo": null
+        },
+        {
+            "premium": true,
+            "date": "2023-07-21",
+            "link": "http://www.offason.se/",
+            "name": "Offason AB",
+            "logo": "/sponsors/offason.png"
+        },
+        {
+            "premium": false,
+            "date": "2023-08-29",
+            "link": null,
+            "name": "Malte Glunz, Holmatorp",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2023-09-11",
+            "link": null,
+            "name": "Emma och Anders Larsson, Hygnarp",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2023-09-25",
+            "link": null,
+            "name": "KeWas Consulting & Massage AB",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2023-11-27",
+            "link": "https://www.wittsjogk.se/",
+            "name": "Wittsjö Golfklubb",
+            "logo": "/sponsors/wittsjo-golfklubb.png"
+        },
+        {
+            "premium": false,
+            "date": "2023-12-20",
+            "link": null,
+            "name": "Göran Lindström",
+            "logo": null
+        },
+        {
+            "premium": true,
+            "date": "2024-01-01",
+            "link": "http://www.vittsjobjarnum.nu/",
+            "name": "vittsjobjarnum.nu",
+            "logo": "/sponsors/vittsjobjarnum.png"
+        },
+        {
+            "premium": true,
+            "date": "2024-01-26",
+            "link": "http://www.nilssontryck.se/",
+            "name": "Nilssons Tryckeri AB",
+            "logo": "/sponsors/nilssons-tryckeri.png"
+        },
+        {
+            "premium": false,
+            "date": "2024-01-26",
+            "link": "http://www.svenskakyrkan.se/vittsjo/",
+            "name": "Vittsjö Verums Pastorat",
+            "logo": "/sponsors/svenska-kyrkan.png"
+        },
+        {
+            "premium": true,
+            "date": "2024-02-02",
+            "link": null,
+            "name": "Per Andersson",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-02-13",
+            "link": "https://www.emballator.com/affarsomraden/packaging-innovations/lagan/",
+            "name": "Emballator Lagan AB",
+            "logo": "/sponsors/emballator.png"
+        },
+        {
+            "premium": false,
+            "date": "2024-02-13",
+            "link": "http://www.rormokarna.com/",
+            "name": "Rörmokarna Laubert & Lilja AB",
+            "logo": "/sponsors/rormokarna.png"
+        },
+        {
+            "premium": false,
+            "date": "2024-02-15",
+            "link": null,
+            "name": "Vittsjö Revision & Konsult",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-02-22",
+            "link": null,
+            "name": "Jan-Åke Månsson",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-02-22",
             "link": null,
             "name": "Vittsjö Förvaringshus AB",
             "logo": null
         },
         {
             "premium": false,
-            "date": "2023-03-07",
+            "date": "2024-02-22",
+            "link": "https://furuliden.se/",
+            "name": "Furuliden",
+            "logo": "/sponsors/furuliden.png"
+        },
+        {
+            "premium": false,
+            "date": "2024-02-23",
+            "link": null,
+            "name": "M Pedersen Mark & Anläggning AB",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-02-26",
+            "link": null,
+            "name": "Bojes Licenssvets AB",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-02-28",
+            "link": "https://rubn.com/",
+            "name": "Rubn AB",
+            "logo": "/sponsors/rubn.svg"
+        },
+        {
+            "premium": false,
+            "date": "2024-02-29",
             "link": null,
             "name": "Gransäters Plåt AB",
             "logo": null
         },
         {
             "premium": false,
-            "date": "2023-03-10",
+            "date": "2024-03-01",
+            "link": null,
+            "name": "Berton Bengtsson",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-03-04",
             "link": "http://www.elolle.se/",
             "name": "El AB Olle Widell",
             "logo": "/sponsors/elolle.png"
         },
         {
             "premium": false,
-            "date": "2023-03-13",
+            "date": "2024-03-04",
+            "link": "https://www.facebook.com/people/KT-Fordonsteknik-AB/100054555875300/",
+            "name": "KT Fordonsteknik AB",
+            "logo": "/sponsors/kt-fordonsteknink.jpeg"
+        },
+        {
+            "premium": false,
+            "date": "2024-03-05",
+            "link": "http://www.arnesmotor.com/",
+            "name": "Arnes Motortjänst AB",
+            "logo": null
+        },
+        {
+            "premium": true,
+            "date": "2024-03-11",
+            "link": "http://www.bernesservice.se/",
+            "name": "Bernes Service",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-03-11",
             "link": null,
             "name": "Lena Svensson",
             "logo": null
         },
         {
             "premium": false,
-            "date": "2023-03-13",
-            "link": "http://www.bamab.se/",
-            "name": "Bo Ahlquist Maskin AB",
-            "logo": "/sponsors/bo-ahlquist.png"
+            "date": "2024-03-12",
+            "link": "https://martinlorenz.se/",
+            "name": "Martin Lorenz AB",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-03-13",
+            "link": "https://www.smyrnavittsjo.se/",
+            "name": "Smyrnaförsamlingen i Vittsjö",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-03-14",
+            "link": "https://www.spamassage.se/",
+            "name": "SPA & Massage i Vittsjö",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-03-15",
+            "link": "https://www.ica.se/butiker/nara/hassleholm/ica-nara-vittsjo-1003694/",
+            "name": "ICA Nära Vittsjöhallen",
+            "logo": "/sponsors/ica-nara.svg"
+        },
+        {
+            "premium": false,
+            "date": "2024-03-18",
+            "link": null,
+            "name": "IB Henrik Rönje",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-03-19",
+            "link": "http://www.nmp-lego.se/",
+            "name": "NMP Lego AB",
+            "logo": "/sponsors/npm-lego.png"
+        },
+        {
+            "premium": false,
+            "date": "2024-03-20",
+            "link": null,
+            "name": "Wittsjö Ved & Värme AB",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-03-21",
+            "link": null,
+            "name": "Hultatorps Vägsamfällighet",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-04-02",
+            "link": null,
+            "name": "Jörgen Thurn",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-04-02",
+            "link": "https://www.lacortina.se",
+            "name": "La Cortina",
+            "logo": "/sponsors/la-cortina.png"
+        },
+        {
+            "premium": true,
+            "date": "2024-04-04",
+            "link": "https://emmaljunga.com/sv",
+            "name": "Emmaljunga Barnvagsfabrik AB",
+            "logo": "/sponsors/emmaljunga.svg"
+        },
+        {
+            "premium": true,
+            "date": "2024-04-12",
+            "link": "http://www.hasslehem.se/",
+            "name": "Hässlehem AB",
+            "logo": "/sponsors/hasslehem.png"
+        },
+        {
+            "premium": true,
+            "date": "2024-04-15",
+            "link": null,
+            "name": "Stiftelsen Vittsjöfonden",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-07-09",
+            "link": null,
+            "name": "Maria Lindwall Ekström",
+            "logo": null
+        },
+        {
+            "premium": true,
+            "date": "2024-08-01",
+            "link": "http://www.emmaljungatorvmull.se/",
+            "name": "Emmaljunga Torvmull AB",
+            "logo": "/sponsors/emmaljunga-torvmull.png"
+        },
+        {
+            "premium": false,
+            "date": "2023-09-05",
+            "link": "https://shg.se/vittsjo/",
+            "name": "Vittsjö Sjukhem AB",
+            "logo": "/sponsors/vittsjo-sjukhem.png"
+        },
+        {
+            "premium": true,
+            "date": "2024-12-17",
+            "link": "http://www.snapphanebygdenssparbank.se/",
+            "name": "Snapphanebygdens Sparbank",
+            "logo": "/sponsors/sparbanken.png"
         }
     ]
 }

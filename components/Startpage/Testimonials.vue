@@ -33,7 +33,7 @@
                 </div>
                 <div class="client-info">
                   <h4>
-                    <a :href="block.linlk" target="_blank">
+                    <a :href="block.link" target="_blank">
                       {{ block.medium }} <i class="icofont-external-link" />
                     </a>
                   </h4>

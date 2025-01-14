@@ -6,7 +6,7 @@
         to="/"
         class="navbar-brand d-flex m-0"
       >
-        <img src="/logo/logo_minimal.svg" alt="" class="logo">
+        <img src="/logo/logo_old.svg" alt="" class="logo">
         <img src="/logo/logo_text.svg" :alt="config.name" class="logo-text ml-3">
       </NuxtLink>
       <!-- Burger icon -->

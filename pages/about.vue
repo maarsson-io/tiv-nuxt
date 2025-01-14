@@ -9,11 +9,17 @@
     <AboutTextBlock
       :content="data.text_block_one"
     />
+    <AboutListBlock
+      :content="data.list_block"
+    />
+    <AboutTextBlock
+      :content="data.text_block_two"
+    />
     <AboutImageRow
       :content="data.image_row_block"
     />
     <AboutTextBlock
-      :content="data.text_block_two"
+      :content="data.text_block_three"
     />
     <AboutTestimonials
       :content="data.testimonials"

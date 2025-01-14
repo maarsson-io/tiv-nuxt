@@ -6,8 +6,8 @@
     "text_block": {
         "title": "Bli nattchaufför!",
         "paragraphs": [
-            "Vi har behov av ytterligare 4-6 chaufförer för att vi skall få full teckning med nuvarande utnyttjande av våra chaufförer. Det vill säga en körning i månaden. Vi får konstatera att våra chaufförer ofta tipsar polisen om olika händelser. Den absolut vanligaste åtgärden som chaufförerna utför är att identifiera och rapportera trafikanter med avvikande beteende.",
-            "I dagsläget är vi ett 50-tal privatpersoner som, enligt ett uppgjort schema och utan ekonomisk ersättning, på det här sätter visar att vi värnar om tryggheten i vår bygd och vill göra en personlig insats för samhället."
+            "Vi har behov av ytterligare 6-8 chaufförer för att vi skall få full täckning med nuvarande utnyttjande av våra chaufförer. Det vill säga en körning i månaden. Vi får konstatera att våra chaufförer ofta tipsar polisen om olika händelser. Den absolut vanligaste åtgärden som chaufförerna utför är att identifiera och rapportera trafikanter med avvikande beteende.",
+            "I dagsläget är vi ett 50-tal privatpersoner som, enligt ett uppgjort schema och utan ekonomisk ersättning, på det här sättet visar att vi värnar om tryggheten i vår bygd och vill göra en personlig insats för samhället."
         ],
         "image": {
             "alt": "Sivard Strand",
@@ -17,14 +17,18 @@
         }
     },
     "list_block": {
-        "title": "Du som nattchaufför...",
+        "title": "Som nattchaufför...",
         "items": [
-            "Du kör bara 1 natt per månad",
-            "Du bestämmer vilken tid och vilken sträcka du kör",
-            "Passar inte schemat för dig, det går bra att byta med andra",
-            "Du får ingen ekonomisk ersättning",
-            "Syftet är att vara brottsförebyggande, inte ingripande",
-            "Det är viktigt att vi inte är poliser utan vi ska observera och rapportera"
+            [
+                "Kör du bara 1 natt per månad",
+                "Bestämmer du vilken tid och vilken sträcka du kör",
+                "Om schemat inte passar dig, kan du byta med andra",
+                "Får du ingen ekonomisk ersättning"
+            ],
+            [
+                "Syftet är att vara brottsförebyggande, inte ingripande",
+                "Det är viktigt att vi inte är poliser utan vi ska observera och rapportera"
+            ]
         ]
     },
     "sidebar": {
@@ -32,7 +36,7 @@
         "contacts": [
             {
                 "name": "Sivard Strand",
-                "phone": "0451 - 250 43"
+                "phone": "070 - 990 23 92"
             },
             {
                 "name": "Leif Thånell",

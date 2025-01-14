@@ -7,9 +7,7 @@
     <LayoutFooter
       :navigation="footerNav"
     />
-    <TelemetryTracker
-      :route="route"
-    />
+    <TelemetryTracker />
   </div>
 </template>
 
@@ -50,16 +48,6 @@ export default {
 
       return flatten(this.data.items).filter((item): boolean => item.footer);
     }
-  },
-
-  watch: {
-    $route (route) {
-      this.route = this.$route.name;
-    }
-  },
-
-  mounted () {
-    this.route = this.$route.name;
   }
 };
 
