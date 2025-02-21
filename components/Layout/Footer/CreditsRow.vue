@@ -4,7 +4,7 @@
     <div class="row align-items-center justify-content-between">
       <div class="col-12">
         <div class="copyright text-center">
-          {{ config.name }} &copy; 2024&nbsp;&nbsp;|&nbsp;&nbsp;Design by <a :href="config.designer.link">{{ config.designer.name }}</a>
+          {{ config.name }} &copy; 2025&nbsp;&nbsp;|&nbsp;&nbsp;Design by <a :href="config.designer.link">{{ config.designer.name }}</a>
         </div>
       </div>
     </div>
