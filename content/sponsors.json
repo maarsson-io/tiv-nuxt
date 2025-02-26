@@ -148,13 +148,6 @@
         },
         {
             "premium": false,
-            "date": "2024-02-22",
-            "link": "https://furuliden.se/",
-            "name": "Furuliden",
-            "logo": "/sponsors/furuliden.png"
-        },
-        {
-            "premium": false,
             "date": "2024-02-23",
             "link": null,
             "name": "M Pedersen Mark & Anläggning AB",
@@ -383,6 +376,13 @@
             "link": "http://www.nilssontryck.se/",
             "name": "Nilssons Tryckeri AB",
             "logo": "/sponsors/nilssons-tryckeri.png"
+        },
+        {
+            "premium": false,
+            "date": "2025-02-19",
+            "link": "https://furuliden.se/",
+            "name": "Furuliden",
+            "logo": "/sponsors/furuliden.png"
         }
     ]
 }
