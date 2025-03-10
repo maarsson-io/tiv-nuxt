@@ -322,13 +322,6 @@
             "logo": "/sponsors/emmaljunga-torvmull.png"
         },
         {
-            "premium": false,
-            "date": "2023-09-05",
-            "link": "https://shg.se/vittsjo/",
-            "name": "Vittsjö Sjukhem AB",
-            "logo": "/sponsors/vittsjo-sjukhem.png"
-        },
-        {
             "premium": true,
             "date": "2025-01-01",
             "link": "http://www.vittsjobjarnum.nu/",
@@ -383,6 +376,27 @@
             "link": "https://furuliden.se/",
             "name": "Furuliden",
             "logo": "/sponsors/furuliden.png"
+        },
+        {
+            "premium": false,
+            "date": "2025-03-03",
+            "link": null,
+            "name": "Anita Johansson",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2025-03-07",
+            "link": null,
+            "name": "Britt Andersson",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2025-03-07",
+            "link": "https://shg.se/vittsjo/",
+            "name": "Vittsjö Sjukhem AB",
+            "logo": "/sponsors/vittsjo-sjukhem.png"
         }
     ]
 }
