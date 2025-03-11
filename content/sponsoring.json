@@ -11,10 +11,19 @@
     "text": {
         "title": "Alla bidrag, stora som små, är varmt välkomna!",
         "paragraphs": [
-            "Vi tar tacksamt emot alla typer av bidrag, inte bara ekonomiskt, även sådant som vi kan ha nytta av i vår dagliga verksamhet. Vi har med hjälp av sponsorbidrag kunnat investera i en säkrare och nyare bil. Våra sponsorpengar går i huvudsak till bensin, reparationer, försäkringar och övriga kostnader för bilen.",
-            "Du kan <strong>Swisha till oss</strong> genom att skanna QR koden, eller ange vårt Swish nummer i appen. Du också kan <strong>sätta in pengar direkt</strong> på Trygg i Vittsjö bankgiro: 5640-1243",
-            "Glöm inte att uppge avsändare! Alla som sponsrar Trygg i Vittsjö med minst 1000 kr får sitt namn på <a href=\"/sponsors\">vår sponsorsida</a>",
-            "Tack för din medverkan och ditt bidrag till ett tryggt Vittsjö!</a>"
+            [
+                "Vi tar tacksamt emot alla typer av bidrag, inte bara ekonomiskt, även sådant som vi kan ha nytta av i vår dagliga verksamhet. Vi har med hjälp av sponsorbidrag kunnat investera i en säkrare och nyare bil. Våra sponsorpengar går i huvudsak till bensin, reparationer, försäkringar och övriga kostnader för bilen.",
+                "Du kan <strong>Swisha till oss</strong> genom att skanna QR koden, eller ange vårt Swish nummer i appen. Du också kan <strong>sätta in pengar direkt</strong> på Trygg i Vittsjö bankgiro: 5640-1243",
+                "Glöm inte att uppge avsändare! Alla som sponsrar Trygg i Vittsjö med minst 1000 kr får sitt namn på <a href=\"/sponsors\">vår sponsorsida</a>",
+                "Tack för din medverkan och ditt bidrag till ett tryggt Vittsjö!</a>"
+            ],
+            [
+                "🇪🇺 Om du saknar svenskt bankkonto och Swish, kan du även sätta in pengar direkt <strong>via IBAN</strong> på Trygg i Vittsjö bankkonto.",
+                "🇩🇰 Mangler du en svensk bankkonto og Swish, kan du også indsætte penge direkte <strong>via IBAN</strong> på Trygg i Vittsjö bankkonto.",
+                "🇩🇪 Wenn Sie kein schwedisches Bankkonto und Swish haben, können Sie auch direkt <strong>über IBAN</strong> auf das Trygg i Vittsjö Bankkonto einzahlen.",
+                "🇳🇱 Als u geen Zweeds bankrekening en Swish heeft, kunt u ook geld rechtstreeks <strong>via IBAN</strong> op een Trygg i Vittsjö bankrekening storten.",
+                "IBAN: <strong>SE91 8000 0823 9615 3215 8613</strong>"
+            ]
         ],
         "driver_text": "Vi behöver även fler nattchaufförer. Har du lust att hjälpa till som chaufför eller på något annat sätt, kontakta oss.",
         "driver_button": "Köranmälan"
@@ -22,6 +31,8 @@
     "sidebar": {
         "giro_title": "Trygg i Vittsjö bankgiro",
         "giro_number": "5640-1243",
+        "iban_title": "Trygg i Vittsjö IBAN",
+        "iban_number": "SE91 8000 0823 9615 3215 8613",
         "pricing_title": "Minsta årliga medlemsavgift",
         "private_person": "Privatpersoner",
         "company": "Företag",

@@ -12,6 +12,14 @@
       <h3>{{ content.giro_number }}</h3>
     </div>
   </div>
+  <div class="sidebar-widget schedule-widget mt-5">
+    <h5 class="mb-4">
+      {{ content.iban_title }}
+    </h5>
+    <div class="sidebar-contatct-info mt-4">
+      <h3><small>{{ content.iban_number }}</small></h3>
+    </div>
+  </div>
   <!-- Prices -->
   <div class="sidebar-widget schedule-widget mt-5">
     <h5 class="mb-4">
