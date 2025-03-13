@@ -50,13 +50,6 @@
         },
         {
             "premium": false,
-            "date": "2023-03-13",
-            "link": "http://www.bamab.se/",
-            "name": "Bo Ahlquist Maskin AB",
-            "logo": "/sponsors/bo-ahlquist.png"
-        },
-        {
-            "premium": false,
             "date": "2023-03-20",
             "link": "https://www.villabacken.se/",
             "name": "Villabacken AB",
@@ -148,13 +141,6 @@
         },
         {
             "premium": false,
-            "date": "2024-02-23",
-            "link": null,
-            "name": "M Pedersen Mark & Anläggning AB",
-            "logo": null
-        },
-        {
-            "premium": false,
             "date": "2024-02-26",
             "link": null,
             "name": "Bojes Licenssvets AB",
@@ -203,13 +189,6 @@
             "logo": null
         },
         {
-            "premium": true,
-            "date": "2024-03-11",
-            "link": "http://www.bernesservice.se/",
-            "name": "Bernes Service",
-            "logo": null
-        },
-        {
             "premium": false,
             "date": "2024-03-11",
             "link": null,
@@ -221,20 +200,6 @@
             "date": "2024-03-12",
             "link": "https://martinlorenz.se/",
             "name": "Martin Lorenz AB",
-            "logo": null
-        },
-        {
-            "premium": false,
-            "date": "2024-03-13",
-            "link": "https://www.smyrnavittsjo.se/",
-            "name": "Smyrnaförsamlingen i Vittsjö",
-            "logo": null
-        },
-        {
-            "premium": false,
-            "date": "2024-03-14",
-            "link": "https://www.spamassage.se/",
-            "name": "SPA & Massage i Vittsjö",
             "logo": null
         },
         {
@@ -299,20 +264,6 @@
             "link": "http://www.hasslehem.se/",
             "name": "Hässlehem AB",
             "logo": "/sponsors/hasslehem.png"
-        },
-        {
-            "premium": true,
-            "date": "2024-04-15",
-            "link": null,
-            "name": "Stiftelsen Vittsjöfonden",
-            "logo": null
-        },
-        {
-            "premium": false,
-            "date": "2024-07-09",
-            "link": null,
-            "name": "Maria Lindwall Ekström",
-            "logo": null
         },
         {
             "premium": true,
@@ -397,6 +348,55 @@
             "link": "https://shg.se/vittsjo/",
             "name": "Vittsjö Sjukhem AB",
             "logo": "/sponsors/vittsjo-sjukhem.png"
+        },
+        {
+            "premium": false,
+            "date": "2025-03-10",
+            "link": "https://www.spamassage.se/",
+            "name": "SPA & Massage i Vittsjö",
+            "logo": null
+        },
+        {
+            "premium": true,
+            "date": "2025-03-10",
+            "link": "http://www.bernesservice.se/",
+            "name": "Bernes Service",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2025-03-11",
+            "link": "https://www.smyrnavittsjo.se/",
+            "name": "Smyrnaförsamlingen i Vittsjö",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2025-03-11",
+            "link": null,
+            "name": "Maria Lindwall Ekström",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2025-03-12",
+            "link": null,
+            "name": "M Pedersen Mark & Anläggning AB",
+            "logo": null
+        },
+        {
+            "premium": true,
+            "date": "2025-03-12",
+            "link": null,
+            "name": "Stiftelsen Vittsjöfonden",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2025-03-12",
+            "link": "http://www.bamab.se/",
+            "name": "Bo Ahlquist Maskin AB",
+            "logo": "/sponsors/bo-ahlquist.png"
         }
     ]
 }
