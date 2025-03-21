@@ -267,13 +267,6 @@
         },
         {
             "premium": true,
-            "date": "2024-08-01",
-            "link": "http://www.emmaljungatorvmull.se/",
-            "name": "Emmaljunga Torvmull AB",
-            "logo": "/sponsors/emmaljunga-torvmull.png"
-        },
-        {
-            "premium": true,
             "date": "2025-01-01",
             "link": "http://www.vittsjobjarnum.nu/",
             "name": "vittsjobjarnum.nu",
@@ -397,6 +390,27 @@
             "link": "http://www.bamab.se/",
             "name": "Bo Ahlquist Maskin AB",
             "logo": "/sponsors/bo-ahlquist.png"
+        },
+        {
+            "premium": true,
+            "date": "2025-03-13",
+            "link": "http://www.emmaljungatorvmull.se/",
+            "name": "Emmaljunga Torvmull AB",
+            "logo": "/sponsors/emmaljunga-torvmull.png"
+        },
+        {
+            "premium": true,
+            "date": "2025-03-19",
+            "link": "https://emmaljunga.com/sv",
+            "name": "Emmaljunga Barnvagsfabrik AB",
+            "logo": "/sponsors/emmaljunga.svg"
+        },
+        {
+            "premium": false,
+            "date": "2025-03-21",
+            "link": "http://www.skorstensservice.se/",
+            "name": "Vittsjö Skorstenservice AB",
+            "logo": "/sponsors/vittsjo-skorstenservice.png"
         }
     ]
 }
