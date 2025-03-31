@@ -120,13 +120,6 @@
         },
         {
             "premium": false,
-            "date": "2024-02-15",
-            "link": null,
-            "name": "Vittsjö Revision & Konsult",
-            "logo": null
-        },
-        {
-            "premium": false,
             "date": "2024-02-22",
             "link": null,
             "name": "Jan-Åke Månsson",
@@ -141,31 +134,10 @@
         },
         {
             "premium": false,
-            "date": "2024-02-26",
-            "link": null,
-            "name": "Bojes Licenssvets AB",
-            "logo": null
-        },
-        {
-            "premium": false,
             "date": "2024-02-28",
             "link": "https://rubn.com/",
             "name": "Rubn AB",
             "logo": "/sponsors/rubn.svg"
-        },
-        {
-            "premium": false,
-            "date": "2024-02-29",
-            "link": null,
-            "name": "Gransäters Plåt AB",
-            "logo": null
-        },
-        {
-            "premium": false,
-            "date": "2024-03-01",
-            "link": null,
-            "name": "Berton Bengtsson",
-            "logo": null
         },
         {
             "premium": false,
@@ -411,6 +383,48 @@
             "link": "http://www.skorstensservice.se/",
             "name": "Vittsjö Skorstenservice AB",
             "logo": "/sponsors/vittsjo-skorstenservice.png"
+        },
+        {
+            "premium": true,
+            "date": "2025-03-25",
+            "link": null,
+            "name": "Emma och Anders Larsson, Hygnarp",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2025-03-28",
+            "link": null,
+            "name": "Paul Johansson, Gundrastorp",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2025-03-28",
+            "link": null,
+            "name": "Bojes Licenssvets AB",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2025-03-31",
+            "link": null,
+            "name": "Berton Bengtsson",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2025-03-31",
+            "link": null,
+            "name": "Gransäters Plåt AB",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2025-03-31",
+            "link": null,
+            "name": "Vittsjö Revision & Konsult",
+            "logo": null
         }
     ]
 }
