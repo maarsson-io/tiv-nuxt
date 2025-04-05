@@ -425,6 +425,20 @@
             "link": null,
             "name": "Vittsjö Revision & Konsult",
             "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2025-04-02",
+            "link": null,
+            "name": "Peter Ericsson, Havraljunga",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2025-04-03",
+            "link": "https://www.wittsjogk.se/",
+            "name": "Wittsjö Golfklubb",
+            "logo": "/sponsors/wittsjo-golfklubb.png"
         }
     ]
 }
