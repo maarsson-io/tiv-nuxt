@@ -22,13 +22,6 @@
         },
         {
             "premium": false,
-            "date": "2023-02-27",
-            "link": "http://www.skorstensservice.se/",
-            "name": "Vittsjö Skorstenservice AB",
-            "logo": "/sponsors/vittsjo-skorstenservice.png"
-        },
-        {
-            "premium": false,
             "date": "2023-02-28",
             "link": null,
             "name": "Emma Larsson",
@@ -78,24 +71,10 @@
         },
         {
             "premium": false,
-            "date": "2023-09-11",
-            "link": null,
-            "name": "Emma och Anders Larsson, Hygnarp",
-            "logo": null
-        },
-        {
-            "premium": false,
             "date": "2023-09-25",
             "link": null,
             "name": "KeWas Consulting & Massage AB",
             "logo": null
-        },
-        {
-            "premium": false,
-            "date": "2023-11-27",
-            "link": "https://www.wittsjogk.se/",
-            "name": "Wittsjö Golfklubb",
-            "logo": "/sponsors/wittsjo-golfklubb.png"
         },
         {
             "premium": false,
@@ -204,13 +183,6 @@
         },
         {
             "premium": false,
-            "date": "2024-03-21",
-            "link": null,
-            "name": "Hultatorps Vägsamfällighet",
-            "logo": null
-        },
-        {
-            "premium": false,
             "date": "2024-04-02",
             "link": null,
             "name": "Jörgen Thurn",
@@ -229,13 +201,6 @@
             "link": "https://emmaljunga.com/sv",
             "name": "Emmaljunga Barnvagsfabrik AB",
             "logo": "/sponsors/emmaljunga.svg"
-        },
-        {
-            "premium": true,
-            "date": "2024-04-12",
-            "link": "http://www.hasslehem.se/",
-            "name": "Hässlehem AB",
-            "logo": "/sponsors/hasslehem.png"
         },
         {
             "premium": true,
@@ -439,6 +404,20 @@
             "link": "https://www.wittsjogk.se/",
             "name": "Wittsjö Golfklubb",
             "logo": "/sponsors/wittsjo-golfklubb.png"
+        },
+        {
+            "premium": true,
+            "date": "2025-04-10",
+            "link": "http://www.hasslehem.se/",
+            "name": "Hässlehem AB",
+            "logo": "/sponsors/hasslehem.png"
+        },
+        {
+            "premium": false,
+            "date": "2025-05-25",
+            "link": null,
+            "name": "Hultatorps Vägsamfällighet",
+            "logo": null
         }
     ]
 }
