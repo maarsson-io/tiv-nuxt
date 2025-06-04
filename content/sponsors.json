@@ -134,13 +134,6 @@
         },
         {
             "premium": false,
-            "date": "2024-03-05",
-            "link": "http://www.arnesmotor.com/",
-            "name": "Arnes Motortjänst AB",
-            "logo": null
-        },
-        {
-            "premium": false,
             "date": "2024-03-11",
             "link": null,
             "name": "Lena Svensson",
@@ -406,17 +399,31 @@
             "logo": "/sponsors/wittsjo-golfklubb.png"
         },
         {
+            "premium": false,
+            "date": "2025-04-25",
+            "link": null,
+            "name": "Hultatorps Vägsamfällighet",
+            "logo": null
+        },
+        {
             "premium": true,
-            "date": "2025-04-10",
+            "date": "2025-05-12",
             "link": "http://www.hasslehem.se/",
             "name": "Hässlehem AB",
             "logo": "/sponsors/hasslehem.png"
         },
         {
-            "premium": false,
-            "date": "2025-05-25",
+            "premium": true,
+            "date": "2025-05-28",
             "link": null,
-            "name": "Hultatorps Vägsamfällighet",
+            "name": "Snapphanebygdens Svampförening",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2024-03-05",
+            "link": "http://www.arnesmotor.com/",
+            "name": "Arnes Motortjänst AB",
             "logo": null
         }
     ]
