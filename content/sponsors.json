@@ -64,13 +64,6 @@
         },
         {
             "premium": false,
-            "date": "2023-08-29",
-            "link": null,
-            "name": "Malte Glunz, Holmatorp",
-            "logo": null
-        },
-        {
-            "premium": false,
             "date": "2023-09-25",
             "link": null,
             "name": "KeWas Consulting & Massage AB",
@@ -421,10 +414,24 @@
         },
         {
             "premium": false,
-            "date": "2024-03-05",
+            "date": "2025-06-02",
             "link": "http://www.arnesmotor.com/",
             "name": "Arnes Motortjänst AB",
             "logo": null
-        }
+        },
+        {
+            "premium": true,
+            "date": "2025-07-02",
+            "link": null,
+            "name": "Anna Wieslander, Gundrastorp",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2025-07-14",
+            "link": null,
+            "name": "Malte Glunz, Holmatorp",
+            "logo": null
+        },
     ]
 }
