@@ -433,5 +433,19 @@
             "name": "Malte Glunz, Holmatorp",
             "logo": null
         },
+        {
+            "premium": true,
+            "date": "2025-09-10",
+            "link": null,
+            "name": "Lions Club",
+            "logo": "/sponsors/lions.png"
+        },
+        {
+            "premium": false,
+            "date": "2025-09-23",
+            "link": null,
+            "name": "Gundrastorps Tomtägarförening",
+            "logo": null
+        }
     ]
 }
