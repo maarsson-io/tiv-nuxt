@@ -34,13 +34,13 @@
     "counter_boxes": [
         {
              "icon": "icofont-ui-calendar",
-             "count": 309,
+             "count": 327,
              "sup": null,
              "text": "dagar per år"
         },
         {
              "icon": "icofont-map-pins",
-             "count": 4200,
+             "count": 4550,
              "sup": "+",
              "text": "mil per år"
         },
@@ -52,7 +52,7 @@
         },
         {
              "icon": "icofont-badge",
-             "count": 436,
+             "count": 346,
              "sup": "+",
              "text": "sponsorer"
         }

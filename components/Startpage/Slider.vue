@@ -13,7 +13,7 @@
               {{ content.title }}
             </h1>
             <div class="btn-container ">
-              <a href="/about.html" class="btn btn-main-2 btn-icon btn-round-full">
+              <a href="/about" class="btn btn-main-2 btn-icon btn-round-full">
                 {{ content.button }} <i class="icofont-simple-right ml-2" />
               </a>
             </div>

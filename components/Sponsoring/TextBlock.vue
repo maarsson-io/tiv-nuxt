@@ -4,12 +4,17 @@
     <h3 class="text-md">
       {{ content.title }}
     </h3>
-    <div class="divider my-4" />
-    <p
-      v-for="(paragraph, index) in content.paragraphs"
+    <div
+      v-for="(sections, index) in content.paragraphs"
       :key="index"
-      v-html="paragraph"
-    />
+    >
+      <div class="divider my-4" />
+      <p
+        v-for="(paragraph, index) in sections"
+        :key="index"
+        v-html="paragraph"
+      />
+    </div>
     <div class="divider my-4" />
     <p>{{ content.driver_text }}</p>
     <NuxtLink
