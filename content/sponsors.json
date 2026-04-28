@@ -204,20 +204,6 @@
         },
         {
             "premium": false,
-            "date": "2025-03-11",
-            "link": null,
-            "name": "Maria Lindwall Ekström",
-            "logo": null
-        },
-        {
-            "premium": true,
-            "date": "2025-03-12",
-            "link": null,
-            "name": "Stiftelsen Vittsjöfonden",
-            "logo": null
-        },
-        {
-            "premium": false,
             "date": "2025-03-12",
             "link": "http://www.bamab.se/",
             "name": "Bo Ahlquist Maskin AB",
@@ -243,13 +229,6 @@
             "link": null,
             "name": "Vittsjö Revision & Konsult",
             "logo": null
-        },
-        {
-            "premium": false,
-            "date": "2025-04-03",
-            "link": "https://www.wittsjogk.se/",
-            "name": "Wittsjö Golfklubb",
-            "logo": "/sponsors/wittsjo-golfklubb.png"
         },
         {
             "premium": false,
@@ -509,6 +488,27 @@
             "link": null,
             "name": "Vittsjö Revision & Konsult",
             "logo": null
+        },
+        {
+            "premium": true,
+            "date": "2026-04-15",
+            "link": null,
+            "name": "Stiftelsen Vittsjöfonden",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2026-04-17",
+            "link": null,
+            "name": "Maria Lindwall Ekström",
+            "logo": null
+        },
+        {
+            "premium": false,
+            "date": "2026-04-23",
+            "link": "https://www.wittsjogk.se/",
+            "name": "Wittsjö Golfklubb",
+            "logo": "/sponsors/wittsjo-golfklubb.png"
         }
     ]
 }
