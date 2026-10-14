@@ -14,24 +14,34 @@ const markdownFields: Record<string, string[]> = {
   sponsoring: ['text.paragraphs.*.*'],
 };
 
-type Transform = (value: string) => Promise<unknown>;
+// Converts Markdown text into the tree that MDCRenderer renders.
+const toTree = async (markdown: string) => (await parseMarkdown(markdown)).body;
 
-const transformAt = async (target: any, path: string[], transform: Transform): Promise<void> => {
-  const [key, ...rest] = path;
+// The keys a path segment selects: every key for `*`, otherwise the segment itself.
+const keysOf = (target: object, segment: string): string[] => (segment === '*' ? Object.keys(target) : [segment]);
 
-  if (target === null || target === undefined || key === undefined) {
+// Converts the Markdown strings found at `path` inside `target`, in place.
+const convertAt = async (target: any, path: string[]): Promise<void> => {
+  const [segment, ...rest] = path;
+
+  if (target === null || target === undefined || segment === undefined) {
     return;
   }
 
-  const keys = key === '*' ? Object.keys(target) : [key];
+  for (const key of keysOf(target, segment)) {
+    await convertValue(target, key, rest);
+  }
+};
 
-  for (const current of keys) {
-    if (rest.length > 0) {
-      await transformAt(target[current], rest, transform);
-    }
-    else if (typeof target[current] === 'string') {
-      target[current] = await transform(target[current]);
-    }
+// Follows the rest of the path below `target[key]`, or converts it at the end of the path.
+const convertValue = async (target: any, key: string, rest: string[]): Promise<void> => {
+  if (rest.length > 0) {
+    await convertAt(target[key], rest);
+    return;
+  }
+
+  if (typeof target[key] === 'string') {
+    target[key] = await toTree(target[key]);
   }
 };
 
@@ -40,7 +50,7 @@ export default defineNuxtModule({
   setup(_options, nuxt) {
     nuxt.hook('content:file:afterParse', async ({ collection, content }) => {
       for (const path of markdownFields[collection.name] ?? []) {
-        await transformAt(content, path.split('.'), async value => (await parseMarkdown(value)).body);
+        await convertAt(content, path.split('.'));
       }
     });
   },
