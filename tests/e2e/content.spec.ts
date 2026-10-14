@@ -45,3 +45,18 @@ test.describe('image alt texts', () => {
     await expect(page.locator('.doctor-img-block img')).toHaveAttribute('alt', content('contact-driver').text_block.image.alt);
   });
 });
+
+test('startpage counters count up to the values in index.json', async ({ page }) => {
+  await page.goto('/');
+  const counters = page.locator('.counter');
+
+  for (const counter of await counters.all()) {
+    await counter.scrollIntoViewIfNeeded();
+  }
+
+  const expected = content('index').counter_boxes.map((box: any) => String(box.count));
+
+  await expect.poll(async () =>
+    (await counters.allInnerTexts()).map((text) => text.replace(/\D/g, '')),
+  ).toEqual(expected);
+});

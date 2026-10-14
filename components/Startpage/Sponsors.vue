@@ -14,7 +14,7 @@
     </div>
     <!-- Sponsors slider -->
     <div class="container">
-      <div class="row clients-logo">
+      <div class="row clients-logo" data-testid="sponsor-carousel">
         <swiper
           :modules="modules"
           :slides-per-view="2"
