@@ -68,8 +68,8 @@
                 aria-labelledby="dropdown"
               >
                 <li
-                  v-for="(subitem, index) in item.items"
-                  :key="index"
+                  v-for="(subitem, subitemIndex) in item.items"
+                  :key="subitemIndex"
                   :class="'nav-item' + item.items ? ' dropdown' : null"
                 >
                   <NuxtLink
