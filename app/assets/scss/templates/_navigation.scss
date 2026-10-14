@@ -127,6 +127,7 @@
     font-size: 14px;
     border: 0;
     display: inline-block;
+    /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword -- icon font, no generic fallback */
     font-family: IcoFont !important;
     vertical-align: 1px;
   }

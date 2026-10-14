@@ -1,5 +1,6 @@
 [class^="icofont-"], [class*=" icofont-"]
 {
+  /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword -- icon font, no generic fallback */
   font-family: icofont;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
