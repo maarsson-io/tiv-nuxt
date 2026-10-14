@@ -1,6 +1,6 @@
-// Based on the shared ruleset of maarsson/coding-standard (resources/eslint.config.mjs.dist).
-// The base JavaScript, TypeScript, Vue and @stylistic configs come from @nuxt/eslint
-// (withNuxt), which also knows Nuxt's auto-imports; the shared rules are added on top.
+/* Based on the shared ruleset of maarsson/coding-standard (resources/eslint.config.mjs.dist).
+   The base JavaScript, TypeScript, Vue and @stylistic configs come from @nuxt/eslint
+   (withNuxt), which also knows Nuxt's auto-imports; the shared rules are added on top. */
 import globals from 'globals';
 import withNuxt from './.nuxt/eslint.config.mjs';
 

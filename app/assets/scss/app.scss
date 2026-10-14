@@ -1,39 +1,56 @@
 @use "typography";
 @use "icofont";
 @use "common";
+
 // Header Style
 @use "templates/header";
+
 // Navigation Menu
 @use "templates/navigation";
 @use "templates/backgrounds";
+
 // Banner Style
 @use "templates/slider";
+
 // About Section
 @use "templates/about";
+
 // Feature Section
 @use "templates/feature";
+
 // Counter Section
 @use "templates/counter";
+
 // Doctors section
 @use "templates/team";
+
 // Service section
 @use "templates/service";
+
 // Department section
 @use "templates/department";
+
 // Call to action section
 @use "templates/cta";
+
 // Testimonial Section
 @use "templates/review";
+
 // Contact Section
 @use "templates/contact";
+
 // Blog Posts
 @use "templates/blog";
+
 // Single Blog posts
 @use "templates/single-post";
+
 // Blog Sidebar
 @use "templates/blog-sidebar";
+
 // Footer
 @use "templates/footer";
+
 // Tooltip
 @use "tooltip";
 

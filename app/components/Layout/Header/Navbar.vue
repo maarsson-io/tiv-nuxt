@@ -1,13 +1,24 @@
 <template>
   <!-- Navigation -->
-  <nav id="navbar" class="navbar navbar-expand-lg navigation">
+  <nav
+    id="navbar"
+    class="navbar navbar-expand-lg navigation"
+  >
     <div class="container">
       <NuxtLink
         to="/"
         class="navbar-brand d-flex m-0"
       >
-        <img src="/logo/logo_old.svg" alt="" class="logo">
-        <img src="/logo/logo_text.svg" :alt="config.name" class="logo-text ml-3">
+        <img
+          src="/logo/logo_old.svg"
+          alt=""
+          class="logo"
+        >
+        <img
+          src="/logo/logo_text.svg"
+          :alt="config.name"
+          class="logo-text ml-3"
+        >
       </NuxtLink>
       <!-- Burger icon -->
       <button
@@ -23,7 +34,10 @@
         <span class="icofont-navigation-menu" />
       </button>
       <!-- Menu -->
-      <div id="navbarmain" :class="'collapse navbar-collapse' + (showMobileNav ? ' show' : '')">
+      <div
+        id="navbarmain"
+        :class="'collapse navbar-collapse' + (showMobileNav ? ' show' : '')"
+      >
         <ul class="navbar-nav ml-auto">
           <li
             v-for="(item, index) in navigation"
@@ -79,35 +93,35 @@ export default {
   props: {
     navigation: {
       type: Array,
-      default: () => []
-    }
+      default: () => [],
+    },
   },
 
-  setup () {
+  setup() {
     const config = useAppConfig();
 
     return { config };
   },
 
-  data () {
+  data() {
     return {
       showMobileNav: false,
-      openedDropdowns: []
+      openedDropdowns: [],
     };
   },
 
   watch: {
-    $route (route) {
+    $route(route) {
       this.showMobileNav = false;
-    }
+    },
   },
 
   methods: {
-    toggleMobileNav () {
+    toggleMobileNav() {
       this.showMobileNav = !this.showMobileNav;
     },
 
-    toggleDropdown (index) {
+    toggleDropdown(index) {
       if (!this.isDropdownOpen(index)) {
         this.openedDropdowns.push(index);
         return;
@@ -119,9 +133,9 @@ export default {
       }
     },
 
-    isDropdownOpen (index) {
+    isDropdownOpen(index) {
       return this.openedDropdowns.includes(index);
-    }
-  }
+    },
+  },
 };
 </script>

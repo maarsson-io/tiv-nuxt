@@ -35,24 +35,24 @@ export const test = base.extend<Fixtures>({
         errors.push(message.text());
       }
     });
-    page.on('pageerror', (error) => errors.push(error.message));
+    page.on('pageerror', error => errors.push(error.message));
 
     await use(errors);
 
     expect(errors, 'browser console errors').toEqual([]);
   }, { auto: true }],
 
-  // Third-party requests are answered locally and never leave the test browser.
-  // Apart from the allowed ones below, any third-party request fails the test.
+  /* Third-party requests are answered locally and never leave the test browser.
+     Apart from the allowed ones below, any third-party request fails the test. */
   page: async ({ page, baseURL }, use) => {
     const thirdParty: string[] = [];
 
     await page.route(
-      (url) => !url.href.startsWith(baseURL!),
+      url => !url.href.startsWith(baseURL!),
       (route) => {
         const url = route.request().url();
 
-        if (!allowedThirdParty.some((pattern) => pattern.test(url))) {
+        if (!allowedThirdParty.some(pattern => pattern.test(url))) {
           thirdParty.push(url);
         }
 

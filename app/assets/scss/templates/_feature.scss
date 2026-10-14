@@ -8,11 +8,11 @@
 
 .feature-item {
   flex-basis: 33.33%;
-  margin: 0px 10px;
+  margin: 0 10px;
   padding: 40px 30px;
   background-color: $light;
-  border-radius: 15px 15px 15px 15px;
-  box-shadow: 0px 0px 30px 0px rgba(0, 42, 106, 0.25);
+  border-radius: 15px;
+  box-shadow: 0 0 30px 0 rgb(0 42 106 / 25%);
 
   .feature-icon {
     i {
@@ -33,13 +33,13 @@
 }
 
 .feature-section.border-top {
-  border-top: 1px solid rgba(0, 0, 0, 0.05) !important;
+  border-top: 1px solid rgb(0 0 0 / 5%) !important;
 }
 
 .w-hours {
   li {
-    padding: 6px 0px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding: 6px 0;
+    border-bottom: 1px solid rgb(0 0 0 / 5%);
   }
 
 }

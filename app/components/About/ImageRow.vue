@@ -22,7 +22,9 @@
             <h4 class="mt-3">
               {{ image_box.title }}
             </h4>
-            <p class="text-justify">{{ image_box.text }}</p>
+            <p class="text-justify">
+              {{ image_box.text }}
+            </p>
           </div>
         </div>
       </div>
@@ -35,8 +37,8 @@ export default {
   props: {
     content: {
       type: Object,
-      default: () => ({})
-    }
-  }
+      default: () => ({}),
+    },
+  },
 };
 </script>

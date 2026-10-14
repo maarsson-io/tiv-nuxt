@@ -12,8 +12,8 @@ export default {
   props: {
     navigation: {
       type: Array,
-      default: () => []
-    }
-  }
+      default: () => [],
+    },
+  },
 };
 </script>

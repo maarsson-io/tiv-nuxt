@@ -1,7 +1,7 @@
 import { content, expect, isSameWindow, markWindow, routes, test } from './fixtures';
 
 const navigation = content('navigation').items;
-const titleOf = (path: string) => routes.find((route) => route.path === path)!.title;
+const titleOf = (path: string) => routes.find(route => route.path === path)!.title;
 
 const topLevel = navigation.filter((item: any) => item.link);
 const dropdown = navigation.find((item: any) => item.items);

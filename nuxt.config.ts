@@ -1,30 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2026-10-14',
 
   modules: [
     '@nuxt/content',
-    '@nuxt/eslint'
+    '@nuxt/eslint',
   ],
-
-  eslint: {
-    config: {
-      // @stylistic formatting rules, as in the coding-standard ruleset,
-      // but this project keeps its semicolons.
-      stylistic: {
-        semi: true
-      }
-    }
-  },
-
-  router: {
-    trailingSlash: false
-  },
 
   app: {
     head: {
       htmlAttrs: {
-        lang: 'sv'
+        lang: 'sv',
       },
       title: 'Trygg i Vittsjö',
       titleTemplate: '%s | Trygg i Vittsjö',
@@ -35,7 +20,7 @@ export default defineNuxtConfig({
         { name: 'application-name', content: 'Trygg i Vittsjö' },
         { name: 'msapplication-TileColor', content: '#a41214' },
         { name: 'msapplication-config', content: '/favicon/browserconfig.xml?v=2.1' },
-        { name: 'theme-color', content: '#ffffff' }
+        { name: 'theme-color', content: '#ffffff' },
       ],
       link: [
         { rel: 'shortcut', href: '/favicon/favicon.ico?v=2.1' },
@@ -46,28 +31,9 @@ export default defineNuxtConfig({
         { rel: 'mask-icon', color: '#a41214', href: '/favicon/safari-pinned-tab.svg?v=2.1' },
       ],
       noscript: [
-        { innerHTML: 'This website requires JavaScript.' }
-      ]
+        { innerHTML: 'This website requires JavaScript.' },
+      ],
     },
-  },
-
-  content: {
-    // https://content.nuxt.com/docs/getting-started/configuration
-    database: {
-      // Each server process builds its own copy from the bundled content on its
-      // first request. A shared database file breaks when several PM2 cluster
-      // processes initialize it at the same time after a deploy.
-      type: 'sqlite',
-      filename: ':memory:'
-    },
-    renderer: {
-      // Headings in the Markdown texts contain links; anchors would nest them.
-      anchorLinks: false
-    },
-    experimental: {
-      // Node's built-in SQLite instead of the native better-sqlite3 module.
-      sqliteConnector: 'native'
-    }
   },
 
   css: [
@@ -76,7 +42,41 @@ export default defineNuxtConfig({
     '@fontsource/roboto',
     '@fontsource/exo/500.css',
     '@fontsource/exo/700.css',
-    '~/assets/scss/app.scss'
+    '~/assets/scss/app.scss',
   ],
+
+  router: {
+    trailingSlash: false,
+  },
+
+  content: {
+    // https://content.nuxt.com/docs/getting-started/configuration
+    database: {
+      /* Each server process builds its own copy from the bundled content on its
+         first request. A shared database file breaks when several PM2 cluster
+         processes initialize it at the same time after a deploy. */
+      type: 'sqlite',
+      filename: ':memory:',
+    },
+    renderer: {
+      // Headings in the Markdown texts contain links; anchors would nest them.
+      anchorLinks: false,
+    },
+    experimental: {
+      // Node's built-in SQLite instead of the native better-sqlite3 module.
+      sqliteConnector: 'native',
+    },
+  },
+  compatibilityDate: '2026-10-14',
+
+  eslint: {
+    config: {
+      /* @stylistic formatting rules, as in the coding-standard ruleset,
+         but this project keeps its semicolons. */
+      stylistic: {
+        semi: true,
+      },
+    },
+  },
 
 });

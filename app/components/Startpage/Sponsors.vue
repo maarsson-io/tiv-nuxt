@@ -14,7 +14,10 @@
     </div>
     <!-- Sponsors slider -->
     <div class="container">
-      <div class="row clients-logo" data-testid="sponsor-carousel">
+      <div
+        class="row clients-logo"
+        data-testid="sponsor-carousel"
+      >
         <swiper
           :modules="modules"
           :slides-per-view="2"
@@ -66,36 +69,36 @@
 </template>
 
 <script lang="ts">
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 
 export default {
   components: {
     Swiper,
-    SwiperSlide
+    SwiperSlide,
   },
 
   props: {
     content: {
       type: Object,
-      default: () => ({})
+      default: () => ({}),
     },
     sponsors: {
       type: Object,
-      default: () => ({})
-    }
+      default: () => ({}),
+    },
   },
 
-  async setup () {
+  async setup() {
     return {
-      modules: [Navigation, Pagination, Autoplay]
+      modules: [Navigation, Pagination, Autoplay],
     };
   },
 
   computed: {
-    premiumSponsors () {
+    premiumSponsors() {
       return activeSponsors(this.sponsors).filter(sponsor => sponsor.premium);
-    }
-  }
+    },
+  },
 };
 </script>

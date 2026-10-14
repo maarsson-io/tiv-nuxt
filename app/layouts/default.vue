@@ -12,20 +12,20 @@
 
 <script lang="ts">
 export default {
-  async setup () {
+  async setup() {
     const { data } = await useContentData('navigation');
 
     return { data };
   },
 
-  data () {
+  data() {
     return {
-      route: null
+      route: null,
     };
   },
 
   computed: {
-    footerNav (): array {
+    footerNav(): array {
       const flatten = (item): array => {
         const result = [];
         for (const i in item) {
@@ -34,7 +34,8 @@ export default {
             for (const j in temp) {
               result.push(temp[j]);
             }
-          } else {
+          }
+          else {
             result.push(item[i]);
           }
         }
@@ -42,8 +43,7 @@ export default {
       };
 
       return flatten(this.data.items).filter((item): boolean => item.footer);
-    }
-  }
+    },
+  },
 };
-
 </script>

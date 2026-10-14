@@ -18,27 +18,27 @@ import { Going, Waypoint, type WaypointState } from 'vue-waypoint';
 export default defineNuxtComponent({
   components: {
     'vue3-autocounter': Vue3autocounter,
-    Waypoint
+    Waypoint,
   },
 
   props: {
     from: {
       type: Number,
-      default: () => ({})
+      default: () => ({}),
     },
     to: {
       type: Number,
-      default: () => ({})
-    }
+      default: () => ({}),
+    },
   },
 
   methods: {
     // Counts up each time the counter scrolls into view, not when it leaves.
-    startCounter (state: WaypointState) {
+    startCounter(state: WaypointState) {
       if (state.going === Going.In) {
         this.$refs.counter.start();
       }
-    }
-  }
+    },
+  },
 });
 </script>

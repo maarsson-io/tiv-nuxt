@@ -57,6 +57,6 @@ test('startpage counters count up to the values in index.json', async ({ page })
   const expected = content('index').counter_boxes.map((box: any) => String(box.count));
 
   await expect.poll(async () =>
-    (await counters.allInnerTexts()).map((text) => text.replace(/\D/g, '')),
+    (await counters.allInnerTexts()).map(text => text.replace(/\D/g, '')),
   ).toEqual(expected);
 });

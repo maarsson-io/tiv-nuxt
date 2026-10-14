@@ -36,7 +36,7 @@ input[type="tel"] {
 //
 
 .py-7 {
-  padding: 7rem 0px;
+  padding: 7rem 0;
 }
 
 // Button Style
@@ -56,14 +56,14 @@ input[type="tel"] {
 
   &.btn-icon {
     i {
-      border-left: 1px solid rgba(255, 255, 255, .09);
+      border-left: 1px solid rgb(255 255 255 / 9%);
       padding-left: 15px;
     }
 
   }
 
   &:focus {
-    outline: 0px;
+    outline: 0;
     box-shadow: none;
   }
 
@@ -107,7 +107,7 @@ input[type="tel"] {
 
     &.btn-icon {
       i {
-        border-left: 1px solid rgba(255, 255, 255, .09);
+        border-left: 1px solid rgb(255 255 255 / 9%);
       }
 
     }
@@ -116,7 +116,7 @@ input[type="tel"] {
 
   &.btn-icon {
     i {
-      border-left: 1px solid rgba(0, 0, 0, .09);
+      border-left: 1px solid rgb(0 0 0 / 9%);
     }
 
   }
@@ -196,7 +196,7 @@ input[type="tel"] {
 }
 
 .bg-gradient {
-  background-image: linear-gradient(145deg, rgba(19, 177, 205, 0.95) 0%, rgba(152, 119, 234, 0.95) 100%);
+  background-image: linear-gradient(145deg, rgb(19 177 205 / 95%) 0%, rgb(152 119 234 / 95%) 100%);
   background-repeat: repeat-x;
 }
 
@@ -220,13 +220,10 @@ input[type="tel"] {
 }
 
 .overlay {
-  &:before {
+  &::before {
     content: "";
     position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
+    inset: 0;
     width: 100%;
     height: 100%;
     opacity: 0.9;
@@ -238,16 +235,13 @@ input[type="tel"] {
 .overly-2 {
   position: relative;
 
-  &:before {
+  &::before {
     content: "";
     position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
+    inset: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgb(0 0 0 / 80%);
   }
 
 }
@@ -265,7 +259,7 @@ input[type="tel"] {
 }
 
 .no-spacing {
-  letter-spacing: 0px
+  letter-spacing: 0
 }
 
 /* Links */
@@ -298,7 +292,7 @@ a:focus {
 }
 
 .page-title {
-  padding: 60px 0px 60px 0px;
+  padding: 60px 0;
   position: relative;
 
   .block {
@@ -315,7 +309,7 @@ a:focus {
   .breadcumb-nav {
     margin-top: 60px;
     padding-top: 30px;
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    border-top: 1px solid rgb(255 255 255 / 6%);
   }
 
 }
@@ -405,18 +399,22 @@ a:focus {
 
 .figure {
   position: relative;
+
   .figure-img {
     margin: 0;
   }
+
   .figure-caption {
     position: absolute;
     bottom: .15rem;
     left: .5rem;
     font-size: .7rem;
+
     &.text-right {
       left: auto;
       right: .5rem;
     }
+
     &.text-light {
       color: $gray !important;
       opacity: .8;
@@ -426,11 +424,13 @@ a:focus {
 
 .banner {
   position: relative;
+
   .figure-caption {
     position: absolute;
     bottom: .5rem;
     left: .5rem;
     font-size: .7rem;
+
     @include mobile {
       bottom: calc(70px + 0.25rem);
       left: 28px;

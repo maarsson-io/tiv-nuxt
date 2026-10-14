@@ -22,8 +22,8 @@
 .doctors {
   .btn-group {
     .btn {
-      border-radius: 0px;
-      margin: 0px 2px;
+      border-radius: 0;
+      margin: 0 2px;
       text-transform: capitalize;
       font-size: 16px;
       padding: .6rem 1.5rem;
@@ -60,7 +60,7 @@
   }
 
   .btn-group > .btn-group:not(:last-child) > .btn,
-  .btn-group > .btn:not(:last-child):not(.dropdown-toggle),
+  .btn-group > .btn:not(:last-child, .dropdown-toggle),
   .btn-group > .btn:not(:first-child) {
     border-radius: 3px;
   }
@@ -75,7 +75,7 @@
   .doctor-profile {
     overflow: hidden;
     position: relative;
-    box-shadow: 0px 8px 16px 0px rgba(200, 183, 255, 0.2);
+    box-shadow: 0 8px 16px 0 rgb(200 183 255 / 20%);
 
     .doctor-img {
       transition: all .35s ease;

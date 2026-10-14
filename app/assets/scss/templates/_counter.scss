@@ -3,7 +3,7 @@
 
 .counter-stat {
   text-align: center;
-  padding: 55px 0px 40px 0px;
+  padding: 55px 0 40px;
   position: relative;
 
   sup {
@@ -15,12 +15,12 @@
 
   i {
     display: block;
-    color: rgba(255, 255, 255, .2);
+    color: rgb(255 255 255 / 20%);
     font-size: 70px;
     position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 0px;
+    left: 0;
+    right: 0;
+    top: 0;
     transform: translateY(25px);
   }
 
@@ -30,8 +30,8 @@
   }
 
   p {
-    margin-bottom: 0px;
-    color: rgba(255, 255, 255, .7);
+    margin-bottom: 0;
+    color: rgb(255 255 255 / 70%);
   }
 
   @include mobile {

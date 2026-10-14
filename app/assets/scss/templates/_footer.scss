@@ -4,7 +4,7 @@
 .footer {
   padding-bottom: 10px;
 
-  @media (max-width: 992px) {
+  @media (width <= 992px) {
     text-align: center;
 
     .divider {
@@ -89,7 +89,7 @@
 }
 
 .footer-btm {
-  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-top: 1px solid rgb(0 0 0 / 6%);
 }
 
 .footer-socials {
@@ -118,9 +118,10 @@
   }
 
   img.swish {
-    @media (max-width: 1024px) {
+    @media (width <= 1024px) {
       width: 50% !important;
     }
+
     @include mobile {
       width: 180px !important;
     }
@@ -154,7 +155,6 @@
   position: fixed;
   background: $primary-color;
   z-index: 9999;
-  display: inline-block;
   right: 55px;
   width: 50px;
   height: 50px;

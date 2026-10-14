@@ -1,5 +1,8 @@
 <template>
-  <div class="row" data-testid="sponsor-grid">
+  <div
+    class="row"
+    data-testid="sponsor-grid"
+  >
     <SponsorsBox
       v-for="(sponsor, index) in sponsors"
       :key="index"
@@ -13,14 +16,14 @@ export default {
   props: {
     content: {
       type: Array,
-      default: () => []
-    }
+      default: () => [],
+    },
   },
 
   computed: {
-    sponsors () {
+    sponsors() {
       return activeSponsors(this.content);
-    }
-  }
+    },
+  },
 };
 </script>

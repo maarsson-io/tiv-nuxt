@@ -1,5 +1,5 @@
-// Based on the shared ruleset of maarsson/coding-standard (resources/stylelint.config.mjs.dist),
-// without its Tailwind CSS parts: this project uses Bootstrap 4 and SCSS.
+/* Based on the shared ruleset of maarsson/coding-standard (resources/stylelint.config.mjs.dist),
+   without its Tailwind CSS parts: this project uses Bootstrap 4 and SCSS. */
 export default {
   plugins: ['@stylistic/stylelint-plugin'],
   extends: [

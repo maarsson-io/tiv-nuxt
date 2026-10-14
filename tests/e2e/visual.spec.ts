@@ -1,8 +1,8 @@
 import type { Page } from '@playwright/test';
 import { expect, routes, test } from './fixtures';
 
-// Counters count up whenever they enter or leave the viewport, including while a
-// full-page screenshot is taken: let them finish, then freeze them at their final values.
+/* Counters count up whenever they enter or leave the viewport, including while a
+   full-page screenshot is taken: let them finish, then freeze them at their final values. */
 const finishCounters = async (page: Page) => {
   const counters = page.locator('.counter');
 
@@ -25,7 +25,7 @@ const finishCounters = async (page: Page) => {
 
   // Static copies: later restarts only update the detached originals.
   await page.evaluate(() => {
-    document.querySelectorAll('.counter').forEach((counter) => counter.replaceWith(counter.cloneNode(true)));
+    document.querySelectorAll('.counter').forEach(counter => counter.replaceWith(counter.cloneNode(true)));
   });
   await page.evaluate(() => window.scrollTo(0, 0));
 };

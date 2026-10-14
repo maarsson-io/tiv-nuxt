@@ -1,7 +1,7 @@
 import { defineCollection, defineContentConfig, z } from '@nuxt/content';
 
-// Every page reads one JSON file from content/, so each file is its own data collection.
-// error.json is not a collection: the error page bundles it, so it works without a query.
+/* Every page reads one JSON file from content/, so each file is its own data collection.
+   error.json is not a collection: the error page bundles it, so it works without a query. */
 
 const header = z.object({
   title: z.string(),

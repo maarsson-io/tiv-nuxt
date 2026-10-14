@@ -7,12 +7,15 @@
 
 .testimonial {
   position: relative;
+
   > .row .figure img {
     max-height: 40vw;
-    @media (max-width:1024px) {
+
+    @media (width <=1024px) {
       max-height: 80vw;
     }
   }
+
   .slick-dots {
     text-align: left;
   }
@@ -33,7 +36,7 @@
     margin-bottom: 20px;
 
     h4 {
-      margin-bottom: 0px;
+      margin-bottom: 0;
 
       > a {
         color: black !important;
@@ -68,9 +71,10 @@
 .testimonial-block.style-2 {
   background: $light;
   padding: 30px;
-  margin: 0px 4px;
+  margin: 0 4px;
   margin-bottom: 30px;
   min-height: 360px;
+
   @include mobile {
     min-height: 470px;
   }
@@ -104,7 +108,7 @@
 
 @include mobile {
   .testimonial-wrap {
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .testimonial::before {
@@ -115,7 +119,7 @@
 
 @include mobile-xs {
   .testimonial-wrap {
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .testimonial::before {
@@ -126,7 +130,7 @@
 
 @include tablet {
   .testimonial-wrap {
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .testimonial::before {
@@ -137,7 +141,7 @@
 
 @include desktop {
   .testimonial-wrap {
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .testimonial::before {

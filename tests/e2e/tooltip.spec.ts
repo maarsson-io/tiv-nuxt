@@ -4,10 +4,10 @@ import { expect, test } from './fixtures';
 test.skip(({ isMobile }) => isMobile, 'Tooltips need a hover');
 
 const tooltipOpacity = (element: Locator) =>
-  element.evaluate((el) => getComputedStyle(el, '::after').opacity);
+  element.evaluate(el => getComputedStyle(el, '::after').opacity);
 
 const tooltipText = (element: Locator) =>
-  element.evaluate((el) => getComputedStyle(el, '::after').content);
+  element.evaluate(el => getComputedStyle(el, '::after').content);
 
 const expectTooltipOnHover = async (element: Locator, text: string) => {
   await expect(element).toHaveAttribute('data-tooltip', text);
