@@ -14,7 +14,10 @@
     </div>
     <!-- Sponsors slider -->
     <div class="container">
-      <div class="row clients-logo" data-testid="sponsor-carousel">
+      <div
+        class="row clients-logo"
+        data-testid="sponsor-carousel"
+      >
         <swiper
           :modules="modules"
           :slides-per-view="2"
@@ -29,7 +32,7 @@
           >
             <div class="col-lg-12">
               <div
-                v-tooltip="sponsor.name"
+                :data-tooltip="sponsor.name"
                 class="client-thumb text-center"
               >
                 <img
@@ -66,36 +69,36 @@
 </template>
 
 <script lang="ts">
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 
 export default {
   components: {
     Swiper,
-    SwiperSlide
+    SwiperSlide,
   },
 
   props: {
     content: {
       type: Object,
-      default: () => ({})
+      default: () => ({}),
     },
     sponsors: {
-      type: Object,
-      default: () => ({})
-    }
+      type: Array,
+      default: () => [],
+    },
   },
 
-  async setup () {
+  setup() {
     return {
-      modules: [Navigation, Pagination, Autoplay]
+      modules: [Navigation, Pagination, Autoplay],
     };
   },
 
   computed: {
-    premiumSponsors () {
+    premiumSponsors() {
       return activeSponsors(this.sponsors).filter(sponsor => sponsor.premium);
-    }
-  }
+    },
+  },
 };
 </script>

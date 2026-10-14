@@ -4,7 +4,11 @@
       <!-- Image -->
       <div class="col-lg-6">
         <figure class="figure m-0 w-100">
-          <img src="/images/sivard-1_1080x720.jpg" class="img-fluid w-100 object-fit-cover" :alt="content.image.alt">
+          <img
+            src="/images/sivard-1_1080x720.jpg"
+            class="img-fluid w-100 object-fit-cover"
+            :alt="content.image.alt"
+          >
           <figcaption class="figure-caption text-light">
             &copy; {{ content.image.credits }}
           </figcaption>
@@ -39,7 +43,10 @@
                   <div class="testimonial-block">
                     <div class="client-info ">
                       <h4>
-                        <a :href="block.link" target="_blank">
+                        <a
+                          :href="block.link"
+                          target="_blank"
+                        >
                           {{ block.medium }}
                         </a>
                       </h4>
@@ -59,30 +66,30 @@
 </template>
 
 <script lang="ts">
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 
 export default {
   components: {
     Swiper,
-    SwiperSlide
+    SwiperSlide,
   },
 
   props: {
     content: {
       type: Object,
-      default: () => ({})
+      default: () => ({}),
     },
     testimonials: {
-      type: Object,
-      default: () => ({})
-    }
+      type: Array,
+      default: () => [],
+    },
   },
 
-  async setup () {
+  setup() {
     return {
-      modules: [Navigation, Pagination, Autoplay]
+      modules: [Navigation, Pagination, Autoplay],
     };
-  }
+  },
 };
 </script>

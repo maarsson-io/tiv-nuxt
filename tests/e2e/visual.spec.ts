@@ -1,8 +1,8 @@
 import type { Page } from '@playwright/test';
-import { expect, routes, test } from './fixtures';
+import { type SwiperElement, expect, routes, test } from './fixtures';
 
-// Counters count up whenever they enter or leave the viewport, including while a
-// full-page screenshot is taken: let them finish, then freeze them at their final values.
+/* Counters count up whenever they enter or leave the viewport, including while a
+   full-page screenshot is taken: let them finish, then freeze them at their final values. */
 const finishCounters = async (page: Page) => {
   const counters = page.locator('.counter');
 
@@ -25,7 +25,7 @@ const finishCounters = async (page: Page) => {
 
   // Static copies: later restarts only update the detached originals.
   await page.evaluate(() => {
-    document.querySelectorAll('.counter').forEach((counter) => counter.replaceWith(counter.cloneNode(true)));
+    document.querySelectorAll('.counter').forEach(counter => counter.replaceWith(counter.cloneNode(true)));
   });
   await page.evaluate(() => window.scrollTo(0, 0));
 };
@@ -40,10 +40,10 @@ for (const route of routes) {
 
     // Carousels: stop autoplay and rewind, so every run shows the same slide.
     await page.evaluate(() => {
-      document.querySelectorAll<any>('.swiper').forEach((el) => {
+      for (const el of document.querySelectorAll<SwiperElement>('.swiper')) {
         el.swiper?.autoplay?.stop();
         el.swiper?.slideTo(0, 0);
-      });
+      }
     });
 
     // The sponsor grid grows with the number of sponsors; a fixed height keeps the page size stable.

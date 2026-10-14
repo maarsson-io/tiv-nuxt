@@ -29,11 +29,18 @@
             >
               <div class="testimonial-block style-2 gray-bg">
                 <div class="testimonial-thumb">
-                  <img :src="block.logo" alt="" class="img-fluid">
+                  <img
+                    :src="block.logo"
+                    alt=""
+                    class="img-fluid"
+                  >
                 </div>
                 <div class="client-info">
                   <h4>
-                    <a :href="block.link" target="_blank">
+                    <a
+                      :href="block.link"
+                      target="_blank"
+                    >
                       {{ block.medium }} <i class="icofont-external-link" />
                     </a>
                   </h4>
@@ -51,30 +58,30 @@
 </template>
 
 <script lang="ts">
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 
 export default {
   components: {
     Swiper,
-    SwiperSlide
+    SwiperSlide,
   },
 
   props: {
     content: {
       type: Object,
-      default: () => ({})
+      default: () => ({}),
     },
     testimonials: {
-      type: Object,
-      default: () => ({})
-    }
+      type: Array,
+      default: () => [],
+    },
   },
 
-  async setup () {
+  setup() {
     return {
-      modules: [Navigation, Pagination, Autoplay]
+      modules: [Navigation, Pagination, Autoplay],
     };
-  }
+  },
 };
 </script>

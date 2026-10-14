@@ -9,8 +9,8 @@
     >
       <ul class="list-unstyled department-service mb-2">
         <li
-          v-for="(item, index) in list"
-          :key="index"
+          v-for="(item, itemIndex) in list"
+          :key="itemIndex"
         >
           <i class="icofont-check mr-2" />{{ item }}
         </li>
@@ -28,8 +28,8 @@ export default {
   props: {
     content: {
       type: Object,
-      default: () => ({})
-    }
-  }
+      default: () => ({}),
+    },
+  },
 };
 </script>

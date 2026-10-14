@@ -1,8 +1,8 @@
 @use "../variables" as *;
 
-/*=================================================================
+/* =================================================================
   Single Blog Page
-==================================================================*/
+================================================================== */
 .nav-links {
   .page-numbers {
     display: inline-block;
@@ -61,7 +61,7 @@
   padding: 40px;
   font-style: italic;
   border-left: 5px solid $secondary-color;
-  margin: 25px 0px;
+  margin: 25px 0;
 }
 
 .tag-option {
@@ -125,7 +125,7 @@
 
   .comment-author {
     margin-top: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     font-weight: 500;
 
     a {

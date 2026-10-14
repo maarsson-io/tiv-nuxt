@@ -30,10 +30,11 @@ test.describe('markdown content', () => {
 
 test('/contact box lists payment details on separate lines', async ({ page }) => {
   await page.goto('/contact');
-  const box = content('contact').boxes.find((item: any) => item.lines);
+  const boxes: { title: string; lines?: string[] }[] = content('contact').boxes;
+  const box = boxes.find(item => item.lines)!;
   const block = page.locator('.contact-block', { hasText: box.title });
 
-  for (const line of box.lines) {
+  for (const line of box.lines!) {
     await expect(block.getByText(line, { exact: true })).toBeVisible();
   }
 });
@@ -46,6 +47,9 @@ test.describe('image alt texts', () => {
   });
 });
 
+// Counters display thousands separators, e.g. "4,550"; only the digits are compared.
+const digitsOnly = (text: string) => text.replace(/\D/g, '');
+
 test('startpage counters count up to the values in index.json', async ({ page }) => {
   await page.goto('/');
   const counters = page.locator('.counter');
@@ -54,9 +58,8 @@ test('startpage counters count up to the values in index.json', async ({ page })
     await counter.scrollIntoViewIfNeeded();
   }
 
-  const expected = content('index').counter_boxes.map((box: any) => String(box.count));
+  const counterBoxes: { count: number }[] = content('index').counter_boxes;
+  const expected = counterBoxes.map(box => String(box.count));
 
-  await expect.poll(async () =>
-    (await counters.allInnerTexts()).map((text) => text.replace(/\D/g, '')),
-  ).toEqual(expected);
+  await expect.poll(async () => (await counters.allInnerTexts()).map(digitsOnly)).toEqual(expected);
 });

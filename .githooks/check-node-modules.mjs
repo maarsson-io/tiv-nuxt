@@ -1,9 +1,9 @@
-// Checks that the installed packages match package-lock.json, for example after
-// switching to a branch with different dependencies. npm records the installed
-// tree in node_modules/.package-lock.json, so this compares the two files.
+/* Checks that the installed packages match package-lock.json, for example after
+   switching to a branch with different dependencies. npm records the installed
+   tree in node_modules/.package-lock.json, so this compares the two files. */
 import { existsSync, readFileSync } from 'node:fs';
 
-const read = (path) => JSON.parse(readFileSync(path, 'utf8')).packages ?? {};
+const read = path => JSON.parse(readFileSync(path, 'utf8')).packages ?? {};
 
 if (!existsSync('node_modules/.package-lock.json')) {
   console.error('node_modules is missing or incomplete.');

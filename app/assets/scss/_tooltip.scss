@@ -1,0 +1,29 @@
+// Shows the element's `data-tooltip` attribute above it on hover.
+[data-tooltip] {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 1000;
+    width: max-content;
+    padding: 0.6em;
+    border-radius: 0.4rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 0.8rem;
+    content: attr(data-tooltip);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transform: translate(-50%, -110%);
+    transition: all 0.25s ease;
+  }
+
+  &:hover::after {
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0.3s;
+  }
+}

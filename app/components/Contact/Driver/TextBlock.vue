@@ -7,7 +7,11 @@
         <div class="col-lg-4 col-md-6">
           <div class="doctor-img-block">
             <figure class="figure m-0">
-              <img src="/images/sivard-3_360x250.jpg" class="figure-img img-fluid" :alt="content.image.alt">
+              <img
+                src="/images/sivard-3_360x250.jpg"
+                class="figure-img img-fluid"
+                :alt="content.image.alt"
+              >
               <figcaption class="figure-caption text-light">
                 &copy; {{ content.image.credits }}
               </figcaption>
@@ -45,8 +49,8 @@ export default {
   props: {
     content: {
       type: Object,
-      default: () => ({})
-    }
-  }
+      default: () => ({}),
+    },
+  },
 };
 </script>

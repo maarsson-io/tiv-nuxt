@@ -17,5 +17,5 @@ export const isSponsorActive = (sponsor: Sponsor, now: Date = new Date()): boole
 // Active sponsors in alphabetical order, as listed on the website.
 export const activeSponsors = <T extends Sponsor>(sponsors: T[], now: Date = new Date()): T[] =>
   sponsors
-    .filter((sponsor) => isSponsorActive(sponsor, now))
+    .filter(sponsor => isSponsorActive(sponsor, now))
     .sort((first, second) => (first.name > second.name ? 1 : -1));

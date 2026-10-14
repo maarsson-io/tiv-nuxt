@@ -1,10 +1,23 @@
-import { content, expect, isSameWindow, markWindow, routes, test } from './fixtures';
+import {
+  type NavigationDropdown,
+  type NavigationItem,
+  type NavigationLink,
+  content,
+  expect,
+  isSameWindow,
+  markWindow,
+  routes,
+  test,
+} from './fixtures';
 
-const navigation = content('navigation').items;
-const titleOf = (path: string) => routes.find((route) => route.path === path)!.title;
+const isLink = (item: NavigationItem): item is NavigationLink => 'link' in item;
+const isDropdown = (item: NavigationItem): item is NavigationDropdown => 'items' in item;
 
-const topLevel = navigation.filter((item: any) => item.link);
-const dropdown = navigation.find((item: any) => item.items);
+const navigation: NavigationItem[] = content('navigation').items;
+const titleOf = (path: string) => routes.find(route => route.path === path)!.title;
+
+const topLevel = navigation.filter(isLink);
+const dropdown = navigation.find(isDropdown)!;
 
 test.describe('header menu', () => {
   test.skip(({ isMobile }) => isMobile, 'Desktop menu');
@@ -53,10 +66,26 @@ test.describe('mobile menu', () => {
     await expect(page).toHaveURL(topLevel[0].link);
     await expect(menu).toBeHidden();
   });
+
+  test('closes the dropdown after navigating from it', async ({ page }) => {
+    await page.goto('/');
+    const menu = page.locator('#navbarmain');
+    const toggle = page.getByRole('button', { name: 'Toggle navigation' });
+
+    await toggle.click();
+    await menu.getByRole('link', { name: dropdown.title }).click();
+    await menu.locator('.dropdown-menu').getByRole('link', { name: dropdown.items[0].title }).click();
+
+    await expect(page).toHaveURL(dropdown.items[0].link);
+    await expect(menu).toBeHidden();
+
+    await toggle.click();
+    await expect(menu.locator('.dropdown-menu')).toBeHidden();
+  });
 });
 
 test.describe('footer menu', () => {
-  const footerItems = [...topLevel, ...dropdown.items].filter((item: any) => item.footer);
+  const footerItems = [...topLevel, ...dropdown.items].filter(item => item.footer);
 
   for (const item of footerItems) {
     test(`navigates to ${item.link}`, async ({ page }) => {

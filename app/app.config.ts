@@ -5,5 +5,5 @@ export default defineAppConfig({
   designer: {
     name: 'Themefisher',
     link: 'https://themefisher.com/',
-  }
-})
+  },
+});

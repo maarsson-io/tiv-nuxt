@@ -21,7 +21,7 @@ test('unknown page shows the error page', async ({ page, consoleErrors }) => {
   await expect(page.getByRole('button', { name: content('error').button })).toBeVisible();
 
   // The 404 itself is logged by the router; anything else is a real error.
-  const unexpected = consoleErrors.filter((error) => !/404|not found/i.test(error));
+  const unexpected = consoleErrors.filter(error => !/404|not found/i.test(error));
   consoleErrors.length = 0;
   expect(unexpected).toEqual([]);
 });

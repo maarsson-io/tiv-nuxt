@@ -1,7 +1,11 @@
 <template>
   <!-- Swish -->
   <div class="sidebar-widget schedule-widget mt-5">
-    <img class="swish w-100 px-4" src="/assets/swish-TIV.png" alt="">
+    <img
+      class="swish w-100 px-4"
+      src="/assets/swish-TIV.png"
+      alt=""
+    >
   </div>
   <!-- Bank -->
   <div class="sidebar-widget schedule-widget mt-5">
@@ -43,8 +47,8 @@ export default {
   props: {
     content: {
       type: Object,
-      default: () => ({})
-    }
-  }
+      default: () => ({}),
+    },
+  },
 };
 </script>

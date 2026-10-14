@@ -4,11 +4,17 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-4">
-          <h2 class="title-color">{{ content.title }}</h2>
+          <h2 class="title-color">
+            {{ content.title }}
+          </h2>
         </div>
         <div class="col-lg-8">
           <p>{{ content.paragraph }}</p>
-          <img src="/assets/sign.png" alt="" class="o-70 img-fluid">
+          <img
+            src="/assets/sign.png"
+            alt=""
+            class="o-70 img-fluid"
+          >
         </div>
       </div>
     </div>
@@ -20,8 +26,8 @@ export default {
   props: {
     content: {
       type: Object,
-      default: () => ({})
-    }
-  }
+      default: () => ({}),
+    },
+  },
 };
 </script>

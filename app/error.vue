@@ -32,7 +32,7 @@
 import data from '~~/content/error.json';
 
 defineProps({
-  error: Object
+  error: Object,
 });
 
 const handleError = () => clearError({ redirect: '/' });

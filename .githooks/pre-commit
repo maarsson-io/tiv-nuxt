@@ -10,3 +10,11 @@ case "$branch" in
     exit 1
     ;;
 esac
+
+# LINT
+# Checks the whole working tree (about two seconds); skip once with: git commit --no-verify
+if ! npm run lint --silent; then
+  echo "pre-commit: lint failed, commit aborted."
+  echo "Many problems can be fixed automatically: npx eslint . --fix && npx stylelint \"**/*.{css,scss,vue}\" --fix"
+  exit 1
+fi
