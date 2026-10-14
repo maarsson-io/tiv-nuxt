@@ -41,7 +41,11 @@ npm run preview
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
-## Template license
+## License
+
+Original project code and website materials are not generally licensed for reuse. Prior written permission from the relevant rights holder is required. Requests should be sent to Trygg i Vittsjö via the [contact page](https://tryggivittsjo.se/contact). See [LICENSE](LICENSE) for the full notice and third-party exceptions.
+
+### Template license
 
 This website uses and adapts the [Novena Bootstrap template](https://github.com/themefisher/novena-bootstrap) by Themefisher. The template and code derived from it are covered by its [MIT license](licenses/novena-bootstrap-MIT.txt), reproduced unchanged with the original copyright notice.
 
