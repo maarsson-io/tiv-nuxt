@@ -116,9 +116,12 @@ When a page changes on purpose, for example after editing a text or adding a spo
 
 The baselines are not committed, so there is nothing to commit after refreshing them.
 
-### Pre-push hook
+### Githooks
+
+The `.githooks/pre-commit` blocks commits directly on master; work on develop or a feature/* / hotfix/* branch.
 
 The `.githooks/pre-push` hook builds the site and runs all tests before every push, and aborts the push if anything fails. It takes about 15–40 seconds. To skip it once:
+
 
 ```bash
 git push --no-verify

@@ -1,0 +1,12 @@
+#!/bin/sh
+
+# LOCAL DEFEND LINE OF BRANCH PROTECTION
+branch="$(git symbolic-ref --short HEAD 2>/dev/null)"
+
+case "$branch" in
+  staging|master)
+    echo "Direct commits to '$branch' are not allowed."
+    echo "Commit to develop, or create a feature/* or hotfix/* branch instead."
+    exit 1
+    ;;
+esac
