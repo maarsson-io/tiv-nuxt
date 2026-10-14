@@ -7,7 +7,6 @@ import withNuxt from './.nuxt/eslint.config.mjs';
 export default withNuxt(
   {
     ignores: [
-      'app/directives/tooltip.min.js',
       'playwright-report/**',
       'test-results/**',
     ],
