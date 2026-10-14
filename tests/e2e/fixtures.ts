@@ -18,6 +18,9 @@ export const routes = [
   { path: '/cookies', title: content('cookies').header.title },
 ];
 
+// The news page shows the images of the linked articles from the local news site.
+const allowedThirdParty = [/^https:\/\/(www\.)?vittsjobjarnum\.nu\/images\//];
+
 type Fixtures = {
   consoleErrors: string[];
 };
@@ -39,14 +42,27 @@ export const test = base.extend<Fixtures>({
     expect(errors, 'browser console errors').toEqual([]);
   }, { auto: true }],
 
-  // Telemetry and other third-party requests never leave the test browser.
+  // Third-party requests are answered locally and never leave the test browser.
+  // Apart from the allowed ones below, any third-party request fails the test.
   page: async ({ page, baseURL }, use) => {
+    const thirdParty: string[] = [];
+
     await page.route(
       (url) => !url.href.startsWith(baseURL!),
-      (route) => route.fulfill({ status: 204 }),
+      (route) => {
+        const url = route.request().url();
+
+        if (!allowedThirdParty.some((pattern) => pattern.test(url))) {
+          thirdParty.push(url);
+        }
+
+        return route.fulfill({ status: 204 });
+      },
     );
 
     await use(page);
+
+    expect(thirdParty, 'third-party requests').toEqual([]);
   },
 });
 

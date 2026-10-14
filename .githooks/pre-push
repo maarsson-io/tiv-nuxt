@@ -1,5 +1,5 @@
 #!/bin/sh
-# Builds the site and runs the Playwright suite before every push.
+# Checks the installed packages, builds the site and runs the Playwright suite before every push.
 # Missing visual baselines are created instead of failing (e.g. on a fresh clone).
 # Skip once with: git push --no-verify
 
@@ -7,6 +7,12 @@ set -e
 
 log=$(mktemp)
 trap 'rm -f "$log"' EXIT
+
+echo "pre-push: checking installed packages..."
+if ! node .githooks/check-node-modules.mjs; then
+  echo "pre-push: run 'npm ci' to install the locked packages, then push again."
+  exit 1
+fi
 
 echo "pre-push: building site..."
 if ! npm run build > "$log" 2>&1; then

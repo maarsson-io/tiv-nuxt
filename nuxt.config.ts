@@ -42,6 +42,13 @@ export default defineNuxtConfig({
 
   content: {
     // https://content.nuxt.com/docs/getting-started/configuration
+    database: {
+      // Each server process builds its own copy from the bundled content on its
+      // first request. A shared database file breaks when several PM2 cluster
+      // processes initialize it at the same time after a deploy.
+      type: 'sqlite',
+      filename: ':memory:'
+    },
     renderer: {
       // Headings in the Markdown texts contain links; anchors would nest them.
       anchorLinks: false
@@ -60,9 +67,5 @@ export default defineNuxtConfig({
     '@fontsource/exo/700.css',
     '~/assets/scss/app.scss'
   ],
-
-  build: {
-    transpile: ['vue-waypoint'],
-  }
 
 });

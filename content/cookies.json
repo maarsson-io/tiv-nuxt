@@ -1,11 +1,18 @@
 {
     "header": {
         "title": "Cookiepolicy",
-        "description": "Så används kakor och liknande teknik på tryggivittsjo.se."
+        "description": "Så används kakor på tryggivittsjo.se."
     },
     "updated": "Senast uppdaterad: 14 oktober 2026",
-    "intro": "Trygg i Vittsjö ansvarar för webbplatsen tryggivittsjo.se. Här beskriver vi de kakor och den teknik för besöksstatistik som webbplatsen använder.",
+    "intro": "Trygg i Vittsjö ansvarar för webbplatsen tryggivittsjo.se. Här beskriver vi de kakor som webbplatsen använder.",
     "sections": [
+        {
+            "title": "Ingen besöksstatistik",
+            "paragraphs": [
+                "Vi samlar inte in besöksstatistik. Webbplatsen använder inga analys-, spårnings- eller reklamverktyg, och vi försöker inte ta reda på vem du är.",
+                "Som alla webbplatser tar tryggivittsjo.se emot din IP-adress för att kunna visa sidorna. Den används av vår webbserver och av Cloudflare för drift och säkerhet, inte för statistik. Bilderna på nyhetssidan visas direkt från vittsjobjarnum.nu, som då också tar emot din IP-adress."
+            ]
+        },
         {
             "title": "Vad är kakor?",
             "paragraphs": [
@@ -16,15 +23,9 @@
             "title": "Säkerhet med Cloudflare",
             "paragraphs": [
                 "Vi använder Cloudflare för att skydda webbplatsen mot skadlig och automatiserad trafik. Cloudflare kan sätta kakan cf_clearance efter en säkerhetskontroll. Den lagrar resultatet av kontrollen så att den inte behöver upprepas vid varje sidvisning.",
-                "Kakan används för säkerhet och inte för vår besöksstatistik eller reklam. Nödvändiga säkerhetskakor kräver normalt inte samtycke."
-            ]
-        },
-        {
-            "title": "Besöksstatistik",
-            "paragraphs": [
-                "Webbplatsen använder TelemetryDeck för besöksstatistik. FingerprintJS läser egenskaper hos din webbläsare och skapar ett identifierande webbläsarfingeravtryck. Identifieraren skickas till TelemetryDeck tillsammans med uppgifter om vilken sida du besöker och hänvisande sida.",
-                "Den här identifieringen sker utan att vår statistikfunktion behöver lagra en kaka. Att blockera eller radera kakor stoppar därför inte automatiskt webbläsarfingeravtryck."
-            ]
+                "Kakan används endast för säkerhet, inte för statistik eller reklam. Nödvändiga säkerhetskakor kräver normalt inte samtycke."
+            ],
+            "show_cookie_table": true
         },
         {
             "title": "Hantera kakor",
@@ -53,10 +54,6 @@
                 "url": "https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/"
             },
             {
-                "title": "TelemetryDecks integritetspolicy",
-                "url": "https://telemetrydeck.com/privacy/"
-            },
-            {
                 "title": "PTS information om kakor",
                 "url": "https://pts.se/internet-och-telefoni/kakor-cookies/"
             }
@@ -64,7 +61,7 @@
     },
     "contact": {
         "title": "Frågor",
-        "text": "Har du frågor om hur webbplatsen använder kakor eller besöksstatistik?",
+        "text": "Har du frågor om hur webbplatsen använder kakor?",
         "link_title": "Kontakta Trygg i Vittsjö"
     }
 }

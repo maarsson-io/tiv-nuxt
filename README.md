@@ -86,13 +86,14 @@ The end-to-end tests use [Playwright](https://playwright.dev) and run in Chromiu
 - `navigation.spec.ts` follows the header, dropdown, mobile, and footer menus and the content links.
 - `content.spec.ts` checks the Markdown-formatted texts and contact details.
 - `tooltip.spec.ts` checks the sponsor name tooltips.
+- `carousel.spec.ts` checks that the carousels start, autoplay, and respond to their pagination.
 - `sponsors.spec.ts` checks that the sponsor page and the startpage list exactly the active sponsors, using the real date and the same rule as the website (`app/utils/sponsors.ts`).
 - `visual.spec.ts` compares full-page screenshots with stored baselines.
 - `data.spec.ts` validates the content files, for example that every sponsor has a valid, non-future date and an existing logo file.
 
 Expected titles and menu items are read from `content/`, so editing the JSON content does not break the tests. Only the few literal texts in `content.spec.ts` need updating when those texts change.
 
-Every test fails on browser console errors. Requests to third-party services, such as telemetry, are blocked during the tests.
+Every test fails on browser console errors. Apart from the news images linked from vittsjobjarnum.nu, the website makes no requests to third-party services; the tests fail if a page tries to. Third-party requests never leave the test browser.
 
 Build the site, then run the tests. The tests start the built server on port 4173 themselves:
 
@@ -140,7 +141,7 @@ The baselines are not committed, so there is nothing to commit after refreshing 
 
 The `.githooks/pre-commit` blocks commits directly on master; work on develop or a feature/* / hotfix/* branch.
 
-The `.githooks/pre-push` hook builds the site and runs all tests before every push, and aborts the push if anything fails. It takes about 15–40 seconds. To skip it once:
+The `.githooks/pre-push` hook builds the site and runs all tests before every push, and aborts the push if anything fails. It first checks that `node_modules` matches `package-lock.json`, which is not the case after switching to a branch with different dependencies; run `npm ci` then. It takes about 15–40 seconds. To skip it once:
 
 
 ```bash

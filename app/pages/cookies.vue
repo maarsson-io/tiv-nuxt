@@ -7,7 +7,7 @@
         <p>{{ data.intro }}</p>
 
         <section
-          v-for="(section, index) in data.sections"
+          v-for="section in data.sections"
           :key="section.title"
           class="mt-5"
         >
@@ -16,7 +16,7 @@
             {{ paragraph }}
           </p>
 
-          <div v-if="index === 1" class="table-responsive">
+          <div v-if="section.show_cookie_table" class="table-responsive">
             <table class="table table-bordered">
               <caption>{{ data.cookie_table.title }}</caption>
               <thead>

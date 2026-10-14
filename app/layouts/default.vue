@@ -7,7 +7,6 @@
     <LayoutFooter
       :navigation="footerNav"
     />
-    <TelemetryTracker />
   </div>
 </template>
 
