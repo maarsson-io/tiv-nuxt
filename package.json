@@ -39,7 +39,7 @@
     "@telemetrydeck/sdk": "^1.0.5",
     "bootstrap": "^4.6.2",
     "nuxt": "^4.6.1",
-    "swiper": "^9.1.1",
+    "swiper": "^14.3.0",
     "vue-waypoint": "^4.2.5",
     "vue3-autocounter": "^1.0.8"
   }

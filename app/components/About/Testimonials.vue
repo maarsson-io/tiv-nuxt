@@ -59,7 +59,7 @@
 </template>
 
 <script lang="ts">
-import { Navigation, Pagination, Autoplay } from 'swiper';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/vue';
 
 export default {
