@@ -78,6 +78,28 @@ Locally preview production build:
 npm run preview
 ```
 
+## Code quality
+
+JavaScript, TypeScript and Vue files are checked with [ESLint](https://eslint.org), and CSS, SCSS and Vue styles with [Stylelint](https://stylelint.io):
+
+```bash
+npm run lint
+```
+
+`npm run lint:js` and `npm run lint:css` run them separately. Most problems can be fixed automatically:
+
+```bash
+npx eslint . --fix
+npx stylelint "**/*.{css,scss,vue}" --fix
+```
+
+The rules come from the shared rulesets of [maarsson/coding-standard](https://github.com/maarsson-io/coding-standard), adapted to this project:
+
+- `eslint.config.mjs` builds on the Nuxt config of [`@nuxt/eslint`](https://eslint.nuxt.com), which knows Nuxt's auto-imports. Unlike the shared ruleset, this project keeps semicolons (set in `nuxt.config.ts`).
+- `stylelint.config.mjs` leaves out the Tailwind CSS parts of the shared ruleset.
+
+ESLint reads the Nuxt part of its config from `.nuxt/`, which `npm ci` generates. If ESLint cannot find it, run `npx nuxt prepare`.
+
 ## Testing
 
 The end-to-end tests use [Playwright](https://playwright.dev) and run in Chromium against the production server build, the same Node server that runs in production, in a desktop and a mobile viewport. They live in `tests/e2e/`:
@@ -139,7 +161,7 @@ The baselines are not committed, so there is nothing to commit after refreshing 
 
 ### Githooks
 
-The `.githooks/pre-commit` blocks commits directly on master; work on develop or a feature/* / hotfix/* branch.
+The `.githooks/pre-commit` hook blocks commits directly on master; work on develop or a feature/* / hotfix/* branch. It also runs `npm run lint` and aborts the commit if it fails. This takes about two seconds and checks the working tree, including unstaged changes. To skip it once: `git commit --no-verify`.
 
 The `.githooks/pre-push` hook builds the site and runs all tests before every push, and aborts the push if anything fails. It first checks that `node_modules` matches `package-lock.json`, which is not the case after switching to a branch with different dependencies; run `npm ci` then. It takes about 15–40 seconds. To skip it once:
 
@@ -152,7 +174,7 @@ The hook tests the working tree, including uncommitted changes. If it fails on a
 
 ### Continuous integration
 
-The CI workflow builds the site and runs all tests except the visual ones on every pull request to `develop` and `master` and on every push to `develop`. On failure, the Playwright report is uploaded as a workflow artifact.
+The CI workflow runs the linters, builds the site, and runs all tests except the visual ones on every pull request to `develop` and `master` and on every push to `develop`. On failure, the Playwright report is uploaded as a workflow artifact.
 
 ## License
 
