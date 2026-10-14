@@ -1,6 +1,6 @@
 <template>
   <div
-    v-tooltip="content.name"
+    :data-tooltip="content.name"
     class="award-img px-3 py-5"
   >
     <img

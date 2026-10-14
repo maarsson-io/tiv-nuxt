@@ -29,7 +29,7 @@
           >
             <div class="col-lg-12">
               <div
-                v-tooltip="sponsor.name"
+                :data-tooltip="sponsor.name"
                 class="client-thumb text-center"
               >
                 <img

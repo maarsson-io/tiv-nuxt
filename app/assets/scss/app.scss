@@ -34,7 +34,8 @@
 @use "templates/blog-sidebar";
 // Footer
 @use "templates/footer";
+// Tooltip
+@use "tooltip";
 
 // Plugins
-@use "plugins/tooltip";
 @use "plugins/swiper";
