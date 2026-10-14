@@ -13,20 +13,20 @@ export default {
   props: {
     withIcon: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
 
-  setup () {
+  setup() {
     const config = useAppConfig();
 
     return { config };
   },
 
   computed: {
-    link (): string {
+    link(): string {
       return 'tel:' + this.config.phone.replace(/\D/g, '');
-    }
-  }
+    },
+  },
 };
 </script>

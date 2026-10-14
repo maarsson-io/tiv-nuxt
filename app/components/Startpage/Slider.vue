@@ -1,5 +1,8 @@
 <template>
-  <section class="banner" :style="bannerBackground">
+  <section
+    class="banner"
+    :style="bannerBackground"
+  >
     <div class="figure-caption">
       Foto: &copy; {{ content.credits }}
     </div>
@@ -13,7 +16,10 @@
               {{ content.title }}
             </h1>
             <div class="btn-container ">
-              <NuxtLink to="/about" class="btn btn-main-2 btn-icon btn-round-full">
+              <NuxtLink
+                to="/about"
+                class="btn btn-main-2 btn-icon btn-round-full"
+              >
                 {{ content.button }} <i class="icofont-simple-right ml-2" />
               </NuxtLink>
             </div>
@@ -29,14 +35,14 @@ export default {
   props: {
     content: {
       type: Object,
-      default: () => ({})
-    }
+      default: () => ({}),
+    },
   },
 
   computed: {
-    bannerBackground () {
+    bannerBackground() {
       return 'background-image: url(' + this.content.image + ');';
-    }
-  }
+    },
+  },
 };
 </script>

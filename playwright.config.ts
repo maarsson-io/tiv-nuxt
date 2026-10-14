@@ -20,8 +20,8 @@ export default defineConfig({
   },
   use: {
     baseURL: `http://localhost:${port}`,
-    // Safety net behind the request blocking in fixtures.ts: the test browser
-    // cannot resolve any host but localhost, so nothing can reach the internet.
+    /* Safety net behind the request blocking in fixtures.ts: the test browser
+       cannot resolve any host but localhost, so nothing can reach the internet. */
     launchOptions: {
       args: ['--host-resolver-rules=MAP * ~NOTFOUND, EXCLUDE localhost'],
     },

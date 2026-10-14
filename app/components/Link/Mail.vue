@@ -19,38 +19,38 @@ export default {
   props: {
     withIcon: {
       type: Boolean,
-      default: false
-    }
+      default: false,
+    },
   },
 
-  setup () {
+  setup() {
     const config = useAppConfig();
 
     return { config };
   },
 
   computed: {
-    mailAccount (): string {
+    mailAccount(): string {
       return this.config.mail.split('@').shift();
     },
 
-    mailDomainAndTld (): string {
+    mailDomainAndTld(): string {
       return this.config.mail.split('@').pop();
     },
 
-    mailDomain (): string {
+    mailDomain(): string {
       return this.mailDomainAndTld.split('.').shift();
     },
 
-    mailTld (): string {
+    mailTld(): string {
       return this.mailDomainAndTld.split('.').pop();
-    }
-  }
+    },
+  },
 };
 </script>
 
 <style>
-.obfuscated:after {
+.obfuscated::after {
   content: attr(data-account) "@" attr(data-domain) "." attr(data-tld);
 }
 </style>

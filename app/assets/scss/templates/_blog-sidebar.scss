@@ -1,5 +1,4 @@
 @use "../variables" as *;
-@use "../mixins" as *;
 
 .sidebar-widget {
   margin-bottom: 30px;
@@ -10,11 +9,11 @@
     position: relative;
     padding-bottom: 15px;
 
-    &:before {
+    &::before {
       position: absolute;
       content: "";
-      left: 0px;
-      bottom: 0px;
+      left: 0;
+      bottom: 0;
       width: 35px;
       height: 3px;
       background: $secondary-color;
@@ -42,7 +41,7 @@
 
   }
 
-  //end latest posts
+  // end latest posts
 
   // Caterogry
   &.category {
@@ -52,7 +51,7 @@
 
         a {
           color: $black;
-          @include transition (all, 0.3s, ease);
+          transition: all 0.3s ease;
 
           &:hover {
             color: $primary-color;
@@ -71,7 +70,7 @@
 
   }
 
-  //end caterogry
+  // end caterogry
 
 
   &.tags {
@@ -88,8 +87,6 @@
       background-color: #eff0f3;
       margin: 0 7px 10px 0;
       padding: 0 25px;
-      -webkit-transition: all .2s ease;
-      -moz-transition: all .2s ease;
       transition: all .2s ease;
 
       &:hover {
@@ -107,7 +104,7 @@
 
     ul {
       li {
-        padding: 10px 0px;
+        padding: 10px 0;
         border-bottom: 1px solid #eee;
       }
 
@@ -118,7 +115,6 @@
 }
 
 // Search
-// 
 
 
 .search-form {

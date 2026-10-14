@@ -29,9 +29,9 @@
 export default {
   props: {
     content: {
-      type: Object,
-      default: () => ({})
-    }
-  }
+      type: Array,
+      default: () => [],
+    },
+  },
 };
 </script>

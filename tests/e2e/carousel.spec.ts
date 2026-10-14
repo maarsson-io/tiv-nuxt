@@ -1,5 +1,5 @@
 import type { Locator } from '@playwright/test';
-import { expect, test } from './fixtures';
+import { type SwiperElement, expect, test } from './fixtures';
 
 const carousels = [
   { page: '/', name: 'startpage testimonials', selector: '.testimonial-wrap-2 .swiper' },
@@ -8,11 +8,15 @@ const carousels = [
 ];
 
 const swiperState = (carousel: Locator) =>
-  carousel.evaluate((el: any) => ({
-    initialized: Boolean(el.swiper?.initialized),
-    autoplay: Boolean(el.swiper?.autoplay?.running),
-    activeIndex: el.swiper?.activeIndex as number,
-  }));
+  carousel.evaluate((el: SwiperElement) => {
+    if (!el.swiper) {
+      return { initialized: false, autoplay: false, activeIndex: 0 };
+    }
+
+    const { initialized, autoplay, activeIndex } = el.swiper;
+
+    return { initialized, autoplay: autoplay?.running === true, activeIndex };
+  });
 
 for (const { page: path, name, selector } of carousels) {
   test(`${name} carousel plays and responds to the pagination`, async ({ page }) => {
@@ -28,7 +32,7 @@ for (const { page: path, name, selector } of carousels) {
       return;
     }
 
-    await carousel.evaluate((el: any) => el.swiper.autoplay.stop());
+    await carousel.evaluate((el: SwiperElement) => el.swiper?.autoplay?.stop());
     await bullets.nth(1).click();
 
     await expect.poll(async () => (await swiperState(carousel)).activeIndex).toBeGreaterThan(0);

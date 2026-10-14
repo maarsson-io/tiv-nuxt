@@ -10,7 +10,7 @@
   min-height: 550px;
 
   .block {
-    padding: 80px 0px 160px;
+    padding: 80px 0 160px;
 
     span,
     h1,
@@ -74,21 +74,6 @@
 @include tablet {
   .banner .block h1 {
     font-size: 38px;
-  }
-
-  .banner {
-  }
-
-}
-
-@include desktop {
-  .banner {
-  }
-
-}
-
-@include large-desktop {
-  .banner {
   }
 
 }

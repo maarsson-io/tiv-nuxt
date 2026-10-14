@@ -9,14 +9,14 @@ export default {
   props: {
     number: {
       type: String,
-      default: ''
-    }
+      default: '',
+    },
   },
 
   computed: {
-    link (): string {
+    link(): string {
       return 'tel:' + this.number.replace(/\D/g, '');
-    }
-  }
+    },
+  },
 };
 </script>

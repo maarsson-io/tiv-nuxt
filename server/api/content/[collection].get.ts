@@ -1,9 +1,9 @@
 import type { Collections } from '@nuxt/content';
 import { queryCollection } from '@nuxt/content/server';
 
-// Every page's data comes through this endpoint, so the content is always queried
-// on the server. Querying in the browser would download a WebAssembly SQLite
-// database on the first client-side navigation.
+/* Every page's data comes through this endpoint, so the content is always queried
+   on the server. Querying in the browser would download a WebAssembly SQLite
+   database on the first client-side navigation. */
 const collections = new Set<string>([
   'home',
   'about',

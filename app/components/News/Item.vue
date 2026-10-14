@@ -28,7 +28,8 @@
         </p>
         <a
           :href="content.link"
-          target="_blank" class="btn btn-main btn-icon btn-round-full"
+          target="_blank"
+          class="btn btn-main btn-icon btn-round-full"
         >
           {{ content.button }} <i class="icofont-simple-right ml-2" />
         </a>
@@ -42,8 +43,8 @@ export default {
   props: {
     content: {
       type: Object,
-      default: () => ({})
-    }
-  }
+      default: () => ({}),
+    },
+  },
 };
 </script>

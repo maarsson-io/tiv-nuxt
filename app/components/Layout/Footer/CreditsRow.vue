@@ -11,7 +11,10 @@
     </div>
     <div class="row">
       <div class="col-lg-4">
-        <a class="backtop scroll-top-to" href="#top">
+        <a
+          class="backtop scroll-top-to"
+          href="#top"
+        >
           <i class="icofont-long-arrow-up" />
         </a>
       </div>
@@ -21,10 +24,10 @@
 
 <script lang="ts">
 export default {
-  setup () {
+  setup() {
     const config = useAppConfig();
 
     return { config };
-  }
+  },
 };
 </script>

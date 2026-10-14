@@ -47,7 +47,11 @@
                   </div>
                 </div>
                 <div class="col-8 text-right">
-                  <img class="swish-logo mt-1" src="/assets/swish-logo.svg" alt="">
+                  <img
+                    class="swish-logo mt-1"
+                    src="/assets/swish-logo.svg"
+                    alt=""
+                  >
                 </div>
               </div>
               <span>{{ content.box3.subtitle }}</span>
@@ -76,8 +80,8 @@ export default {
   props: {
     content: {
       type: Object,
-      default: () => ({})
-    }
-  }
+      default: () => ({}),
+    },
+  },
 };
 </script>

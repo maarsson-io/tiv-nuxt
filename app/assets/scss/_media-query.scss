@@ -1,34 +1,34 @@
-/*=== MEDIA QUERY ===*/
+/* === MEDIA QUERY === */
 @mixin mobile-xs {
-  @media(max-width:400px) {
+  @media(width <=400px) {
     @content;
   }
 
 }
 
 @mixin mobile {
-  @media(max-width:480px) {
+  @media(width <=480px) {
     @content;
   }
 
 }
 
 @mixin tablet {
-  @media(max-width:768px) {
+  @media(width <=768px) {
     @content;
   }
 
 }
 
 @mixin desktop {
-  @media(max-width:992px) {
+  @media(width <=992px) {
     @content;
   }
 
 }
 
 @mixin large-desktop {
-  @media(max-width:1200px) {
+  @media(width <=1200px) {
     @content;
   }
 

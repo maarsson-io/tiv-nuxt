@@ -1,13 +1,24 @@
 <template>
   <!-- Navigation -->
-  <nav id="navbar" class="navbar navbar-expand-lg navigation">
+  <nav
+    id="navbar"
+    class="navbar navbar-expand-lg navigation"
+  >
     <div class="container">
       <NuxtLink
         to="/"
         class="navbar-brand d-flex m-0"
       >
-        <img src="/logo/logo_old.svg" alt="" class="logo">
-        <img src="/logo/logo_text.svg" :alt="config.name" class="logo-text ml-3">
+        <img
+          src="/logo/logo_old.svg"
+          alt=""
+          class="logo"
+        >
+        <img
+          src="/logo/logo_text.svg"
+          :alt="config.name"
+          class="logo-text ml-3"
+        >
       </NuxtLink>
       <!-- Burger icon -->
       <button
@@ -23,7 +34,10 @@
         <span class="icofont-navigation-menu" />
       </button>
       <!-- Menu -->
-      <div id="navbarmain" :class="'collapse navbar-collapse' + (showMobileNav ? ' show' : '')">
+      <div
+        id="navbarmain"
+        :class="'collapse navbar-collapse' + (showMobileNav ? ' show' : '')"
+      >
         <ul class="navbar-nav ml-auto">
           <li
             v-for="(item, index) in navigation"
@@ -54,8 +68,8 @@
                 aria-labelledby="dropdown"
               >
                 <li
-                  v-for="(subitem, index) in item.items"
-                  :key="index"
+                  v-for="(subitem, subitemIndex) in item.items"
+                  :key="subitemIndex"
                   :class="'nav-item' + item.items ? ' dropdown' : null"
                 >
                   <NuxtLink
@@ -79,35 +93,37 @@ export default {
   props: {
     navigation: {
       type: Array,
-      default: () => []
-    }
+      default: () => [],
+    },
   },
 
-  setup () {
+  setup() {
     const config = useAppConfig();
 
     return { config };
   },
 
-  data () {
+  data() {
     return {
       showMobileNav: false,
-      openedDropdowns: []
+      openedDropdowns: [],
     };
   },
 
   watch: {
-    $route (route) {
+    // Close the mobile menu and any open dropdown after navigating.
+    $route() {
       this.showMobileNav = false;
-    }
+      this.openedDropdowns = [];
+    },
   },
 
   methods: {
-    toggleMobileNav () {
+    toggleMobileNav() {
       this.showMobileNav = !this.showMobileNav;
     },
 
-    toggleDropdown (index) {
+    toggleDropdown(index) {
       if (!this.isDropdownOpen(index)) {
         this.openedDropdowns.push(index);
         return;
@@ -119,9 +135,9 @@ export default {
       }
     },
 
-    isDropdownOpen (index) {
+    isDropdownOpen(index) {
       return this.openedDropdowns.includes(index);
-    }
-  }
+    },
+  },
 };
 </script>
