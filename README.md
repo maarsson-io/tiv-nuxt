@@ -93,7 +93,7 @@ The end-to-end tests use [Playwright](https://playwright.dev) and run in Chromiu
 
 Expected titles and menu items are read from `content/`, so editing the JSON content does not break the tests. Only the few literal texts in `content.spec.ts` need updating when those texts change.
 
-Every test fails on browser console errors. Requests to third-party services, such as telemetry, are blocked during the tests.
+Every test fails on browser console errors. Apart from the news images linked from vittsjobjarnum.nu, the website makes no requests to third-party services; the tests fail if a page tries to. Third-party requests never leave the test browser.
 
 Build the site, then run the tests. The tests start the built server on port 4173 themselves:
 
