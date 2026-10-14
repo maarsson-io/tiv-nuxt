@@ -41,10 +41,14 @@ export default defineNuxtConfig({
   },
 
   content: {
-    // https://content.nuxtjs.org/api/configuration
-    markdown: {
-      // Headings in inline MDC text contain links; anchors would nest them.
+    // https://content.nuxt.com/docs/getting-started/configuration
+    renderer: {
+      // Headings in the Markdown texts contain links; anchors would nest them.
       anchorLinks: false
+    },
+    experimental: {
+      // Node's built-in SQLite instead of the native better-sqlite3 module.
+      sqliteConnector: 'native'
     }
   },
 

@@ -29,21 +29,6 @@
 </template>
 
 <script setup lang="ts">
-const getTestimonials = async () => {
-  const { data } = await useAsyncData('content-testimonials',
-    () => queryContent()
-      .where({ _path: '/testimonials' })
-      .findOne()
-  );
-  return data;
-};
-
-const testimonials = await getTestimonials();
-const { path } = useRoute();
-const contentPath = path.replace(/\/+$/, '') || '/';
-const { data } = await useAsyncData(`content-${contentPath}`,
-  () => queryContent()
-    .where({ _path: contentPath })
-    .findOne()
-);
+const { data } = await useContentData('about');
+const { data: testimonials } = await useContentData('testimonials');
 </script>

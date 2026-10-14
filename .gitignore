@@ -1,5 +1,7 @@
 # Nuxt
 .nuxt
+# Nuxt Content local database, rebuilt from content/
+/.data/
 # Symlink to .output/public, created by nuxt generate with an absolute path
 /dist
 .nitro

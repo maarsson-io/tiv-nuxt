@@ -9,9 +9,9 @@
               v-for="(text, index) in content"
               :key="index"
             >
-              <MDC
+              <MDCRenderer
                 class="mb-5"
-                :value="text"
+                :body="text"
               />
               <div
                 v-if="index < content.length - 1"

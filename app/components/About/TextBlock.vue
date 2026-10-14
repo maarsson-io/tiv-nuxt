@@ -14,10 +14,10 @@
             v-for="(sections, index) in content.paragraphs"
             :key="index"
           >
-            <MDC
+            <MDCRenderer
               v-for="(section, sectionIndex) in sections"
               :key="sectionIndex"
-              :value="section"
+              :body="section"
               :tag="false"
             />
             <div
