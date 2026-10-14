@@ -2,7 +2,7 @@
 
 Source code for [tryggivittsjo.se](https://tryggivittsjo.se), the website of Trygg i Vittsjö, a nonprofit, nonpartisan association working to prevent crime in Vittsjö, Emmaljunga, and the surrounding area in north Skåne, Sweden.
 
-The website is built with Nuxt 4, Vue, and Nuxt Content. It is maintained and hosted free of charge as volunteer work.
+The website is built with Nuxt 4, Vue, and Nuxt Content 3. It is maintained and hosted free of charge as volunteer work.
 
 ## Project structure
 
@@ -11,10 +11,22 @@ The website is built with Nuxt 4, Vue, and Nuxt Content. It is maintained and ho
   - `components/` contains reusable UI components.
   - `layouts/` contains the page layout.
   - `utils/` contains shared logic, such as the sponsor visibility rule.
+  - `composables/` contains `useContentData()`, which loads a page's content.
   - `assets/` contains styles and scripts.
 - `content/` contains the website's JSON content, including news and sponsors.
+- `content.config.ts` defines one Nuxt Content collection per JSON file.
+- `server/api/content/` serves the collections, so content is always queried on the server.
+- `modules/content-markdown.ts` lists the content fields written in Markdown and renders them at build time.
 - `public/` contains images, logos, favicons, and other static files.
 - `tests/e2e/` contains the end-to-end tests.
+
+## Content
+
+Each page reads one JSON file from `content/`. To change a text, edit the JSON file; no code change is needed.
+
+A few texts support Markdown, for example `**bold**` and `[links](/sponsors)`. These fields are listed in `modules/content-markdown.ts`. To use Markdown in another field, add its path there.
+
+When adding a new top-level field to a JSON file, also add it to the collection's schema in `content.config.ts`. Fields missing from the schema are not available to the page, and nested data must be declared as an object or a list. Nuxt Content does not reject invalid data, so `tests/e2e/data.spec.ts` validates the sponsors file.
 
 ## Setup
 

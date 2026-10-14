@@ -9,10 +9,10 @@
       :key="index"
     >
       <div class="divider my-4" />
-      <MDC
+      <MDCRenderer
         v-for="(paragraph, paragraphIndex) in sections"
         :key="paragraphIndex"
-        :value="paragraph"
+        :body="paragraph"
         :tag="false"
       />
     </div>
