@@ -111,7 +111,7 @@ export default {
   },
 
   watch: {
-    $route(route) {
+    $route() {
       this.showMobileNav = false;
     },
   },
