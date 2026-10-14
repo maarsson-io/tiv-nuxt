@@ -4,6 +4,8 @@ name: Dependabot Retarget
 # move them to develop so they follow the regular release flow.
 # pull_request_target is required for a writable token on Dependabot PRs.
 # No PR code is checked out, so this is safe.
+# Dependabot ignores commands from bots, so after a retarget comment
+# `@dependabot recreate` on the PR manually to rebuild it on develop.
 on:
   pull_request_target:
     types:
@@ -36,10 +38,3 @@ jobs:
             });
 
             core.info(`PR #${pull_number} retargeted to develop`);
-
-            await github.rest.issues.createComment({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: pull_number,
-              body: '@dependabot rebase',
-            });
