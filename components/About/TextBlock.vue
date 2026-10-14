@@ -14,11 +14,12 @@
             v-for="(sections, index) in content.paragraphs"
             :key="index"
           >
-            <template
-              v-for="section in sections"
-            >
-              <p v-html="section" />
-            </template>
+            <MDC
+              v-for="(section, sectionIndex) in sections"
+              :key="sectionIndex"
+              :value="section"
+              :tag="false"
+            />
             <div
               v-if="index < content.paragraphs.length - 1"
               class="divider my-4"

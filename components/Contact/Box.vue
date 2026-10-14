@@ -10,9 +10,17 @@
       <LinkMail
         v-else-if="content.component == 'mail'"
       />
-      <div
-        v-html="content.html"
-      />
+      <div v-if="content.lines">
+        <div
+          v-for="(line, index) in content.lines"
+          :key="index"
+        >
+          {{ line }}
+        </div>
+      </div>
+      <div v-else>
+        &nbsp;
+      </div>
     </div>
   </div>
 </template>

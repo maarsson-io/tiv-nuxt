@@ -30,8 +30,9 @@
             <p
               v-for="(paragraph, index) in content.paragraphs"
               :key="index"
-              v-html="paragraph"
-            />
+            >
+              {{ paragraph }}
+            </p>
           </div>
         </div>
       </div>

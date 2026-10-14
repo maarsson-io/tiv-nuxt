@@ -41,6 +41,10 @@ export default defineNuxtConfig({
 
   content: {
     // https://content.nuxtjs.org/api/configuration
+    markdown: {
+      // Headings in inline MDC text contain links; anchors would nest them.
+      anchorLinks: false
+    }
   },
 
   css: [
