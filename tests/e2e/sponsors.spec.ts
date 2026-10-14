@@ -1,5 +1,5 @@
 import type { Locator } from '@playwright/test';
-import { activeSponsors } from '../../utils/sponsors';
+import { activeSponsors } from '../../app/utils/sponsors';
 import { content, expect, test } from './fixtures';
 
 // Uses the real date: the expected list is computed from sponsors.json with the

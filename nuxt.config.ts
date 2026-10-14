@@ -19,10 +19,9 @@ export default defineNuxtConfig({
       titleTemplate: '%s | Trygg i Vittsjö',
       meta: [
         { charset: 'utf-8' },
-        { hid: 'Trygg i Vittsjö', name: 'Trygg i Vittsjö', content: '' },
         { name: 'format-detection', content: 'telephone=no' },
-        { name: 'apple-mobile-web-app-title', content: 'Trygg i Vittsj&ouml;' },
-        { name: 'application-name', content: 'Trygg i Vittsj&ouml;' },
+        { name: 'apple-mobile-web-app-title', content: 'Trygg i Vittsjö' },
+        { name: 'application-name', content: 'Trygg i Vittsjö' },
         { name: 'msapplication-TileColor', content: '#a41214' },
         { name: 'msapplication-config', content: '/favicon/browserconfig.xml?v=2.1' },
         { name: 'theme-color', content: '#ffffff' }
@@ -50,12 +49,12 @@ export default defineNuxtConfig({
   },
 
   css: [
-    '/node_modules/bootstrap/dist/css/bootstrap.min.css',
-    '/node_modules/@icon/icofont/icofont.css',
-    '/node_modules/@fontsource/roboto',
-    '/node_modules/@fontsource/exo/500.css',
-    '/node_modules/@fontsource/exo/700.css',
-    '@/assets/scss/app.scss'
+    'bootstrap/dist/css/bootstrap.min.css',
+    '@icon/icofont/icofont.css',
+    '@fontsource/roboto',
+    '@fontsource/exo/500.css',
+    '@fontsource/exo/700.css',
+    '~/assets/scss/app.scss'
   ],
 
   build: {

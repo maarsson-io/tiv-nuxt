@@ -2,15 +2,19 @@
 
 Source code for [tryggivittsjo.se](https://tryggivittsjo.se), the website of Trygg i Vittsjö, a nonprofit, nonpartisan association working to prevent crime in Vittsjö, Emmaljunga, and the surrounding area in north Skåne, Sweden.
 
-The website is built with Nuxt 3, Vue, and Nuxt Content. It is maintained and hosted free of charge as volunteer work.
+The website is built with Nuxt 4, Vue, and Nuxt Content. It is maintained and hosted free of charge as volunteer work.
 
 ## Project structure
 
-- `pages/` defines the website's routes.
-- `components/` contains reusable UI components.
+- `app/` contains the application code:
+  - `pages/` defines the website's routes.
+  - `components/` contains reusable UI components.
+  - `layouts/` contains the page layout.
+  - `utils/` contains shared logic, such as the sponsor visibility rule.
+  - `assets/` contains styles and scripts.
 - `content/` contains the website's JSON content, including news and sponsors.
-- `assets/` contains styles and scripts.
 - `public/` contains images, logos, favicons, and other static files.
+- `tests/e2e/` contains the end-to-end tests.
 
 ## Setup
 
@@ -70,7 +74,7 @@ The end-to-end tests use [Playwright](https://playwright.dev) and run in Chromiu
 - `navigation.spec.ts` follows the header, dropdown, mobile, and footer menus and the content links.
 - `content.spec.ts` checks the Markdown-formatted texts and contact details.
 - `tooltip.spec.ts` checks the sponsor name tooltips.
-- `sponsors.spec.ts` checks that the sponsor page and the startpage list exactly the active sponsors, using the real date and the same rule as the website (`utils/sponsors.ts`).
+- `sponsors.spec.ts` checks that the sponsor page and the startpage list exactly the active sponsors, using the real date and the same rule as the website (`app/utils/sponsors.ts`).
 - `visual.spec.ts` compares full-page screenshots with stored baselines.
 - `data.spec.ts` validates the content files, for example that every sponsor has a valid, non-future date and an existing logo file.
 

@@ -7,7 +7,7 @@ import { TelemetryDeck } from '@telemetrydeck/sdk';
 import FingerprintJS from '@fingerprintjs/fingerprintjs';
 
 const trackingActive = true;
-const referrer = process.client ? window.document.referrer : req.headers.referer;
+const referrer = window.document.referrer;
 
 export default {
   props: {

@@ -27,7 +27,7 @@ test.describe('sponsors.json', () => {
       }
 
       if (sponsor.logo !== null) {
-        expect(existsSync(join(__dirname, '../../public', sponsor.logo)), `logo file ${sponsor.logo}`).toBe(true);
+        expect(existsSync(join(import.meta.dirname, '../../public', sponsor.logo)), `logo file ${sponsor.logo}`).toBe(true);
       }
     });
   }
