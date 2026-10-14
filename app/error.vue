@@ -29,7 +29,7 @@
 
 <script setup lang="ts">
 // Bundled instead of queried: on the static 404 fallback no content query is prerendered.
-import data from '~/content/error.json';
+import data from '~~/content/error.json';
 
 defineProps({
   error: Object

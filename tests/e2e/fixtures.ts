@@ -4,7 +4,7 @@ import { test as base, expect } from '@playwright/test';
 
 // Reads a file from content/, so assertions follow the actual page data.
 export const content = (name: string) =>
-  JSON.parse(readFileSync(join(__dirname, '../../content', `${name}.json`), 'utf8'));
+  JSON.parse(readFileSync(join(import.meta.dirname, '../../content', `${name}.json`), 'utf8'));
 
 export const routes = [
   { path: '/', title: content('index').slider.title },
