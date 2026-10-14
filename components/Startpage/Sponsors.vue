@@ -54,7 +54,7 @@
       <div class="row justify-content-center">
         <div class="col-lg-12 text-center">
           <NuxtLink
-            to="sponsors"
+            to="/sponsors"
             class="btn btn-main-2 btn-round-full btn-icon mt-5"
           >
             {{ content.button }}<i class="icofont-simple-right ml-1" />

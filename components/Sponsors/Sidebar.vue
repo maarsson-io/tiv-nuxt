@@ -8,7 +8,7 @@
   </p>
   <p class="my-4 pb-4">
     <NuxtLink
-      to="sponsoring"
+      to="/sponsoring"
       class="btn btn-main-2 btn-round-full"
     >
       {{ content.button }}<i class="icofont-simple-right ml-2" />

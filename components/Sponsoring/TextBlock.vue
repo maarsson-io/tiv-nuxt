@@ -19,7 +19,7 @@
     <div class="divider my-4" />
     <p>{{ content.driver_text }}</p>
     <NuxtLink
-      to="contact-driver"
+      to="/contact-driver"
       class="btn btn-main-2 btn-round-full"
     >
       {{ content.driver_button }}<i class="icofont-simple-right ml-2" />
