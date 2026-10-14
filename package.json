@@ -41,5 +41,10 @@
     "swiper": "^9.1.1",
     "vue-waypoint": "^4.2.5",
     "vue3-autocounter": "^1.0.8"
+  },
+  "overrides": {
+    "@vueuse/nuxt": {
+      "nuxt": "^4.6.1"
+    }
   }
 }
