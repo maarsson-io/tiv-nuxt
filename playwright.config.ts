@@ -3,7 +3,7 @@ import { defineConfig, devices } from '@playwright/test';
 const port = 4173;
 const isCI = !!process.env.CI;
 
-// Runs against the generated static site: `npm run generate` first.
+// Runs against the production server build, as deployed: `npm run build` first.
 export default defineConfig({
   testDir: './tests/e2e',
   fullyParallel: true,
@@ -34,7 +34,8 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: `node tests/e2e/server.mjs ${port}`,
+    command: 'node .output/server/index.mjs',
+    env: { PORT: String(port) },
     url: `http://localhost:${port}`,
     reuseExistingServer: !isCI,
   },
