@@ -70,7 +70,9 @@ The end-to-end tests use [Playwright](https://playwright.dev) and run in Chromiu
 - `navigation.spec.ts` follows the header, dropdown, mobile, and footer menus and the content links.
 - `content.spec.ts` checks the Markdown-formatted texts and contact details.
 - `tooltip.spec.ts` checks the sponsor name tooltips.
+- `sponsors.spec.ts` checks that the sponsor page and the startpage list exactly the active sponsors, using the real date and the same rule as the website (`utils/sponsors.ts`).
 - `visual.spec.ts` compares full-page screenshots with stored baselines.
+- `data.spec.ts` validates the content files, for example that every sponsor has a valid, non-future date and an existing logo file.
 
 Expected titles and menu items are read from `content/`, so editing the JSON content does not break the tests. Only the few literal texts in `content.spec.ts` need updating when those texts change.
 
@@ -92,6 +94,8 @@ npx playwright test --ui
 ### Visual baselines
 
 The screenshot baselines are stored locally in `tests/e2e/__screenshots__/` and are not committed, because they are large and depend on the operating system's font rendering. Missing baselines are created on the first run.
+
+The sponsor lists are masked in the screenshots, because they change with every payment and expiry. Adding a sponsor or updating a payment date therefore does not affect the visual tests; `sponsors.spec.ts` checks the lists instead.
 
 When a page changes on purpose, for example after editing a text or adding a sponsor, the visual tests of the affected pages fail. This is expected. To accept the change:
 

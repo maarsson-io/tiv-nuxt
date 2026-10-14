@@ -14,7 +14,7 @@
     </div>
     <!-- Sponsors slider -->
     <div class="container">
-      <div class="row clients-logo">
+      <div class="row clients-logo" data-testid="sponsor-carousel">
         <swiper
           :modules="modules"
           :slides-per-view="2"
@@ -93,16 +93,8 @@ export default {
   },
 
   computed: {
-    inOneYear () {
-      const date = new Date();
-      return date.setFullYear(date.getFullYear() - 1);
-    },
-
     premiumSponsors () {
-      return this.sponsors
-        .filter(sponsor => sponsor.premium)
-        .filter(sponsor => new Date(sponsor.date) >= this.inOneYear)
-        .sort((first, second) => first.name > second.name ? 1 : -1);
+      return activeSponsors(this.sponsors).filter(sponsor => sponsor.premium);
     }
   }
 };
