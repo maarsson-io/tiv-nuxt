@@ -26,9 +26,6 @@
     "nuxt": "^3.2.3",
     "sass": "^1.58.3"
   },
-  "volta": {
-    "node": "19.9.0"
-  },
   "dependencies": {
     "@fingerprintjs/fingerprintjs": "^3.4.0",
     "@fontsource/exo": "^5.0.18",
