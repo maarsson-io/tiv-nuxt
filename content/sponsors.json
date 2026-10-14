@@ -60,7 +60,7 @@
             "date": "2023-07-21",
             "link": "http://www.offason.se/",
             "name": "Offason AB",
-            "logo": "/sponsors/offason.png"
+            "logo": "/images/sponsors/offason.png"
         },
         {
             "premium": false,
@@ -95,21 +95,21 @@
             "date": "2024-02-28",
             "link": "https://rubn.com/",
             "name": "Rubn AB",
-            "logo": "/sponsors/rubn.svg"
+            "logo": "/images/sponsors/rubn.svg"
         },
         {
             "premium": false,
             "date": "2024-03-04",
             "link": "http://www.elolle.se/",
             "name": "El AB Olle Widell",
-            "logo": "/sponsors/elolle.png"
+            "logo": "/images/sponsors/elolle.png"
         },
         {
             "premium": false,
             "date": "2024-03-04",
             "link": "https://www.facebook.com/people/KT-Fordonsteknik-AB/100054555875300/",
             "name": "KT Fordonsteknik AB",
-            "logo": "/sponsors/kt-fordonsteknink.jpeg"
+            "logo": "/images/sponsors/kt-fordonsteknink.jpeg"
         },
         {
             "premium": false,
@@ -137,7 +137,7 @@
             "date": "2024-03-19",
             "link": "http://www.nmp-lego.se/",
             "name": "NMP Lego AB",
-            "logo": "/sponsors/npm-lego.png"
+            "logo": "/images/sponsors/npm-lego.png"
         },
         {
             "premium": false,
@@ -151,14 +151,14 @@
             "date": "2024-04-02",
             "link": "https://www.lacortina.se",
             "name": "La Cortina",
-            "logo": "/sponsors/la-cortina.png"
+            "logo": "/images/sponsors/la-cortina.png"
         },
         {
             "premium": true,
             "date": "2025-01-01",
             "link": "http://www.vittsjobjarnum.nu/",
             "name": "vittsjobjarnum.nu",
-            "logo": "/sponsors/vittsjobjarnum.png"
+            "logo": "/images/sponsors/vittsjobjarnum.png"
         },
         {
             "premium": true,
@@ -179,7 +179,7 @@
             "date": "2025-02-05",
             "link": "http://www.snapphanebygdenssparbank.se/",
             "name": "Snapphanebygdens Sparbank",
-            "logo": "/sponsors/sparbanken.png"
+            "logo": "/images/sponsors/sparbanken.png"
         },
         {
             "premium": false,
@@ -200,28 +200,28 @@
             "date": "2025-03-07",
             "link": "https://shg.se/vittsjo/",
             "name": "Vittsjö Sjukhem AB",
-            "logo": "/sponsors/vittsjo-sjukhem.png"
+            "logo": "/images/sponsors/vittsjo-sjukhem.png"
         },
         {
             "premium": false,
             "date": "2025-03-12",
             "link": "http://www.bamab.se/",
             "name": "Bo Ahlquist Maskin AB",
-            "logo": "/sponsors/bo-ahlquist.png"
+            "logo": "/images/sponsors/bo-ahlquist.png"
         },
         {
             "premium": true,
             "date": "2025-03-13",
             "link": "http://www.emmaljungatorvmull.se/",
             "name": "Emmaljunga Torvmull AB",
-            "logo": "/sponsors/emmaljunga-torvmull.png"
+            "logo": "/images/sponsors/emmaljunga-torvmull.png"
         },
         {
             "premium": true,
             "date": "2025-03-19",
             "link": "https://emmaljunga.com/sv",
             "name": "Emmaljunga Barnvagsfabrik AB",
-            "logo": "/sponsors/emmaljunga.svg"
+            "logo": "/images/sponsors/emmaljunga.svg"
         },
         {
             "premium": false,
@@ -256,7 +256,7 @@
             "date": "2025-09-10",
             "link": null,
             "name": "Lions Club",
-            "logo": "/sponsors/lions.png"
+            "logo": "/images/sponsors/lions.png"
         },
         {
             "premium": false,
@@ -270,14 +270,14 @@
             "date": "2026-01-13",
             "link": "http://www.svenskakyrkan.se/vittsjo/",
             "name": "Vittsjö Verums Pastorat",
-            "logo": "/sponsors/svenska-kyrkan.png"
+            "logo": "/images/sponsors/svenska-kyrkan.png"
         },
         {
             "premium": false,
             "date": "2026-01-23",
             "link": "http://www.nilssontryck.se/",
             "name": "Nilssons Tryckeri AB",
-            "logo": "/sponsors/nilssons-tryckeri.png"
+            "logo": "/images/sponsors/nilssons-tryckeri.png"
         },
         {
             "premium": false,
@@ -333,7 +333,7 @@
             "date": "2026-02-18",
             "link": "https://furuliden.se/",
             "name": "Furuliden",
-            "logo": "/sponsors/furuliden.png"
+            "logo": "/images/sponsors/furuliden.png"
         },
         {
             "premium": false,
@@ -375,7 +375,7 @@
             "date": "2026-02-27",
             "link": "https://www.ica.se/butiker/nara/hassleholm/ica-nara-vittsjo-1003694/",
             "name": "ICA Nära Vittsjöhallen",
-            "logo": "/sponsors/ica-nara.svg"
+            "logo": "/images/sponsors/ica-nara.svg"
         },
         {
             "premium": false,
@@ -396,7 +396,7 @@
             "date": "2026-03-04",
             "link": "http://www.snapphanebygdenssparbank.se/",
             "name": "Snapphanebygdens Sparbank",
-            "logo": "/sponsors/sparbanken.png"
+            "logo": "/images/sponsors/sparbanken.png"
         },
         {
             "premium": false,
@@ -410,14 +410,14 @@
             "date": "2026-03-06",
             "link": "http://www.skorstensservice.se/",
             "name": "Vittsjö Skorstenservice AB",
-            "logo": "/sponsors/vittsjo-skorstenservice.png"
+            "logo": "/images/sponsors/vittsjo-skorstenservice.png"
         },
         {
             "premium": true,
             "date": "2026-03-09",
             "link": "https://emmaljunga.com/sv",
             "name": "Emmaljunga Barnvagsfabrik AB",
-            "logo": "/sponsors/emmaljunga.svg"
+            "logo": "/images/sponsors/emmaljunga.svg"
         },
         {
             "premium": false,
@@ -431,14 +431,14 @@
             "date": "2026-03-13",
             "link": "http://www.rormokarna.com/",
             "name": "Rörmokarna Laubert & Lilja AB",
-            "logo": "/sponsors/rormokarna.png"
+            "logo": "/images/sponsors/rormokarna.png"
         },
         {
             "premium": false,
             "date": "2026-03-17",
             "link": "https://www.emballator.com/affarsomraden/packaging-innovations/lagan/",
             "name": "Emballator Lagan AB",
-            "logo": "/sponsors/emballator.png"
+            "logo": "/images/sponsors/emballator.png"
         },
         {
             "premium": true,
@@ -452,7 +452,7 @@
             "date": "2026-03-25",
             "link": "https://nartandvarden.se/",
             "name": "Närtandvården i Vittsjö AB",
-            "logo": "/sponsors/nartandvarden.png"
+            "logo": "/images/sponsors/nartandvarden.png"
         },
         {
             "premium": false,
@@ -501,7 +501,7 @@
             "date": "2026-04-23",
             "link": "https://www.wittsjogk.se/",
             "name": "Wittsjö Golfklubb",
-            "logo": "/sponsors/wittsjo-golfklubb.png"
+            "logo": "/images/sponsors/wittsjo-golfklubb.png"
         },
         {
             "premium": false,
@@ -515,7 +515,7 @@
             "date": "2025-07-06",
             "link": "http://www.hasslehem.se/",
             "name": "Hässlehem AB",
-            "logo": "/sponsors/hasslehem.png"
+            "logo": "/images/sponsors/hasslehem.png"
         }
     ]
 }
