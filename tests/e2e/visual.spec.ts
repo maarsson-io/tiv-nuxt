@@ -40,10 +40,10 @@ for (const route of routes) {
 
     // Carousels: stop autoplay and rewind, so every run shows the same slide.
     await page.evaluate(() => {
-      document.querySelectorAll<any>('.swiper').forEach((el) => {
+      for (const el of document.querySelectorAll<any>('.swiper')) {
         el.swiper?.autoplay?.stop();
         el.swiper?.slideTo(0, 0);
-      });
+      }
     });
 
     // The sponsor grid grows with the number of sponsors; a fixed height keeps the page size stable.

@@ -46,6 +46,9 @@ test.describe('image alt texts', () => {
   });
 });
 
+// Counters display thousands separators, e.g. "4,550"; only the digits are compared.
+const digitsOnly = (text: string) => text.replace(/\D/g, '');
+
 test('startpage counters count up to the values in index.json', async ({ page }) => {
   await page.goto('/');
   const counters = page.locator('.counter');
@@ -56,7 +59,5 @@ test('startpage counters count up to the values in index.json', async ({ page })
 
   const expected = content('index').counter_boxes.map((box: any) => String(box.count));
 
-  await expect.poll(async () =>
-    (await counters.allInnerTexts()).map(text => text.replace(/\D/g, '')),
-  ).toEqual(expected);
+  await expect.poll(async () => (await counters.allInnerTexts()).map(digitsOnly)).toEqual(expected);
 });
