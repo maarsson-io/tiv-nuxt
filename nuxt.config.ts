@@ -68,8 +68,4 @@ export default defineNuxtConfig({
     '~/assets/scss/app.scss'
   ],
 
-  build: {
-    transpile: ['vue-waypoint'],
-  }
-
 });
