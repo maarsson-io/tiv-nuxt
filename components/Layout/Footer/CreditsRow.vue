@@ -5,6 +5,7 @@
       <div class="col-12">
         <div class="copyright text-center">
           {{ config.name }} &copy; 2025&nbsp;&nbsp;|&nbsp;&nbsp;Design by <a :href="config.designer.link">{{ config.designer.name }}</a>
+          &nbsp;&nbsp;|&nbsp;&nbsp;<NuxtLink to="/cookies">Cookiepolicy</NuxtLink>
         </div>
       </div>
     </div>
