@@ -73,8 +73,8 @@ export default {
       default: () => ({}),
     },
     testimonials: {
-      type: Object,
-      default: () => ({}),
+      type: Array,
+      default: () => [],
     },
   },
 

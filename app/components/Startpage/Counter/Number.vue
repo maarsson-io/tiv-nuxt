@@ -24,11 +24,11 @@ export default defineNuxtComponent({
   props: {
     from: {
       type: Number,
-      default: () => ({}),
+      default: 0,
     },
     to: {
       type: Number,
-      default: () => ({}),
+      default: 0,
     },
   },
 

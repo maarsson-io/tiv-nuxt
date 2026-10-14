@@ -84,8 +84,8 @@ export default {
       default: () => ({}),
     },
     sponsors: {
-      type: Object,
-      default: () => ({}),
+      type: Array,
+      default: () => [],
     },
   },
 
