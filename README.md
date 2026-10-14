@@ -141,7 +141,7 @@ The baselines are not committed, so there is nothing to commit after refreshing 
 
 The `.githooks/pre-commit` blocks commits directly on master; work on develop or a feature/* / hotfix/* branch.
 
-The `.githooks/pre-push` hook builds the site and runs all tests before every push, and aborts the push if anything fails. It takes about 15–40 seconds. To skip it once:
+The `.githooks/pre-push` hook builds the site and runs all tests before every push, and aborts the push if anything fails. It first checks that `node_modules` matches `package-lock.json`, which is not the case after switching to a branch with different dependencies; run `npm ci` then. It takes about 15–40 seconds. To skip it once:
 
 
 ```bash
