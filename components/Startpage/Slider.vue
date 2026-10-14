@@ -1,8 +1,8 @@
 <template>
   <section class="banner" :style="bannerBackground">
-    <figcaption class="figure-caption">
+    <div class="figure-caption">
       Foto: &copy; {{ content.credits }}
-    </figcaption>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-12 col-xl-7">
