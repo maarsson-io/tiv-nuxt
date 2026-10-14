@@ -28,11 +28,8 @@
 </template>
 
 <script setup lang="ts">
-const { data } = await useAsyncData('content-error',
-  () => queryContent()
-    .where({ _path: '/error' })
-    .findOne()
-);
+// Bundled instead of queried: on the static 404 fallback no content query is prerendered.
+import data from '~/content/error.json';
 
 defineProps({
   error: Object
