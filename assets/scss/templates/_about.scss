@@ -1,3 +1,6 @@
+@use "../variables" as *;
+@use "../media-query" as *;
+
 .about-img {
   img {
     border-radius: 5px;

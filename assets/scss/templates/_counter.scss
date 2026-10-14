@@ -1,3 +1,6 @@
+@use "../variables" as *;
+@use "../media-query" as *;
+
 .counter-stat {
   text-align: center;
   padding: 55px 0px 40px 0px;
