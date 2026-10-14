@@ -9,8 +9,11 @@ export default defineNuxtConfig({
 
   eslint: {
     config: {
-      // @stylistic formatting rules, as in the coding-standard ruleset.
-      stylistic: true
+      // @stylistic formatting rules, as in the coding-standard ruleset,
+      // but this project keeps its semicolons.
+      stylistic: {
+        semi: true
+      }
     }
   },
 
