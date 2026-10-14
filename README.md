@@ -40,3 +40,9 @@ npm run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Template license
+
+This website uses and adapts the [Novena Bootstrap template](https://github.com/themefisher/novena-bootstrap) by Themefisher. The template and code derived from it are covered by its [MIT license](licenses/novena-bootstrap-MIT.txt), reproduced unchanged with the original copyright notice.
+
+This template license does not grant rights to unrelated project code, website content, photographs, or logos.
