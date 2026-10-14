@@ -86,6 +86,7 @@ The end-to-end tests use [Playwright](https://playwright.dev) and run in Chromiu
 - `navigation.spec.ts` follows the header, dropdown, mobile, and footer menus and the content links.
 - `content.spec.ts` checks the Markdown-formatted texts and contact details.
 - `tooltip.spec.ts` checks the sponsor name tooltips.
+- `carousel.spec.ts` checks that the carousels start, autoplay, and respond to their pagination.
 - `sponsors.spec.ts` checks that the sponsor page and the startpage list exactly the active sponsors, using the real date and the same rule as the website (`app/utils/sponsors.ts`).
 - `visual.spec.ts` compares full-page screenshots with stored baselines.
 - `data.spec.ts` validates the content files, for example that every sponsor has a valid, non-future date and an existing logo file.
