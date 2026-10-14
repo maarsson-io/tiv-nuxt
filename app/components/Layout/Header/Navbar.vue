@@ -111,8 +111,10 @@ export default {
   },
 
   watch: {
+    // Close the mobile menu and any open dropdown after navigating.
     $route() {
       this.showMobileNav = false;
+      this.openedDropdowns = [];
     },
   },
 

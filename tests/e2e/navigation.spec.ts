@@ -53,6 +53,22 @@ test.describe('mobile menu', () => {
     await expect(page).toHaveURL(topLevel[0].link);
     await expect(menu).toBeHidden();
   });
+
+  test('closes the dropdown after navigating from it', async ({ page }) => {
+    await page.goto('/');
+    const menu = page.locator('#navbarmain');
+    const toggle = page.getByRole('button', { name: 'Toggle navigation' });
+
+    await toggle.click();
+    await menu.getByRole('link', { name: dropdown.title }).click();
+    await menu.locator('.dropdown-menu').getByRole('link', { name: dropdown.items[0].title }).click();
+
+    await expect(page).toHaveURL(dropdown.items[0].link);
+    await expect(menu).toBeHidden();
+
+    await toggle.click();
+    await expect(menu.locator('.dropdown-menu')).toBeHidden();
+  });
 });
 
 test.describe('footer menu', () => {
