@@ -2,6 +2,37 @@ import { join } from 'node:path';
 import { readFileSync } from 'node:fs';
 import { test as base, expect } from '@playwright/test';
 
+// The entries of content/navigation.json: links, and dropdowns that group links.
+export type NavigationLink = {
+  title: string;
+  link: string;
+  footer: boolean;
+};
+
+export type NavigationDropdown = {
+  title: string;
+  items: NavigationLink[];
+};
+
+export type NavigationItem = NavigationLink | NavigationDropdown;
+
+// A carousel element. Swiper stores its instance on the element; these are the parts the tests use.
+export type SwiperElement = HTMLElement & {
+  swiper?: {
+    initialized: boolean;
+    activeIndex: number;
+    autoplay?: { running: boolean; stop: () => void };
+    slideTo: (index: number, speed?: number) => void;
+  };
+};
+
+// The marker that markWindow() sets on the browser window.
+declare global {
+  interface Window {
+    e2eMarker?: boolean;
+  }
+}
+
 // Reads a file from content/, so assertions follow the actual page data.
 export const content = (name: string) =>
   JSON.parse(readFileSync(join(import.meta.dirname, '../../content', `${name}.json`), 'utf8'));
@@ -69,10 +100,10 @@ export const test = base.extend<Fixtures>({
 // Marks the window so a test can tell client-side navigation from a full reload.
 export const markWindow = (page: import('@playwright/test').Page) =>
   page.evaluate(() => {
-    (window as any).__e2eMarker = true;
+    window.e2eMarker = true;
   });
 
 export const isSameWindow = (page: import('@playwright/test').Page) =>
-  page.evaluate(() => (window as any).__e2eMarker === true);
+  page.evaluate(() => window.e2eMarker === true);
 
 export { expect };

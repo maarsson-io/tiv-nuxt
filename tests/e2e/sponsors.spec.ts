@@ -4,7 +4,7 @@ import { content, expect, test } from './fixtures';
 
 /* Uses the real date: the expected list is computed from sponsors.json with the
    same rule the site uses, so it follows content updates and expiring sponsors. */
-const sponsors = content('sponsors').sponsors;
+const sponsors: { name: string; date: string; premium: boolean }[] = content('sponsors').sponsors;
 
 // A sponsor shows either their logo (name in the alt text) or their name.
 const shownNames = (items: Locator) =>

@@ -17,14 +17,19 @@ const markdownFields: Record<string, string[]> = {
 // Converts Markdown text into the tree that MDCRenderer renders.
 const toTree = async (markdown: string) => (await parseMarkdown(markdown)).body;
 
+// An object or array in the parsed JSON content, whose values are read by key.
+type Node = Record<string, unknown>;
+
+const isNode = (value: unknown): value is Node => typeof value === 'object' && value !== null;
+
 // The keys a path segment selects: every key for `*`, otherwise the segment itself.
-const keysOf = (target: object, segment: string): string[] => (segment === '*' ? Object.keys(target) : [segment]);
+const keysOf = (target: Node, segment: string): string[] => (segment === '*' ? Object.keys(target) : [segment]);
 
 // Converts the Markdown strings found at `path` inside `target`, in place.
-const convertAt = async (target: any, path: string[]): Promise<void> => {
+const convertAt = async (target: unknown, path: string[]): Promise<void> => {
   const [segment, ...rest] = path;
 
-  if (target === null || target === undefined || segment === undefined) {
+  if (!isNode(target) || segment === undefined) {
     return;
   }
 
@@ -34,14 +39,16 @@ const convertAt = async (target: any, path: string[]): Promise<void> => {
 };
 
 // Follows the rest of the path below `target[key]`, or converts it at the end of the path.
-const convertValue = async (target: any, key: string, rest: string[]): Promise<void> => {
+const convertValue = async (target: Node, key: string, rest: string[]): Promise<void> => {
+  const value = target[key];
+
   if (rest.length > 0) {
-    await convertAt(target[key], rest);
+    await convertAt(value, rest);
     return;
   }
 
-  if (typeof target[key] === 'string') {
-    target[key] = await toTree(target[key]);
+  if (typeof value === 'string') {
+    target[key] = await toTree(value);
   }
 };
 

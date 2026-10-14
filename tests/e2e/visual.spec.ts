@@ -1,5 +1,5 @@
 import type { Page } from '@playwright/test';
-import { expect, routes, test } from './fixtures';
+import { type SwiperElement, expect, routes, test } from './fixtures';
 
 /* Counters count up whenever they enter or leave the viewport, including while a
    full-page screenshot is taken: let them finish, then freeze them at their final values. */
@@ -40,7 +40,7 @@ for (const route of routes) {
 
     // Carousels: stop autoplay and rewind, so every run shows the same slide.
     await page.evaluate(() => {
-      for (const el of document.querySelectorAll<any>('.swiper')) {
+      for (const el of document.querySelectorAll<SwiperElement>('.swiper')) {
         el.swiper?.autoplay?.stop();
         el.swiper?.slideTo(0, 0);
       }

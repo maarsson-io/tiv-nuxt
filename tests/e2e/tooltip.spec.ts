@@ -1,5 +1,5 @@
 import type { Locator } from '@playwright/test';
-import { expect, test } from './fixtures';
+import { type SwiperElement, expect, test } from './fixtures';
 
 test.skip(({ isMobile }) => isMobile, 'Tooltips need a hover');
 
@@ -32,7 +32,7 @@ test('startpage sponsor carousel shows the sponsor name on hover', async ({ page
   const carousel = page.locator('.swiper', { has: page.locator('.client-thumb') });
 
   await carousel.scrollIntoViewIfNeeded();
-  await carousel.evaluate((el: any) => el.swiper?.autoplay?.stop());
+  await carousel.evaluate((el: SwiperElement) => el.swiper?.autoplay?.stop());
 
   const sponsor = carousel.locator('.client-thumb:has(img)').filter({ visible: true }).first();
   const name = await sponsor.locator('img').getAttribute('alt');
