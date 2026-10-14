@@ -22,31 +22,7 @@
 </template>
 
 <script setup lang="ts">
-const getTestimonials = async () => {
-  const { data } = await useAsyncData('content-testimonials',
-    () => queryContent()
-      .where({ _path: '/testimonials' })
-      .findOne()
-  );
-  return data;
-};
-const testimonials = await getTestimonials();
-
-const getSponsors = async () => {
-  const { data } = await useAsyncData('content-sponsors',
-    () => queryContent()
-      .where({ _path: '/sponsors' })
-      .findOne()
-  );
-  return data;
-};
-const sponsors = await getSponsors();
-
-const { path } = useRoute();
-const contentPath = path.replace(/\/+$/, '') || '/';
-const { data } = await useAsyncData(`content-${contentPath}`,
-  () => queryContent()
-    .where({ _path: contentPath })
-    .findOne()
-);
+const { data } = await useContentData('home');
+const { data: testimonials } = await useContentData('testimonials');
+const { data: sponsors } = await useContentData('sponsors');
 </script>

@@ -14,5 +14,5 @@
 </template>
 
 <script setup lang="ts">
-const { data } = await useAsyncData('footer-data', () => queryContent('/footer/disclaimer').findOne());
+const { data } = await useContentData('footerDisclaimer');
 </script>

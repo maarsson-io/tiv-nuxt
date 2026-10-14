@@ -10,11 +10,5 @@
 </template>
 
 <script setup lang="ts">
-const { path } = useRoute();
-const contentPath = path.replace(/\/+$/, '') || '/';
-const { data } = await useAsyncData(`content-${contentPath}`,
-  () => queryContent()
-    .where({ _path: contentPath })
-    .findOne()
-);
+const { data } = await useContentData('news');
 </script>

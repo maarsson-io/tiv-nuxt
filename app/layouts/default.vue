@@ -14,11 +14,7 @@
 <script lang="ts">
 export default {
   async setup () {
-    const { data } = await useAsyncData('navigation',
-      () => queryContent()
-        .where({ _path: '/navigation' })
-        .findOne()
-    );
+    const { data } = await useContentData('navigation');
 
     return { data };
   },

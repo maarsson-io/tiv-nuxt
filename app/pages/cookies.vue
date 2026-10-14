@@ -58,7 +58,7 @@
 </template>
 
 <script setup lang="ts">
-const { data } = await useAsyncData('content-cookies', () => queryContent('/cookies').findOne());
+const { data } = await useContentData('cookies');
 
 useHead({ title: data.value.header.title });
 </script>

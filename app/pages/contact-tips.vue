@@ -1,7 +1,7 @@
 <template>
   <article>
     <LayoutPageTitle
-      :content="header.header"
+      :content="tips.header"
     />
     <ContactBoxes
       :content="data.boxes"
@@ -16,21 +16,7 @@
 </template>
 
 <script setup lang="ts">
-const getHeader = async (path) => {
-  const { data } = await useAsyncData(`content-${path}`,
-    () => queryContent()
-      .where({ _path: path })
-      .findOne()
-  );
-  return data;
-};
-
-const { path } = useRoute();
-const contentPath = path.replace(/\/+$/, '') || '/';
-const header = await getHeader(contentPath);
-const { data } = await useAsyncData('content-contact',
-  () => queryContent()
-    .where({ _path: '/contact' })
-    .findOne()
-);
+// The header is specific to this page; the contact details are shared with /contact.
+const { data: tips } = await useContentData('contactTips');
+const { data } = await useContentData('contact');
 </script>
