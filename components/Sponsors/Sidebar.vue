@@ -4,11 +4,11 @@
   </h5>
   <div class="divider mt-4 mb-5 mb-lg-0" />
   <p class="my-4">
-    <small v-html="content.text" />
+    <small>{{ content.text }}</small>
   </p>
   <p class="my-4 pb-4">
     <NuxtLink
-      to="sponsoring"
+      to="/sponsoring"
       class="btn btn-main-2 btn-round-full"
     >
       {{ content.button }}<i class="icofont-simple-right ml-2" />

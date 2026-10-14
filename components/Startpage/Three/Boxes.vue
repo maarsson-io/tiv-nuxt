@@ -32,7 +32,7 @@
                 {{ content.box2.text }}
               </p>
               <NuxtLink
-                to="contact-driver"
+                to="/contact-driver"
                 class="btn btn-main btn-round-full"
               >
                 {{ content.box2.button }} <i class="icofont-simple-right ml-2" />
@@ -58,7 +58,7 @@
                 {{ content.box3.text }}
               </p>
               <NuxtLink
-                to="sponsoring"
+                to="/sponsoring"
                 class="btn btn-main btn-round-full"
               >
                 {{ content.box3.button }} <i class="icofont-simple-right ml-2" />

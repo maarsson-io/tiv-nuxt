@@ -1,3 +1,6 @@
+@use "../variables" as *;
+@use "../media-query" as *;
+
 .department-service {
   li {
     margin-bottom: 10px;

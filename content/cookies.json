@@ -1,0 +1,70 @@
+{
+    "header": {
+        "title": "Cookiepolicy",
+        "description": "Så används kakor och liknande teknik på tryggivittsjo.se."
+    },
+    "updated": "Senast uppdaterad: 14 oktober 2026",
+    "intro": "Trygg i Vittsjö ansvarar för webbplatsen tryggivittsjo.se. Här beskriver vi de kakor och den teknik för besöksstatistik som webbplatsen använder.",
+    "sections": [
+        {
+            "title": "Vad är kakor?",
+            "paragraphs": [
+                "Kakor, även kallade cookies, är små uppgifter som en webbplats lagrar i din webbläsare. De kan till exempel användas för säkerhet, inställningar eller statistik. Liknande teknik kan också läsa information från webbläsaren utan att lagra en kaka."
+            ]
+        },
+        {
+            "title": "Säkerhet med Cloudflare",
+            "paragraphs": [
+                "Vi använder Cloudflare för att skydda webbplatsen mot skadlig och automatiserad trafik. Cloudflare kan sätta kakan cf_clearance efter en säkerhetskontroll. Den lagrar resultatet av kontrollen så att den inte behöver upprepas vid varje sidvisning.",
+                "Kakan används för säkerhet och inte för vår besöksstatistik eller reklam. Nödvändiga säkerhetskakor kräver normalt inte samtycke."
+            ]
+        },
+        {
+            "title": "Besöksstatistik",
+            "paragraphs": [
+                "Webbplatsen använder TelemetryDeck för besöksstatistik. FingerprintJS läser egenskaper hos din webbläsare och skapar ett identifierande webbläsarfingeravtryck. Identifieraren skickas till TelemetryDeck tillsammans med uppgifter om vilken sida du besöker och hänvisande sida.",
+                "Den här identifieringen sker utan att vår statistikfunktion behöver lagra en kaka. Att blockera eller radera kakor stoppar därför inte automatiskt webbläsarfingeravtryck."
+            ]
+        },
+        {
+            "title": "Hantera kakor",
+            "paragraphs": [
+                "Du kan se, blockera och radera kakor i webbläsarens inställningar. Där visas också kakornas domän och utgångstid. Om du blockerar Cloudflares säkerhetskaka kan säkerhetskontroller behöva upprepas och åtkomsten till webbplatsen påverkas."
+            ]
+        }
+    ],
+    "cookie_table": {
+        "title": "Säkerhetskaka",
+        "headings": ["Namn", "Leverantör", "Syfte", "Lagringstid"],
+        "rows": [
+            {
+                "name": "cf_clearance",
+                "provider": "Cloudflare",
+                "purpose": "Sparar resultatet av Cloudflares säkerhetskontroll.",
+                "duration": "Cirka 180 dagar (ungefär sex månader), enligt kontroll den 14 oktober 2026. Giltighetstiden kan ändras om kakan förnyas eller Cloudflares inställningar ändras."
+            }
+        ]
+    },
+    "sources": {
+        "title": "Mer information",
+        "links": [
+            {
+                "title": "Cloudflares information om kakor",
+                "url": "https://developers.cloudflare.com/fundamentals/reference/policies-compliances/cloudflare-cookies/"
+            },
+            {
+                "title": "TelemetryDecks integritetspolicy",
+                "url": "https://telemetrydeck.com/privacy/"
+            },
+            {
+                "title": "PTS information om kakor",
+                "url": "https://pts.se/internet-och-telefoni/kakor-cookies/"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Frågor",
+        "text": "Har du frågor om hur webbplatsen använder kakor eller besöksstatistik?",
+        "link_title": "Kontakta Trygg i Vittsjö"
+    }
+}

@@ -1,5 +1,7 @@
 # Nuxt
 .nuxt
+# Symlink to .output/public, created by nuxt generate with an absolute path
+/dist
 .nitro
 .cache
 .output
@@ -106,3 +108,10 @@ sw.*
 
 # Todo
 .project.todo
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+# Local visual baselines (platform-specific and large)
+/tests/e2e/__screenshots__/

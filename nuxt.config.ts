@@ -1,5 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  compatibilityDate: '2026-10-14',
+
   modules: [
     '@nuxt/content'
   ],
@@ -41,6 +43,10 @@ export default defineNuxtConfig({
 
   content: {
     // https://content.nuxtjs.org/api/configuration
+    markdown: {
+      // Headings in inline MDC text contain links; anchors would nest them.
+      anchorLinks: false
+    }
   },
 
   css: [

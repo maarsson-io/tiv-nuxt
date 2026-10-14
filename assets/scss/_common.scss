@@ -1,3 +1,7 @@
+@use "sass:color";
+@use "variables" as *;
+@use "media-query" as *;
+
 .navbar-toggle .icon-bar {
   background: $primary-color;
 }
@@ -180,11 +184,11 @@ input[type="tel"] {
 }
 
 .bg-primary-dark {
-  background: darken($primary-color, 10%);
+  background: color.adjust($primary-color, $lightness: -10%);
 }
 
 .bg-primary-darker {
-  background: darken($primary-color, 20%);
+  background: color.adjust($primary-color, $lightness: -20%);
 }
 
 .bg-dark {

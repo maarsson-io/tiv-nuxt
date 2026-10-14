@@ -42,7 +42,7 @@
               {{ content.text_2 }}
             </p>
             <NuxtLink
-              to="about"
+              to="/about"
               class="btn btn-main-2 btn-round-full btn-icon"
             >
               {{ content.button }} <i class="icofont-simple-right ml-1" />

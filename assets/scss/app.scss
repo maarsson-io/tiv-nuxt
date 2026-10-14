@@ -1,43 +1,40 @@
-@import "variables";
-@import "mixins.scss";
-@import "media-query.scss";
-@import "typography";
-@import "icofont";
-@import "common.scss";
+@use "typography";
+@use "icofont";
+@use "common";
 // Header Style
-@import "templates/header.scss";
+@use "templates/header";
 // Navigation Menu
-@import "templates/navigation.scss";
-@import "templates/backgrounds.scss";
+@use "templates/navigation";
+@use "templates/backgrounds";
 // Banner Style
-@import "templates/slider.scss";
+@use "templates/slider";
 // About Section
-@import "templates/about.scss";
+@use "templates/about";
 // Feature Section
-@import "templates/feature.scss";
+@use "templates/feature";
 // Counter Section
-@import "templates/counter.scss";
+@use "templates/counter";
 // Doctors section
-@import "templates/team.scss";
+@use "templates/team";
 // Service section
-@import "templates/service.scss";
+@use "templates/service";
 // Department section
-@import "templates/department.scss";
+@use "templates/department";
 // Call to action section
-@import "templates/cta.scss";
+@use "templates/cta";
 // Testimonial Section
-@import "templates/review.scss";
+@use "templates/review";
 // Contact Section
-@import "templates/contact.scss";
+@use "templates/contact";
 // Blog Posts
-@import "templates/blog.scss";
+@use "templates/blog";
 // Single Blog posts
-@import "templates/single-post.scss";
+@use "templates/single-post";
 // Blog Sidebar
-@import "templates/blog-sidebar.scss";
+@use "templates/blog-sidebar";
 // Footer
-@import "templates/footer.scss";
+@use "templates/footer";
 
 // Plugins
-@import "plugins/tooltip.scss";
-@import "plugins/swiper.scss";
+@use "plugins/tooltip";
+@use "plugins/swiper";

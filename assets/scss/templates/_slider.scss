@@ -1,3 +1,6 @@
+@use "../variables" as *;
+@use "../media-query" as *;
+
 .banner {
   position: relative;
   overflow: hidden;

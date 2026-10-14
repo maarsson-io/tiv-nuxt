@@ -1,8 +1,13 @@
-$themeColor: $primary-color;
-@import 'swiper/scss';
-@import 'swiper/scss/navigation';
-@import 'swiper/scss/pagination';
-@import 'swiper/scss/autoplay';
+@use "../variables" as *;
+@use "swiper/css";
+@use "swiper/css/navigation";
+@use "swiper/css/pagination";
+@use "swiper/css/autoplay";
+
+:root {
+  --swiper-theme-color: #{$primary-color};
+}
+
 .swiper-horizontal {
   padding-bottom: 50px !important;
 }

@@ -6,12 +6,12 @@
         <div class="col-lg-6">
           <div class="section-title text-center">
             <template
-              v-for="(html, index) in content"
+              v-for="(text, index) in content"
               :key="index"
             >
-              <div
+              <MDC
                 class="mb-5"
-                v-html="html"
+                :value="text"
               />
               <div
                 v-if="index < content.length - 1"
