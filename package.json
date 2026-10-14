@@ -40,7 +40,7 @@
     "bootstrap": "^4.6.2",
     "nuxt": "^4.6.1",
     "swiper": "^14.3.0",
-    "vue-waypoint": "^4.2.5",
+    "vue-waypoint": "^5.1.0",
     "vue3-autocounter": "^1.0.8"
   }
 }
