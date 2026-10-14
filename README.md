@@ -1,20 +1,23 @@
-# Nuxt 3 Minimal Starter
+# Trygg i Vittsjö
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Source code for [tryggivittsjo.se](https://tryggivittsjo.se), the website of Trygg i Vittsjö, a nonprofit, nonpartisan association working to prevent crime in Vittsjö, Emmaljunga, and the surrounding area in north Skåne, Sweden.
+
+The website is built with Nuxt 3, Vue, and Nuxt Content. It is maintained and hosted free of charge as volunteer work.
+
+## Project structure
+
+- `pages/` defines the website's routes.
+- `components/` contains reusable UI components.
+- `content/` contains the website's JSON content, including news and sponsors.
+- `assets/` contains styles and scripts.
+- `public/` contains images, logos, favicons, and other static files.
 
 ## Setup
 
-Make sure to install the dependencies:
+Install the dependencies from the committed lockfile using npm:
 
 ```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
+npm ci
 ```
 
 ## Development Server
@@ -27,7 +30,7 @@ npm run dev
 
 ## Production
 
-Build the application for production:
+The production server uses the following build command:
 
 ```bash
 npm run build
@@ -39,11 +42,9 @@ Locally preview production build:
 npm run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
-
 ## License
 
-Original project code and website materials are not generally licensed for reuse. Prior written permission from the relevant rights holder is required. Requests should be sent to Trygg i Vittsjö via the [contact page](https://tryggivittsjo.se/contact). See [LICENSE](LICENSE) for the full notice and third-party exceptions.
+All rights reserved for original project code and website materials, except for third-party materials licensed separately. Prior written permission from the relevant rights holder is required for reuse. Requests should be sent to Trygg i Vittsjö via the [contact page](https://tryggivittsjo.se/contact). See [LICENSE](LICENSE) for the full notice and third-party exceptions.
 
 ### Template license
 
