@@ -3,8 +3,16 @@ export default defineNuxtConfig({
   compatibilityDate: '2026-10-14',
 
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxt/eslint'
   ],
+
+  eslint: {
+    config: {
+      // @stylistic formatting rules, as in the coding-standard ruleset.
+      stylistic: true
+    }
+  },
 
   router: {
     trailingSlash: false
