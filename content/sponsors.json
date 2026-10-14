@@ -239,13 +239,6 @@
         },
         {
             "premium": true,
-            "date": "2025-05-12",
-            "link": "http://www.hasslehem.se/",
-            "name": "Hässlehem AB",
-            "logo": "/sponsors/hasslehem.png"
-        },
-        {
-            "premium": true,
             "date": "2025-05-28",
             "link": null,
             "name": "Snapphanebygdens Svampförening",
@@ -509,6 +502,20 @@
             "link": "https://www.wittsjogk.se/",
             "name": "Wittsjö Golfklubb",
             "logo": "/sponsors/wittsjo-golfklubb.png"
+        },
+        {
+            "premium": false,
+            "date": "2026-05-08",
+            "link": "https://saarloos.se/",
+            "name": "Saarloos Sverige AB",
+            "logo": null
+        },
+        {
+            "premium": true,
+            "date": "2025-07-06",
+            "link": "http://www.hasslehem.se/",
+            "name": "Hässlehem AB",
+            "logo": "/sponsors/hasslehem.png"
         }
     ]
 }
