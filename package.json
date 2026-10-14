@@ -26,6 +26,9 @@
     "nuxt": "^3.2.3",
     "sass": "^1.58.3"
   },
+  "engines": {
+    "node": ">=22"
+  },
   "dependencies": {
     "@fingerprintjs/fingerprintjs": "^3.4.0",
     "@fontsource/exo": "^5.0.18",
