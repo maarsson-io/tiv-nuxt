@@ -78,17 +78,9 @@
     box-shadow: 0px 8px 16px 0px rgba(200, 183, 255, 0.2);
 
     .doctor-img {
-      -webkit-transition: all .35s ease;
-      -moz-transition: all .35s ease;
-      -ms-transition: all .35s ease;
-      -o-transition: all .35s ease;
       transition: all .35s ease;
 
       &:hover {
-        -webkit-transform: scale(1.1);
-        -moz-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        -o-transform: scale(1.1);
         transform: scale(1.1);
       }
 
