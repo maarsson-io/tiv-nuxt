@@ -5,10 +5,10 @@
       <i :class="content.icon" />
       <h5>{{ content.title }}</h5>
       <LinkPhoneMain
-        v-if="content.component == 'phone'"
+        v-if="content.component === 'phone'"
       />
       <LinkMail
-        v-else-if="content.component == 'mail'"
+        v-else-if="content.component === 'mail'"
       />
       <div v-if="content.lines">
         <div

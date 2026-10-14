@@ -19,7 +19,7 @@ type Transform = (value: string) => Promise<unknown>;
 const transformAt = async (target: any, path: string[], transform: Transform): Promise<void> => {
   const [key, ...rest] = path;
 
-  if (target == null || key === undefined) {
+  if (target === null || target === undefined || key === undefined) {
     return;
   }
 
