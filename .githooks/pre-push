@@ -1,0 +1,23 @@
+#!/bin/sh
+# Builds the site and runs the Playwright suite before every push.
+# Missing visual baselines are created instead of failing (e.g. on a fresh clone).
+# Skip once with: git push --no-verify
+
+set -e
+
+log=$(mktemp)
+trap 'rm -f "$log"' EXIT
+
+echo "pre-push: building site..."
+if ! npm run build > "$log" 2>&1; then
+  cat "$log"
+  echo "pre-push: build failed, push aborted."
+  exit 1
+fi
+
+echo "pre-push: running Playwright tests..."
+if ! npx playwright test --update-snapshots=missing; then
+  echo "pre-push: tests failed, push aborted."
+  echo "If the visual change is intended: npm run test:e2e -- --grep @visual --update-snapshots"
+  exit 1
+fi

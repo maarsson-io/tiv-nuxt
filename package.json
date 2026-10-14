@@ -18,6 +18,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "prepare": "git config core.hooksPath .githooks || true",
     "test:e2e": "playwright test"
   },
   "devDependencies": {
