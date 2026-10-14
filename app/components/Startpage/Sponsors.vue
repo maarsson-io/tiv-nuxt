@@ -89,7 +89,7 @@ export default {
     },
   },
 
-  async setup() {
+  setup() {
     return {
       modules: [Navigation, Pagination, Autoplay],
     };
