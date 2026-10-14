@@ -1,5 +1,5 @@
-import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
+import { readFileSync } from 'node:fs';
 import { test as base, expect } from '@playwright/test';
 
 // Reads a file from content/, so assertions follow the actual page data.

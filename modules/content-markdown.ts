@@ -1,5 +1,5 @@
-import { parseMarkdown } from '@nuxtjs/mdc/runtime';
 import { defineNuxtModule } from 'nuxt/kit';
+import { parseMarkdown } from '@nuxtjs/mdc/runtime';
 
 /* Fields that contain Markdown text, per collection. `*` matches every array item.
    They are parsed at build time, so the browser only receives the rendered tree
